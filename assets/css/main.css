@@ -23,7 +23,7 @@
 }
 
 body{
-    height: 1500px;
+   
 }
 
 .logo{
@@ -83,13 +83,15 @@ a{
 .sub-title {
     font-size: 3rem;;
     color: var(--text-white);
-    font-weight: 400;
+    font-weight: 700;
     margin: 25px;
 }
 
 .text-p{
     font-size: 1.1rem;
     padding: 25px;
+    color: var(--text-black);
+    
 }
 
 /* MEDIA */
@@ -98,6 +100,9 @@ img{
     width: 100%;
 }
 
+.container-box{
+    margin-bottom: 50px;
+}
 
 
 
@@ -128,7 +133,6 @@ img{
     padding: 50px;
     z-index: 10;
 }
-
 
 
 #intro-section video{
@@ -183,6 +187,7 @@ img{
 
 #intro-section .text-box .fa-arrow-right{
     color: var(--iterative-color);
+    font-size: 20px;
 }
 
 #intro-section .social{
@@ -258,7 +263,7 @@ img{
     text-transform: uppercase;
     letter-spacing: 2px;
     opacity: 1;
-     transition: 0.3s;
+    transition: 0.3s;
 }
 
  #header-section nav ul li a:hover{
@@ -272,7 +277,24 @@ img{
 
  }
 
+ @media screen and (max-width:994px){
 
+    /* ALIGN ELEMENTS */
+
+    .row {
+        flex-direction: column!important;
+    
+     }
+     .col-md-6 {
+         width: 100%;
+  
+        }
+
+     .row-reverse {
+        flex-direction: column-reverse!important;
+     }
+  
+ }
 
 
 /* MEDIA QUERIES */
@@ -307,10 +329,12 @@ img{
         font-size: 2rem;
     }
 
-    /* ALIGN ITEMS */
-   .row-reverse{
-    flex-direction: column-reverse!important;
-}
+    /* HOME PAGE */
+
+
+ .about-section p{
+     text-align: center!important;
+ }
 
     
 
@@ -358,6 +382,21 @@ img{
 
     .btn {
         font-size: 15px;
+    }
+
+    /* HOME PAGE */
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .sub-title {
+        font-size: 2rem;
+    }
+    
+    .text-p,
+    .sub-title{
+        text-align: center;
     }
   
 
