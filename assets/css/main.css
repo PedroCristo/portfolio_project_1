@@ -1,1 +1,245 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* GENERAL STYLES */
+
+:root{
+   --iterative-color:rgba(255, 72, 0);
+   --overlay-blue:rgba(60, 185, 243);
+   --overlay-black:rgba(0 ,0 , 0, 0.5);
+
+   /* font Color */
+
+   --text-white:rgb(250,235,215);
+   --text-grey: rgb(229,228,226);
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.btn{
+    margin-top: 25px;
+    display: inline-block;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--text-white);
+    border: 2px solid var(--text-white);
+    padding: 10px 25px;
+    border-radius: 25px;
+    letter-spacing: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background:  var(--text-white);
+    letter-spacing: 5px;
+    color: var(--iterative-color);
+    border: 2px solid var(--iterative-color);
+
+}
+
+/* TEXT */
+
+a{
+    text-decoration: none;
+}
+
+
+
+/*******************************
+*                              *
+*         INTRO PAGE           *
+*                              *
+*******************************/
+
+#intro-section{
+    position: absolute;
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--overlay-black);
+    color: var(--text-white);
+    overflow: hidden;
+}
+
+#intro-section header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 50px;
+    z-index: 10;
+}
+
+#intro-section header .logo{
+    width: 250px;
+    color: var(--text-grey);
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+
+
+#intro-section video{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* object-position:0px -80%; */
+ }
+
+ #intro-section .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--overlay-black);
+    opacity: 0.8;
+}
+
+#intro-section .text-box{
+    z-index: 10;
+    margin-top: 150px;
+}
+
+#intro-section .text-box h1{
+    font-size: 4em; 
+    font-weight: 700;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+
+#intro-section .text-box h3{
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#intro-section .text-box p{
+    font-size: 1.1em;
+    width: 70%;
+}
+
+#intro-section .social{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#intro-section .social ul li {
+    list-style: none;
+}
+ 
+#intro-section .social ul li i{
+    font-size: 20px;
+    color: var(--text-white);
+    margin-right: 15px;
+    transition: 0.3s;
+    opacity: 0.7;
+    border: 2px solid var(--text-white);
+    border-radius: 5px;
+    padding: 10px;
+    width: 50px;
+    text-align: center;
+  
+}
+
+#intro-section .social ul li i:hover{
+    color: var(--iterative-color);
+    border: 2px solid var(--iterative-color);
+    
+
+    
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width:768px){
+
+    #intro-section{
+        padding: 50px;
+     
+    }
+
+    #intro-section .text-box h1{
+        font-size: 3em; 
+    
+    }
+    
+
+}
+
+@media screen and (max-width:600px){
+
+    #intro-section{
+        padding: 50px;
+        text-align: center;
+    }
+
+    #intro-section header .logo{
+       position: absolute;
+       left:0;
+       top: 25px;
+    }
+
+    #intro-section .text-box {
+        margin-top: 20px;
+    }
+
+    #intro-section .text-box h1{
+        font-size: 2em; 
+    }
+
+    #intro-section .text-box h3{
+        font-size: 1.5em; 
+    }
+
+
+    #intro-section .text-box p{
+        width: 100%;
+        font-size: 0.8em;
+        margin: 50px 0;
+    }
+    
+}
+
+ /* MEDIA QUERIES LANDSCAPE */
+ @media screen and (max-width:736px) and (max-height:414px) {
+
+     #intro-section .text-box {
+      margin-top: 50px;
+    }
+
+    #intro-section .text-box h1{
+        font-size: 1.8em; 
+    }
+
+    #intro-section .text-box h3{
+        font-size: 1.3em; 
+    }
+
+    #intro-section .text-box p{
+        font-size: 0.8em; 
+    }
+
+ }
 
