@@ -21,10 +21,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
 
-body {}
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
 .logo {
     width: 250px;
@@ -72,17 +73,18 @@ a {
 }
 
 .title {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 700;
+    text-transform: uppercase;
     color: var(--iterative-color);
-    letter-spacing: 2px;
-    margin: 25px;
+    letter-spacing: 5px;
+    margin: 50px 0;
     text-align: center;
 
 }
 
 .sub-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: var(--text-white);
     font-weight: 700;
     margin: 25px;
@@ -105,8 +107,19 @@ img {
     width: 100%;
 }
 
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+}
+
 .container-box {
     margin-bottom: 50px;
+}
+
+.title-box {
+    text-align: center;
+    margin-bottom: 50px;
+
 }
 
 /* FONT AWESOME */
@@ -286,12 +299,7 @@ img {
     display: none;
 }
 
-/* ABOUT SECTION */
-#about-section .title-box {
-    text-align: center;
-    margin-bottom: 50px;
 
-}
 
 /* BANNER SECTION */
 
@@ -303,6 +311,8 @@ img {
     width: 100%;
     padding: 15% 0;
     display: table;
+    z-index: -2;
+    position: relative;
 }
 
 .banner-1 {
@@ -317,6 +327,7 @@ img {
     display: table-cell;
     vertical-align: middle;
     position: relative;
+    z-index: -1;
 }
 
 #banner .banner-box .sub-title {
@@ -331,6 +342,76 @@ img {
   transform: translateY(-50%);
 }
 
+/* HIGHLIGHTS TRIPS SECTION */
+
+
+#highlight-trips .highlight-trips-box {
+    padding: 20px 5px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 1px rgba(37, 14, 214, 0.18);
+    transition: .3s;
+    text-align: center;
+    margin: 15px 0;
+
+}
+
+#highlight-trips .highlight-trips-box:hover{
+    box-shadow: 10px 8px 8px 10px rgba(37, 14, 214, 0.18);
+}
+#highlight-trips {
+    cursor: pointer;
+}
+
+#highlight-trips .highlight-trips-box .img-box img{
+    border-radius: 5px;
+    width: 80%;
+    z-index: -1;
+    position: relative;
+}
+
+#highlight-trips .highlight-trips-box .price {
+    width: 60px;
+    height: 60px;
+    background: var(--iterative-color);
+    color:var(--text-white);
+    font-weight:600;
+    border-radius: 50%;
+    padding: 18px 10px;
+    margin-top:-20px;
+    margin-left: 15px;
+    z-index: 1000;
+}
+
+
+#highlight-trips .highlight-trips-box ul {
+    list-style: none;
+    text-align: left;
+}
+
+#highlight-trips .highlight-trips-box ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#highlight-trips .fas{
+   font-size: 1.2rem;
+}
+
+#highlight-trips .icons-box {
+    text-align: center;
+}
+
+#highlight-trips .icons-box .btn-trips {
+    border-radius: 5px!important;
+    background:var(--iterative-color)!important;
+    margin: 25 auto;
+}
+
+#highlight-trips .icons-box .btn-trips:hover {
+    background: var(--text-white)!important;
+  
+}
+
 @media screen and (max-width:994px) {
 
     /* ALIGN ELEMENTS */
@@ -340,7 +421,8 @@ img {
 
     }
 
-    .col-md-6 {
+    .col-md-6,
+    .col-md-4 {
         width: 100%;
 
     }
