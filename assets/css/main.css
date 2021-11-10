@@ -310,7 +310,7 @@ figcaption {
 
 /* BANNER SECTION */
 
-#banner {
+.banner {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -323,11 +323,11 @@ figcaption {
     margin: 25px 0;
 }
 
-.banner-1 {
+#banner-1 {
     background-image: url(https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80);
 }
 
-#banner .banner-box {
+.banner .banner-box {
     padding: 35px 0;
     background: var(--overlay-black);
     text-align: center;
@@ -337,11 +337,11 @@ figcaption {
     position: relative;
 }
 
-#banner .banner-box .sub-title {
+.banner .banner-box .sub-title {
     font-size: 2.5rem;
 }
 
-#banner .banner-box .btn {
+.banner .banner-box .btn {
   right: 50px;
   position: absolute;
   top: 50%;
