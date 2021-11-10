@@ -78,7 +78,7 @@ a {
 }
 
 .title {
-    font-size: 3.5rem;
+    font-size: 2.8rem;
     font-weight: 700;
     text-transform: uppercase;
     color: var(--iterative-color);
@@ -97,6 +97,10 @@ a {
 .text-p {
     font-size: 1.1rem;
     color: var(--text-black);
+}
+
+.text-p-15px {
+    font-size: 0.9rem;
 }
 
 .el-messeri-f {
@@ -307,6 +311,42 @@ figcaption {
     display: none;
 }
 
+/* TRUST SECTION */
+
+#trust-section {
+    margin: 25px;
+}
+
+.trust-section figure{
+    display: flex;
+    align-items:flex-start;
+}
+
+
+.trust-section h2{
+    font-size: 1.5rem;
+    margin: 50px 0;
+}
+
+.trust-section h3{
+    font-size: 1.2rem;
+}
+
+.trust-section p{
+   margin-right: 15px;
+}
+  
+
+.trust-section img{
+    width: 70px;
+    height: 70px;
+    background: var(--text-white);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+
 
 /* BANNER SECTION */
 
@@ -325,6 +365,10 @@ figcaption {
 
 #banner-1 {
     background-image: url(https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80);
+}
+
+#banner-2 {
+    background-image: url(https://images.unsplash.com/photo-1515541324332-7dd0c37426e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1536&q=80);
 }
 
 .banner .banner-box {
