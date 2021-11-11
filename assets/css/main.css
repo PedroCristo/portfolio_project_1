@@ -196,18 +196,21 @@ figcaption {
     margin-top: 150px;
 }
 
-#intro-section .text-box h1 {
-    font-size: 4rem;
-    font-weight: 700;
-    line-height: 5rem;
+#intro-section .text-box h1,
+#intro-section .text-box h3 {
     text-transform: uppercase;
-    margin-bottom: 15px;
+    letter-spacing: 2px;
+
+}
+
+#intro-section .text-box h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
 }
 
 
 #intro-section .text-box h3 {
     font-size: 2.5rem;
-    text-transform: uppercase;
     margin-bottom: 15px;
 }
 
@@ -231,6 +234,7 @@ figcaption {
     justify-content: space-between;
     align-items: center;
 }
+
 
 #intro-section .social ul li {
     list-style: none;
@@ -282,6 +286,7 @@ figcaption {
     align-items: center;
     background-color: var(--overlay-black);
     padding: 25px;
+    z-index: 100;
 
 }
 
@@ -289,7 +294,9 @@ figcaption {
     list-style: none;
     display: flex;
     justify-content: space-between;
+    z-index: -1;
 
+    
 }
 
 #header-section nav ul li a {
@@ -300,6 +307,7 @@ figcaption {
     opacity: 1;
     transition: 0.3s;
 }
+
 
 #header-section nav ul li a:hover {
     opacity: 0.8;
@@ -389,6 +397,7 @@ figcaption {
   right: 50px;
   position: absolute;
   top: 50%;
+  right: 8%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -438,7 +447,7 @@ figcaption {
     padding: 18px 10px;
     margin-top:-20px;
     margin-left: 5px;
-    z-index: 100;
+    z-index: 50;
     position: relative;
 }
 
@@ -539,12 +548,8 @@ figcaption {
 
 
 
-
-
-
-
-
 @media screen and (max-width:994px) {
+      
 
     /* ALIGN ELEMENTS */
 
@@ -567,7 +572,7 @@ figcaption {
         flex-direction: row!important;
     }
 
-    #banner .btn,
+    .banner .btn,
     .fa-arrow-right {
         font-size: 0.8rem;
     }
@@ -592,7 +597,7 @@ figcaption {
 
     .logo {
         position: absolute;
-        left: 25px;
+        left: 25px!important;
         top: 25px;
         font-size: 1rem;
     }
@@ -621,19 +626,17 @@ figcaption {
         text-align: center !important;
     }
 
-    #banner .banner-box .sub-title {
+    .banner-box .sub-title {
         font-size: 2rem;
     }
 
-    #banner .banner-box .btn {
-        right: 0;
-        position: relative;
- 
+    .banner-box .btn {
+        position: relative!important;
+        right: 0!important;
+        top: 25px!important;
+
       }
       
-
-
-
 }
 
 @media screen and (max-width:600px) {
@@ -644,7 +647,7 @@ figcaption {
     }
 
     .logo {
-        left: 20px;
+        left: 15px!important;
 
     }
 
@@ -667,6 +670,13 @@ figcaption {
         margin: 50px 0;
     }
 
+    #intro-section .social {
+        left: 0; 
+        right: 0; 
+        bottom: 25px;
+        display: inline-block;
+    }
+
     #intro-section .social ul li i {
         border: none;
     }
@@ -681,7 +691,11 @@ figcaption {
     }
 
     /* HOME PAGE */
-
+    
+    .active {
+        border: 1px solid var(--iterative-color);
+        padding: 8px 15px;
+    }
 
     .check-btn {
         display: block;
@@ -689,7 +703,7 @@ figcaption {
         top: 20px;
         right: 20px;
         cursor: pointer;
-        z-index: 100;
+     
     }
 
     #header-section nav {
@@ -706,10 +720,8 @@ figcaption {
         flex-direction: column;
         justify-content: space-evenly;
         right: -100%;
-        transition: .5s;
-       
+        transition: .5s;   
     }
-
 
     #check-input:checked~ul {
         right: 0;
@@ -733,7 +745,7 @@ figcaption {
         text-align: center;
     }
 
-    #banner .banner-box .sub-title{
+    .banner-box .sub-title{
         font-size: 1.8rem;
     }
 
