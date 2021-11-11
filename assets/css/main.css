@@ -612,6 +612,48 @@ figcaption {
     font-size: 1rem;
 }
 
+/* LAST FOOTER */
+.last-footer{
+    background-color: rgb(187, 179, 179);
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 100%);
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    position: initial;
+}
+
+.last-footer p{
+    color: #fff;
+    margin-bottom: -5px;
+}
+
+/* LAST FOOTER */
+
+/*******************************
+*                              *
+*         THANKS PAGE          *
+*                              *
+*******************************/
+
+.header-section {
+ height: 100vh!important;
+}
+
+.header-section .thanks-box {
+   background-color: red;
+   height: 250px;
+   display: table;
+}
+
+.header-section .thanks-box-text {
+    display: table-cell;
+    vertical-align: middle;
+ }
+ 
+
+
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width:994px) {
