@@ -354,8 +354,6 @@ figcaption {
 }
 
 
-
-
 /* BANNER SECTION */
 
 .banner {
@@ -547,6 +545,15 @@ figcaption {
 }
 
 
+/* PARTENERS SECTION */
+
+
+
+.parteners-section {
+    margin: 50px;
+    padding: 10px 0;
+}
+
 
 @media screen and (max-width:994px) {
       
@@ -580,7 +587,6 @@ figcaption {
     .col-md-4-card {
         width: 33,333333%;
         margin: 15px 0!important;
-
     }
     
 
