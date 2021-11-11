@@ -10,6 +10,8 @@
 
 :root {
     --iterative-color: rgba(255, 72, 0);
+    /* --iterative-color: rgba(0, 255, 85, 0.788); */
+
     --overlay-blue: rgba(60, 185, 243);
     --overlay-black: rgba(0, 0, 0, 0.7);
     --fully-black:rgb(17, 17, 17);
@@ -641,17 +643,38 @@ figcaption {
 }
 
 .header-section .thanks-box {
-   background-color: red;
    height: 250px;
-   display: table;
+   position: absolute;
+   color: var(--text-white);
+   top:50%;
+   right: 0;
+   left: 0;
+   margin: 0 auto;
+   padding: 0 10px;
+   text-align: center;
+   transform: translateY( -50%);
+  
 }
 
-.header-section .thanks-box-text {
-    display: table-cell;
-    vertical-align: middle;
- }
- 
+.header-section .thanks-box h2 {
+    font-size:  3rem;
+}
 
+.header-section .thanks-box p {
+    font-size:  1.8rem;
+}
+
+.header-section img {
+  display: block;
+  width: 40%;
+  margin: -30px auto;
+  padding: 0;
+}
+
+.header-section .btn {
+    position: relative;
+     margin-bottom: 50px;
+}
 
 
 /* MEDIA QUERIES */
