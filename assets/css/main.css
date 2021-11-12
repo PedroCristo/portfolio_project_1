@@ -138,7 +138,11 @@ figcaption {
 .title-box {
     text-align: center;
     margin-bottom: 50px;
+}
 
+hr {
+    background: var(--iterative-color);
+    height: 3px;
 }
 
 /* FONT AWESOME */
@@ -350,16 +354,16 @@ figcaption {
 }
 
 .trust-section p {
-    margin-right: 15px;
 }
 
 
 .trust-section img {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     background: var(--text-white);
     padding: 10px;
     border-radius: 50%;
+    margin-right: 20px;
 }
 
 
@@ -606,11 +610,6 @@ figcaption {
 
 }
 
-.footer hr {
-    background: var(--iterative-color);
-    height: 3px;
-}
-
 .footer .copyright p {
     font-size: 1rem;
 }
@@ -684,7 +683,7 @@ figcaption {
 *******************************/
 
 #contact-form{
-    margin:0;
+    margin: 50px;
     padding: 25px 5px;
 }
 
@@ -715,9 +714,40 @@ figcaption {
     background-color: var(--light-grey);
   }
 
+  input[type=submit] {
+    width: 250px!important;
+    background: var(--iterative-color)!important;
+    margin: 0 auto;
+    display: block;
+}
 
- 
-  
+input[type=submit]:hover {
+    width: 250px!important;
+    background: var(--text-white)!important;
+    border: 1px solid var(--iterative-color)!important;
+}
+
+#contact-form .map-box{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 75%;
+    margin-bottom: 35px;
+}
+
+#contact-form iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin-bottom: 25px;
+}
+
+
 
 
 /* MEDIA QUERIES */
@@ -762,7 +792,11 @@ figcaption {
 
     .footer .copyright p {
         width: 400px;
+    }
 
+    .trust-row {
+    float: right;
+     margin-top: -250px;
     }
 
 }
@@ -826,6 +860,14 @@ figcaption {
     .small-title {
         text-align: center;
     }
+
+    .trust-row {
+        float: initial;
+         margin-top: initial;
+    }
+
+
+   
 
     /* THANKS PAGE */
 
@@ -966,6 +1008,8 @@ figcaption {
     .footer {
         padding: 50px 15px;
     }
+
+  
 
     /* THANKS PAGE */
 
