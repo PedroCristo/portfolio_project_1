@@ -9,7 +9,7 @@
 
 
 :root {
-    --iterative-color: rgba(255, 72, 0);
+    --iterative-color: rgb(248, 78, 10);
     /* --iterative-color: rgba(0, 255, 85, 0.788); */
 
     --overlay-blue: rgba(60, 185, 243);
@@ -747,7 +747,10 @@ input[type=submit]:hover {
     margin-bottom: 25px;
 }
 
-
+#contact-form img {
+  border-radius: 15px!important;
+  box-shadow: var(--overlay-black) 1px 10px 10px -1px;
+}
 
 
 /* MEDIA QUERIES */
