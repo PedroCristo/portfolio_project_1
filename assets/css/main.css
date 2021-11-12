@@ -15,6 +15,7 @@
     --overlay-blue: rgba(60, 185, 243);
     --overlay-black: rgba(0, 0, 0, 0.7);
     --fully-black: rgb(17, 17, 17);
+    --light-grey:rgb(224, 218, 218);
 
 
     /* font Color */
@@ -675,6 +676,48 @@ figcaption {
     position: relative;
     margin-bottom: 80px;
 }
+
+/*******************************
+*                              *
+*         CONTACT PAGE         *
+*                              *
+*******************************/
+
+#contact-form{
+    margin:0;
+    padding: 25px 5px;
+}
+
+#contact-form form {
+    
+    background: var(--text-white);
+    padding: 35px 50px;
+}
+
+
+#contact-form form input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--light-grey);
+    margin-bottom: 18px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+  
+  }
+
+  #contact-form form input:hover,
+  #contact-form form select:hover,
+  #contact-form form textarea:hover{
+    background-color: var(--light-grey);
+  }
+
+
+ 
+  
 
 
 /* MEDIA QUERIES */
