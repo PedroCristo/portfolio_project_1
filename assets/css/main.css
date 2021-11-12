@@ -989,7 +989,7 @@ input[type=submit]:hover {
     }
 
     .title {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
 
     .sub-title {
@@ -1026,9 +1026,20 @@ input[type=submit]:hover {
 
     }
 
+    /* CONTACT FORM */
+
+    #contact-form{
+        padding: 0;
+        margin: 0;
+    }
+
 }
 
 @media screen and (max-width:415px) {
+    
+    .title {
+        font-size: 2rem;
+    }
     /* INTRO PAGE */
 
     #intro-section .text-box h1 {
@@ -1048,7 +1059,11 @@ input[type=submit]:hover {
     .footer .copyright p {
         width: 250px;
         font-size: 0.8rem;
+    }
 
+    /* CONTACT PAGE */
+    #contact-form form {
+        padding: 25px;
     }
 
 
@@ -1065,9 +1080,22 @@ input[type=submit]:hover {
     #intro-section .text-box h3 {
         font-size: 1.1rem;
     }
+
+    /* CONTACT PAGE */
+
+    input[type=submit] {
+
+        width: 160px!important;
+    }
+    
 }
 
 @media screen and (max-width:325px) {
+
+    
+    .title {
+        font-size: 1.8rem;
+    }
     /* INTRO PAGE */
 
     #intro-section .text-box h1 {
