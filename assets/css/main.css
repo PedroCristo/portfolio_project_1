@@ -6,8 +6,6 @@
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600&family=Lato:ital,wght@1,300&family=Oswald:wght@300&display=swap');
 
 /* GENERAL STYLES */
-
-
 :root {
     --iterative-color: rgb(248, 78, 10);
     /* --iterative-color: rgba(0, 255, 85, 0.788); */
@@ -124,6 +122,7 @@ a {
 
 img {
     width: 100%;
+    height: auto;
 }
 
 figcaption {
@@ -150,8 +149,6 @@ hr {
     color: var(--iterative-color);
     font-size: 20px;
 }
-
-
 
 /*******************************
 *                              *
@@ -282,7 +279,7 @@ hr {
 /* HEADER SECTION */
 
 #header-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), #111), url(https://images.unsplash.com/photo-1610023926499-571d3b203226?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), #111), url(../images/travel-world-bg-1.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -383,11 +380,11 @@ hr {
 }
 
 #banner-1 {
-    background-image: url(https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80);
+    background-image: url(/assets/images/bali.webp);
 }
 
 #banner-2 {
-    background-image: url(https://images.unsplash.com/photo-1515541324332-7dd0c37426e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1536&q=80);
+    background-image: url(/assets/images/maldivas-surf.jpg);
 }
 
 .banner .banner-box {
@@ -449,13 +446,14 @@ hr {
 
 #top-trips .top-trips-card .price,
 #city-trips .top-trips-card .price {
-    width: 60px;
-    height: 60px;
-    background: var(--iterative-color);
-    color: var(--text-white);
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    color: var(--iterative-color);
     font-weight: 600;
     border-radius: 50%;
-    padding: 18px 10px;
+    border: 5px solid var(--iterative-color);
+    padding: 22px 10px;
     margin-top: -20px;
     margin-left: 5px;
     z-index: 50;
@@ -479,6 +477,7 @@ hr {
 #city-trips .top-trips-card ul li {
     display: inline-block;
     margin-right: 15px;
+    font-size: 10px;
 }
 
 #top-trips .fas,
@@ -558,9 +557,9 @@ hr {
 }
 
 
-/* PARTENERS SECTION */
+/* PARTNERS SECTION */
 
-.parteners-section {
+.partners-section {
     margin: 50px;
     padding: 10px 0;
 }
@@ -714,14 +713,14 @@ hr {
     background-color: var(--light-grey);
   }
 
-  input[type=submit] {
+  #contact-form form input[type=submit] {
     width: 250px!important;
     background: var(--iterative-color)!important;
     margin: 0 auto;
     display: block;
 }
 
-input[type=submit]:hover {
+#contact-form form input[type=submit]:hover {
     width: 250px!important;
     background: var(--text-white)!important;
     border: 1px solid var(--iterative-color)!important;
@@ -835,7 +834,7 @@ input[type=submit]:hover {
     .logo {
         position: absolute;
         left: 25px !important;
-        top: 25px;
+        /* top: 25px; */
         font-size: 1rem;
     }
 
@@ -854,7 +853,7 @@ input[type=submit]:hover {
 
     }
 
-    .parteners-section img {
+    .partners-section img {
         width: 70%;
         margin: 0 auto;
         display: block;
@@ -898,6 +897,12 @@ input[type=submit]:hover {
     #intro-section {
         padding: 50px;
         text-align: center;
+    }
+
+    #intro-section video {
+     
+        object-position: initial;
+    
     }
 
     #intro-section .logo {
