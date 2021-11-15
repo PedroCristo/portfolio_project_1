@@ -77,7 +77,8 @@ a {
 }
 
 .fas,
-.fab {
+.fab,
+.fa-plane-departure {
     color: var(--iterative-color);
     font-size: 2rem;
 }
@@ -414,7 +415,7 @@ hr {
     position: absolute;
     top: 50%;
     right: 8%;
-    -ms-transform: translateY(-50%);
+    /* -ms-transform: translateY(-50%); */
     transform: translateY(-50%);
 }
 
@@ -494,6 +495,11 @@ hr {
     font-size: 1.2rem;
 }
 
+#top-trips .fa-plane-departure,
+#city-trips .fa-plane-departure{
+    font-size: 2rem!important;
+}
+
 #top-trips .icons-box,
 #city-trips .icons-box {
     text-align: center;
@@ -504,7 +510,7 @@ hr {
 #city-trips .icons-box .btn-trips {
     border-radius: 5px !important;
     background: var(--iterative-color) !important;
-    margin: 25 auto;
+    margin: 25px auto;
 }
 
 #top-trips .icons-box .btn-trips:hover,
@@ -538,7 +544,7 @@ hr {
     left: 0;
     margin-left: auto;
     margin-right: auto;
-    -ms-transform: translateY(-50%);
+    /* -ms-transform: translateY(-50%); */
     transform: translateY(-50%);
     text-align: center;
     padding: 0 10px;
@@ -617,10 +623,11 @@ hr {
 }
 
 .footer p a {
-    font-size: rem;
+    font-size: 1rem;
     color: var(--fully-black);
     opacity: 1;
-    transition: 0.3;
+    transition: .3s;
+   
 }
 
 .footer p a:hover {
@@ -716,6 +723,8 @@ hr {
     
     background: var(--text-white);
     padding: 35px 50px;
+    border-radius: 15px ;
+    box-shadow: var(--overlay-black) 1px 10px 10px -1px;
 }
 
 
@@ -758,6 +767,8 @@ hr {
     width: 100%;
     padding-top: 75%;
     margin-bottom: 35px;
+    border-radius: 15px;
+    box-shadow: var(--overlay-black) 1px 10px 10px -1px;
 }
 
 #contact-form iframe {
@@ -776,7 +787,6 @@ hr {
   border-radius: 15px!important;
   box-shadow: var(--overlay-black) 1px 10px 10px -1px;
 }
-
 
 /* MEDIA QUERIES */
 
@@ -810,7 +820,7 @@ hr {
     }
 
     .col-md-4-card {
-        width: 33, 333333%;
+        width: 33.333333%;
         margin: 15px 0 !important;
     }
 
