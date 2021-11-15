@@ -813,17 +813,18 @@ hr {
     .row-banner {
         flex-direction: row !important;
     }
-
-    .banner .btn,
-    .fa-arrow-right {
-        font-size: 0.8rem;
-    }
-
+    
     .col-md-4-card {
         /* width: 33,333333%; */
         margin: 15px 0 !important;
     }
-
+    
+    /* HOME PAGE */
+    
+    .banner .btn,
+    .fa-arrow-right {
+        font-size: 0.8rem;
+    }
     .footer p {
         width: 250px;
     }
@@ -835,6 +836,12 @@ hr {
     .trust-row {
     float: right;
      margin-top: -250px;
+    }
+
+    /* CONTACT FORM */
+
+    #contact-form .map-box{
+        margin-top: 25px;
     }
 
 }
@@ -1091,6 +1098,7 @@ hr {
   
     #intro-section .logo {
         font-size: 1rem!important;
+        top:100px!important;
     }
     #intro-section .text-box h1 {
         font-size: 1.8rem;
@@ -1098,10 +1106,6 @@ hr {
 
     #intro-section .text-box h3 {
         font-size: 1.4rem;
-    }
-
-    #intro-section .logo {
-        top: 50px!important;
     }
 
     /* HOME PAGE */
