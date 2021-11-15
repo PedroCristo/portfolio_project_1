@@ -33,6 +33,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.iterative-color {
+    color: var(--iterative-color);
+}
+
 .logo {
     width: 250px;
     color: var(--iterative-color);
@@ -66,7 +70,6 @@ body {
     border-bottom: 2px solid var(--iterative-color);
     width: 5px;
 }
-
 
 /* TEXT */
 a {
@@ -335,11 +338,10 @@ hr {
     margin: 25px;
 }
 
-.trust-section figure {
+.trust-section .trust-box figure {
     display: flex;
     align-items: flex-start;
 }
-
 
 .trust-section h2 {
     font-size: 1.5rem;
@@ -351,6 +353,7 @@ hr {
 }
 
 .trust-section p {
+    font-size: 0.9rem;
 }
 
 
@@ -362,6 +365,10 @@ hr {
     border-radius: 50%;
     margin-right: 20px;
 }
+
+/* ABOUT */
+
+
 
 
 /* BANNER SECTION */
@@ -861,9 +868,13 @@ hr {
         text-align: center;
     }
 
-    .trust-row {
+    .trust-section .trust-row {
         float: initial;
          margin-top: initial;
+    }
+
+    .trust-section .container{
+      max-width: 385px;
     }
 
 
