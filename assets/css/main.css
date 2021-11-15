@@ -387,11 +387,11 @@ hr {
 }
 
 #banner-1 {
-    background-image: url(/assets/images/bali.webp);
+    background-image: url(../images/bali.webp);
 }
 
 #banner-2 {
-    background-image: url(/assets/images/maldivas-surf-bg.jpg);
+    background-image: url(../images/maldivas-surf-bg.jpg);
 }
 
 .banner .banner-box {
@@ -520,7 +520,7 @@ hr {
     overflow: hidden;
 }
 
-#city-trips .bg-white {
+#city-trips .extra-bg {
     width: 100%;
     height: 50px;
     position: absolute;
