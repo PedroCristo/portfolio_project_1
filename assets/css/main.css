@@ -405,7 +405,8 @@ hr {
 }
 
 .banner .banner-box .sub-title {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
+    color:var(--iterative-color);
 }
 
 .banner .banner-box .btn {
@@ -449,6 +450,7 @@ hr {
     border-radius: 5px;
     z-index: -1;
     position: relative;
+    height: auto;
 }
 
 #top-trips .top-trips-card .price,
@@ -468,7 +470,7 @@ hr {
 }
 
 #top-trips .top-trips-card p {
-    font-size: 20px;
+    font-size: 1.2rem;
 
 }
 
@@ -484,7 +486,7 @@ hr {
 #city-trips .top-trips-card ul li {
     display: inline-block;
     margin-right: 15px;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 #top-trips .fas,
@@ -516,8 +518,16 @@ hr {
 #city-trips .top-trips-card .img-box {
     position: relative;
     overflow: hidden;
+}
 
-
+#city-trips .bg-white {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    background-color:var(--iterative-color)!important;
+    border-radius: 0px 0px 5px 5px;
 }
 
 #city-trips .top-trips-card .city-box-text {
@@ -535,11 +545,18 @@ hr {
 }
 
 
-
-#city-trips .top-trips-card h3 {
+#city-trips .city-box-text h3 {
     color: var(--text-white);
     text-transform: uppercase;
     letter-spacing: 5px;
+    font-size: 1.5rem;
+    margin-top: -55px;
+}
+
+#city-trips .city-box-text p {
+    letter-spacing: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
 }
 
 #city-trips .top-trips-card .overlay {
@@ -549,12 +566,14 @@ hr {
     background-color: var(--fully-black);
     opacity: 0.7;
     width: 100%;
-    height: 83%;
+    height: 90%;
     border-radius: 5px;
 }
 
 #city-trips .top-trips-card .icons-box ul {
     padding: 5px;
+    margin-top: -10px;
+    
 }
 
 #city-trips .top-trips-card:hover .img-box img {
@@ -876,9 +895,6 @@ hr {
     .trust-section .container{
       max-width: 385px;
     }
-
-
-   
 
     /* THANKS PAGE */
 
