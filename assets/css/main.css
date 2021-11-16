@@ -466,7 +466,7 @@ hr {
     border-radius: 50%;
     border: 5px solid var(--iterative-color);
     padding: 22px 10px;
-    margin-top: -20px;
+    margin-top: -55px;
     margin-left: 5px;
     z-index: 50;
     position: relative;
@@ -520,6 +520,15 @@ hr {
     background: var(--text-white) !important;
 
 }
+
+#top-trips h2:nth-child(2) {
+    margin-top: -15px;
+}
+
+#top-trips .icons-box{
+    margin-top: -30px;
+}
+
 
 /* CTTY TRIPS SECTION */
 
