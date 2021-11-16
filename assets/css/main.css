@@ -45,6 +45,8 @@ body {
     z-index: 100;
     margin-top: -15px;
 }
+
+
 .btn {
     margin-top: 25px;
     display: inline-block;
@@ -599,7 +601,12 @@ hr {
 /* FOOTER */
 
 .footer {
-    background: rgb(172, 169, 169);
+    /* background: rgb(172, 169, 169); */
+    /* background: linear-gradient(116deg, #800057 0%, #863c70 16%, #87608b 33%, #8282a7 50%, #76a3c3 66%, #5dc4e1 83%, #00e5ff 100%); */
+    /* background: linear-gradient(196deg, #800057 0%, #863c70 16%, #87608b 33%, #8282a7 50%, #76a3c3 66%, #5dc4e1 83%, #00e5ff 100%); */
+    /* background: linear-gradient(77deg, #7b0000 0%, #923304 16%, #a95604 33%, #bf7704 50%, #d49903 66%, #eaba02 83%, #ffdd00 100%); */
+    background: linear-gradient(258deg, #802000 0%, #8a4b23 16%, #8f6f44 33%, #8d9267 50%, #83b68c 66%, #68dab2 83%, #00ffd9 100%);
+
     width: 100%;
     padding: 50px 0;
 }
