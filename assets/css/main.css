@@ -7,7 +7,7 @@
 
 /* GENERAL STYLES */
 :root {
-    --iterative-color: rgb(248, 78, 10);
+    --iterative-color: rgb(248, 79, 13);
     /* --iterative-color: rgba(0, 255, 85, 0.788); */
 
     --overlay-blue: rgba(60, 185, 243);
@@ -466,7 +466,7 @@ hr {
     border-radius: 50%;
     border: 5px solid var(--iterative-color);
     padding: 22px 10px;
-    margin-top: -55px;
+    margin-top: -50px;
     margin-left: 5px;
     z-index: 50;
     position: relative;
@@ -529,6 +529,8 @@ hr {
     margin-top: -30px;
 }
 
+/* TRIP ADVISOR WIDGET */
+
 
 /* CTTY TRIPS SECTION */
 
@@ -542,7 +544,7 @@ hr {
     height: 50px;
     position: absolute;
     left: 0;
-    bottom: 25px;
+    bottom: 12px;
     background-color:var(--iterative-color)!important;
     border-radius: 0px 0px 5px 5px;
 }
@@ -559,6 +561,10 @@ hr {
     transform: translateY(-50%);
     text-align: center;
     padding: 0 10px;
+}
+
+#city-trips .top-trips-card .price {
+
 }
 
 
@@ -589,7 +595,7 @@ hr {
 
 #city-trips .top-trips-card .icons-box ul {
     padding: 5px;
-    margin-top: -10px;
+    margin: 0 0 -10px;
     
 }
 
