@@ -129,7 +129,14 @@ a {
 img {
     width: 100%;
     height: auto;
+}
 
+.image-mobile {
+    display: none;
+}
+
+.image-desktop {
+    display: block;
 }
 figcaption {
     text-align: center;
@@ -324,10 +331,8 @@ hr {
     transition: 0.3s;
 }
 
-
 #header-section nav ul li a:hover {
     opacity: 0.8;
-
 }
 
 #check-input,
@@ -422,14 +427,6 @@ hr {
 }
 
 /* TOP TRIPS SECTION */
-
-#image-mobile {
-    display: none;
-}
-
-#image-desktop {
-    display: block;
-}
 
 #top-trips,
 #city-trips {
@@ -1073,11 +1070,11 @@ hr {
 
     }
 
-    #image-mobile {
+    .image-mobile {
         display: block;
     }
     
-    #image-desktop {
+    .image-desktop {
         display: none;
     }
 
