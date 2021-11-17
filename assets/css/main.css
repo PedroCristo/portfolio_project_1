@@ -423,6 +423,14 @@ hr {
 
 /* TOP TRIPS SECTION */
 
+#image-mobile {
+    display: none;
+}
+
+#image-desktop {
+    display: block;
+}
+
 #top-trips,
 #city-trips {
     margin: 25px 0;
@@ -599,7 +607,7 @@ hr {
     
 }
 
-#city-trips .top-trips-card:hover .img-box img {
+#city-trips .top-trips-card:hover .img-box #image-desktop {
     transform: scale(1.2);
     transition: 0.3s;
     display: block;
@@ -611,6 +619,11 @@ hr {
 .partners-section {
     margin: 50px;
     padding: 10px 0;
+}
+
+.partners-section h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 /* FOOTER */
@@ -1058,6 +1071,20 @@ hr {
     #header-section nav ul li {
         margin: 0;
 
+    }
+
+    #image-mobile {
+        display: block;
+    }
+    
+    #image-desktop {
+        display: none;
+    }
+
+    #city-trips .top-trips-card:hover .img-box #image-mobile {
+        transform: scale(1.2);
+        transition: 0.3s;
+        display: block;
     }
 
     .title {
