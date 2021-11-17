@@ -26,11 +26,7 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 
 -   ### Design
     -   #### Colour Scheme
-<<<<<<< HEAD
-        -    They are four main colors used, white(#ffffff), a variation of white (#faebd7) an orange tone (#f84f0d) and a black(#111111). The white is used to fit the main website background, the black is used for text while the orange represents a color tone that can be seen in the logo, titles and icons. The variation of white is used for the buttons backround when they are hovered.
-=======
         -    They are four main colors used, white (#ffffff), a variation of white (#faebd7) an orange tone (#f84f0d) and a black(#111111). The white is used to fit the main website background, the black is used for text while the orange represents a color tone that can be seen in the logo, titles and icons. The variation of white (#faebd7) is used for the buttons backround when hovered.
->>>>>>> d7f98ef601d530e745d39faa2852d5292a156a2a
     -   #### Typography
          -   The Poppins , sans-serif is used as the main font for the whole website.
          -   The El Messiri, sans-serif is used for the hotels nameÂ´s on the cards.
