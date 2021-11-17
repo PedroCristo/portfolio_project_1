@@ -26,7 +26,7 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 
 -   ### Design
     -   #### Colour Scheme
-        -    They are four main colors used, white(#ffffff), a variation of white (#faebd7) an orange tone (#f84f0d) and a black(#111111). The white is used to fit the main website background, the black is used for text while the orange represents a color tone that can be seen in the logo, titles and icons. The variation of white is used for a the buttons backround when its hovered.
+        -    They are four main colors used, white(#ffffff), a variation of white (#faebd7) an orange tone (#f84f0d) and a black(#111111). The white is used to fit the main website background, the black is used for text while the orange represents a color tone that can be seen in the logo, titles and icons. The variation of white is used for the buttons backround when they are hovered.
     -   #### Typography
          -   The Poppins , sans-serif is used as the main font for the whole website.
          -   The El Messiri, sans-serif is used for the hotels nameÂ´s on the cards.
@@ -43,7 +43,6 @@ This project is to create a Front End website for a Travel Company. A businessâ€
         - The Landing Page has one video as a background displaying in muted, loop and autoplay.
     -   #### Google Maps
         -   The web site has a Google Maps location implemented where the users can find the office in Dublin.
-          ### Wireframes
 
 ## Features
 
@@ -79,14 +78,14 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Website Results]()
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Website Results]()
+-   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Website Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_1_travel_world%2Fhome.html)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Website Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_1_travel_world%2Fhome.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 Google Lighthouse was used to test Performance, Best Practices, Accessibility and SEO on both Desktop and Mobile devices.
 
 - Desktop Results:
-  <h2><img src="./assets/images/lighthouse_result_desktop.jpg" alt="Results of Google Lighthouse test for Desktop devices"></h2>
+  <h2><img src="./assets/images/readme-images/travel-world-lighthouse-desktop-results.jpg" alt="Google Lighthouse test for Desktop devices"></h2>
 - Mobile Results:
-  <h2><img src="./assets/images/lighthouse_result_mobile.jpg" alt="Results of Google Lighthouse test for Mobile devices"></h2>
+  <h2><img src="./assets/images/readme-images/travel-world-lighthouse-mobile-results.jpg"></h2>
 
 ### Testing User Stories from User Experience (UX) Section
