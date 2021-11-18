@@ -3,7 +3,7 @@
 # Introduction
 Project milestone 1 for Code Institute Full-stack development program: HTML/CSS Essentials
 
-This project is to create a Front End website for a Travel Company. A business’s online presence, regardless of industry, can have a massive impact on its success. The main purpose is to show the users, the company and promote the brand to a new client, displaying tours around the world and interactive with a user throughout a contact form and social media.
+This project is to create a Front End website for a Travel Company. A business’s online presence, regardless of industry, can have a massive impact on its success. The main purpose is to show the users, the company and promote the brand to a new clients, displaying tours around the world and interactive with a user throughout a contact form and social media.
 
 [Live Project Here](https://pedrocristo.github.io/portfolio_project_1_travel_world/index.html)
 
@@ -32,7 +32,7 @@ This project is to create a Front End website for a Travel Company. A business�
 
     -   #### Typography
          -   The Poppins , sans-serif is used as the main font for the whole website.
-         -   The El Messiri, sans-serif is used for the hotels name´s on the cards.
+         -   The El Messiri, sans-serif is used to display the hotels name on the cards.
     -   #### Imagery
 
           - 3 background images one in the Header and another two in the Banner Section. They are webp files.
