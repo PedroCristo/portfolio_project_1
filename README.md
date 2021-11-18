@@ -65,7 +65,6 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 ### Home Page Header
 
 ![Home Page Header](./assets/images/readme-images/home-page-header-image.jpg)
-
 - In this feature the user have access to the navbar fixed on the top of the page to navigate throughout the website. They can see a background travel theme on the page and get some information about how the users can trust the company with some services displayed. <br>
 [Live Page Here](https://pedrocristo.github.io/portfolio_project_1_travel_world/home.html)
 
