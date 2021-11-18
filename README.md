@@ -3,7 +3,7 @@
 # Introduction
 Project milestone 1 for Code Institute Full-stack development program: HTML/CSS Essentials
 
-This project is to create a Front End website for a Travel Company. A businessâ€™s online presence, regardless of industry, can have a massive impact on its success. The main purpose is to show the users the company and promote the brand to a new clients, displaying tours around the world and interative with a users troughthout a contact form and social media.
+This project is to create a Front End website for a Travel Company. A businessâ€™s online presence, regardless of industry, can have a massive impact on its success. The main purpose is to show the users, the company and promote the brand to a new client, displaying tours around the world and interactive with a user throughout a contact form and social media.
 
 [Live Project Here](https://pedrocristo.github.io/portfolio_project_1_travel_world/index.html)
 
@@ -54,7 +54,7 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 
 -   Interactive elements (Social links)
 
-### Landing Page
+### Landing Page 
 
 ![Landing Page](./assets/images/readme-images/landing-page-image.jpg)
 
@@ -65,7 +65,7 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 
 ![Home Page Header](./assets/images/readme-images/home-page-header-image.jpg)
 
-- In this feature the user have access to the navbar fixed on the top of the page to navigate troughthout the website. They can see a background travel theme on the page and get some information about how the users can trust the company with some services displayed. <br>
+- In this feature the user have access to the navbar fixed on the top of the page to navigate throughout the website. They can see a background travel theme on the page and get some information about how the users can trust the company with some services displayed. <br>
 [Live Page Here](https://pedrocristo.github.io/portfolio_project_1_travel_world/home.html)
 
 ### About Section
@@ -122,7 +122,7 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 
 ![Contact Page](./assets/images/readme-images/contact-page.jpg)
 
-- In this page users can contact the Travel World troughthout a contact form. Information about user first name, last name, email and message are required by the form. They can also see the Travel World office location o the Google Maps.<br>
+- In this page users can contact the Travel World throughout a contact form. Information about user first name, last name, email and message are required by the form. They can also see the Travel World office location o the Google Maps.<br>
 [Live Contact Page](https://5504-ivory-llama-bws03acj.ws-eu18.gitpod.io/contact.html)
 
 ### Thanks Page
