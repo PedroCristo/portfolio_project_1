@@ -18,7 +18,7 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 
         1. To understand the main purpose of the site.
         2. To be able to easily navigate throughout the site and find a relevant content about package holidays.
-        3. To be able to contact the company for more information in a easy way.
+        3. To be able to contact the company for more information in an easy way.
 
     -   #### As a returning, I want to:
 
