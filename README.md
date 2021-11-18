@@ -18,7 +18,7 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 
         1. To understand the main purpose of the site.
         2. To be able to easily navigate throughout the site and find a relevant content about package holidays.
-        3. To be able to contact the company for more information in a easy way.
+        3. To be able to contact the company for more information in an easy way.
 
     -   #### As a returning, I want to:
 
@@ -27,7 +27,8 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 -   ### Design
 
     -   #### Colour Scheme
-        -    They are four main colors used, white (#ffffff), a variation of white (#faebd7) an orange tone (#f84f0d) and a black(#111111). The white is used to fit the main website background, the black is used for text while the orange represents a color tone that can be seen in the logo, titles and icons. The variation of white (#faebd7) is used for the buttons backround when hovered.
+        -    There are four main colors used, white (#ffffff), a variation of white (#faebd7) an orange tone (#f84f0d) and a black (#111111). The white is used to fit the                  main website background, the black is used for text while the orange represents a color tone that can be seen in the logo, titles and icons. The variation of                  white (#faebd7) is used for the button background when hovered.
+
 
     -   #### Typography
          -   The Poppins , sans-serif is used as the main font for the whole website.
