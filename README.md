@@ -25,12 +25,15 @@ This project is to create a Front End website for a Travel Company. A businessâ€
         1. To find a new available package holidays.
 
 -   ### Design
+
     -   #### Colour Scheme
         -    They are four main colors used, white (#ffffff), a variation of white (#faebd7) an orange tone (#f84f0d) and a black(#111111). The white is used to fit the main website background, the black is used for text while the orange represents a color tone that can be seen in the logo, titles and icons. The variation of white (#faebd7) is used for the buttons backround when hovered.
+
     -   #### Typography
          -   The Poppins , sans-serif is used as the main font for the whole website.
          -   The El Messiri, sans-serif is used for the hotels nameÂ´s on the cards.
     -   #### Imagery
+
           - 3 background images one in the Header and another two in the Banner Section. They are webp files.
           - 6 Images for the icones in the Tust Section wit the size of 48px by 48px. They are PNG files.
           - 2 images in the about section with the size of 680px by 410px. They are webp files.
@@ -41,6 +44,7 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 
     -   #### Videos
         - The Landing Page has one video as a background displaying in muted, loop and autoplay.
+
     -   #### Google Maps
         -   The web site has a Google Maps location implemented where the users can find the office in Dublin.
 
@@ -52,16 +56,16 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 
 ### Landing Page
 
-![Landin Page](./assets/images/readme-images/landing-page-image.jpg)
+![Landing Page](./assets/images/readme-images/landing-page-image.jpg)
 
-- This page is the first contact when the user reach the website. <br>
+- The Landing Page is the first contact that users have with the website. This page works as a cover with a video playing in the background and has some text as marketing slogan trying to keep the users in the website. The button drives the viewers to the homepage when is pressed.. <br>
 [Live Page Here](https://pedrocristo.github.io/portfolio_project_1_travel_world/index.html)
 
 ### Home Page Header
 
 ![Home Page Header](./assets/images/readme-images/home-page-header-image.jpg)
 
-- In this feature the user have access to the navbar fixed on the top of the page to navigate through the website. They can see a background travel theme on the page and get some information about how the users can trust the company with some services displayed. <br>
+- In this feature the user have access to the navbar fixed on the top of the page to navigate troughthout the website. They can see a background travel theme on the page and get some information about how the users can trust the company with some services displayed. <br>
 [Live Page Here](https://pedrocristo.github.io/portfolio_project_1_travel_world/home.html)
 
 ### About Section
@@ -160,9 +164,52 @@ Google Lighthouse was used to test Performance, Best Practices, Accessibility an
 
 - Desktop Results:
 
-  <h2><img src="./assets/images/readme-images/travel-world-lighthouse-desktop-results.jpg" alt="Google Lighthouse test for Desktop devices"></h2>
+  ![Lighthouse Destop Result](./assets/images/readme-images/travel-world-lighthouse-desktop-results.jpg)
+
 - Mobile Results:
 
-  <h2><img src="./assets/images/readme-images/travel-world-lighthouse-mobile-results.jpg"></h2>
+  ![Lighthouse Mobile Result](./assets/images/readme-images/travel-world-lighthouse-mobile-results.jpg)
 
-### Testing User Stories from User Experience (UX) Section
+   ## Bugs
+
+- No bugs were found while the website has been testing.
+
+## Deployment
+
+The website development has been done in the "main" branch. This branch has been deployed using GitHub Pages.
+
+This site was deployed by completing the following steps:
+
+1. Opened [GitHub](https://github.com/).
+2. Click on the project to be deployed.
+3. Navigated to the "Settings".
+4. Navigated down to the "GitHub Pages".
+5. Click on "Check it out here!".
+6. Selected the "main" branch and selected "Save".
+7. The link to the live website was ready on the top.
+
+[Live Project Here](https://pedrocristo.github.io/portfolio_project_1_travel_world/index.html)
+
+## Credits
+
+### Information Sources/Resources
+
+* [W3Schools](https://www.w3schools.com/)
+
+* [Stack Overflow](https://stackoverflow.com/)
+  
+
+## Content
+
+### Images
+
+All images were provided and used under the Unsplash licence [Unsplash.com](https://unsplash.com/license)
+
+### Video
+
+The video was provided and used under the Pexels licence [Unsplash.com](https://www.pexels.com/video/aerial-view-of-an-infinity-pool-in-maldives-beach-resorts-4069480/)
+
+### Trust Section Icons
+
+All the icons were provided and used under the Icons8 licence [Icons8.com](https://icons8.com/icons/set/best-price)
+
