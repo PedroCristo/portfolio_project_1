@@ -3,7 +3,7 @@
 # Introduction
 Project milestone 1 for Code Institute Full-stack development program: HTML/CSS Essentials
 
-This project is to create a Front End website for a Travel Company. A business’s online presence, regardless of industry, can have a massive impact on its success. The main purpose is to show the users the company and promote the brand to a new clients, displaying tours around the world and interative with a users trounth a contact form and social media.
+This project is to create a Front End website for a Travel Company. A business’s online presence, regardless of industry, can have a massive impact on its success. The main purpose is to show the users the company and promote the brand to a new clients, displaying tours around the world and interative with a users troughthout a contact form and social media.
 
 [Live Project Here](https://pedrocristo.github.io/portfolio_project_1_travel_world/index.html)
 
@@ -50,8 +50,83 @@ This project is to create a Front End website for a Travel Company. A business�
 
 -   Interactive elements (Social links)
 
-(Pending further explanations and Screenshots for explanation of Features)
+### Landing Page
 
+![Landin Page](./assets/images/readme-images/landing-page-image.jpg)
+
+- This page is the first contact when the user reach the website. <br>
+[Live Page Here](https://pedrocristo.github.io/portfolio_project_1_travel_world/index.html)
+
+### Home Page Header
+
+![Home Page Header](./assets/images/readme-images/home-page-header-image.jpg)
+
+- In this feature the user have access to the navbar fixed on the top of the page to navigate through the website. They can see a background travel theme on the page and get some information about how the users can trust the company with some services displayed. <br>
+[Live Page Here](https://pedrocristo.github.io/portfolio_project_1_travel_world/home.html)
+
+### About Section
+
+![About Section](./assets/images/readme-images/home-page-about-section.jpg)
+
+- In this feature users have access to information about the company, like what is the main purpose of the company, year of founded and also the benefits to work for Travel World. <br>
+[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1_travel_world/home.html#about-section)
+
+### Banner Section 1
+
+![Banner Section 1](./assets/images/readme-images/home-page-banner-section-1.jpg)
+
+- This feature is a highlights banner where user can see a travel deal and book the trip pressing the button on the page and ring the Travel World office.<br>
+[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1_travel_world/home.html#banner-1)
+
+### Top Trips Section
+
+![Top Trips Section](./assets/images/readme-images/home-page-top-trips-section.jpg)
+
+- This feature is a cards section where users can see the top travel deals displayed with information about city, country, price, hotel name, hotel stars, number of days and nights. The card has a button where the user can book and when is hovered by the user the box-shadow changes.<br>
+[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1_travel_world/home.html#top-trips)
+
+### Banner Section 2
+
+![Banner Section 2](./assets/images/readme-images/home-page-banner-section-2.jpg)
+
+- This features has the same purpose as the Banner 1 Section with a different travel deal displayed.<br>
+[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1_travel_world/home.html#banner-2)
+
+### City Breaks Section
+
+![City Breaks Section](./assets/images/readme-images/home-page-city-trips-section.jpg)
+
+- This features has the same purpose as the Top Trip Section with a difference that when the card is hovered by the user the image zoom in.<br>
+[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1_travel_world/home.html#city-trips)
+
+### Partners Section
+
+![Partners Section](./assets/images/readme-images/home-page-partners-section.jpg)
+
+- In this section users can see partners and companies that Travel World work with.<br>
+[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1_travel_world/home.html#partners-section)
+
+### Footer Section
+
+![Footer Section](./assets/images/readme-images/home-page-footer-image.jpg)
+
+- This feature is the Footer Section and users can see information about company's schedule and contact also Travel World social media links. The copyright message is displayed on the bottom.<br>
+[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1_travel_world/home.html#footer)
+## Technologies Used
+
+### Contact Page
+
+![Contact Page](./assets/images/readme-images/contact-page.jpg)
+
+- In this page users can contact the Travel World troughthout a contact form. Information about user first name, last name, email and message are required by the form. They can also see the Travel World office location o the Google Maps.<br>
+[Live Contact Page](https://5504-ivory-llama-bws03acj.ws-eu18.gitpod.io/contact.html)
+
+### Thanks Page
+
+![Contact Page](./assets/images/readme-images/thanks-page.jpg)
+
+- When users submit a contact form successful they will land in this Thanks Page. There is a button on this page that when is pressed brings the users back to the contact form..<br>
+[Live Thanks Page](https://5504-ivory-llama-bws03acj.ws-eu18.gitpod.io/thanks-page.html)
 ## Technologies Used
 
 ### Languages Used 
