@@ -1204,7 +1204,7 @@ textarea {
     /* INTRO PAGE */
 
     #intro-section .logo {
-        margin-top: -50px !important;
+/* margin-top: -50px !important; */
     }
 
     #intro-section .text-box h1 {
