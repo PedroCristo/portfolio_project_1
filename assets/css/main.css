@@ -13,8 +13,8 @@
     --overlay-blue: rgba(60, 185, 243);
     --overlay-black: rgba(0, 0, 0, 0.7);
     --fully-black: rgb(17, 17, 17);
-    --light-grey:rgb(224, 218, 218);
-
+    --light-grey: rgb(224, 218, 218);
+  
 
     /* font Color */
 
@@ -138,6 +138,7 @@ img {
 .image-desktop {
     display: block;
 }
+
 figcaption {
     text-align: center;
     margin-top: 10px;
@@ -159,8 +160,36 @@ hr {
 
 /* FONT AWESOME */
 .fa-arrow-right {
-    color: var(--iterative-color);
+    /* color: var(--iterative-color); */
     font-size: 20px;
+    animation: arrow_color ease-in-out 8s infinite;
+}
+
+/* ANIMATION */
+
+/* Arrow Animation */
+@keyframes arrow_color {
+    0% {
+
+        color: var(--text-white);
+
+    } 25% {
+
+        color: var(--iterative-color);
+
+    } 50% {
+
+        color: var(--text-white);
+
+    } 75% {
+
+        color: var(--iterative-color);
+
+    } 100% {
+
+        color: var(--text-white);
+
+    }
 }
 
 /*******************************
@@ -376,9 +405,6 @@ hr {
 
 /* ABOUT */
 
-
-
-
 /* BANNER SECTION */
 
 .banner {
@@ -414,7 +440,7 @@ hr {
 
 .banner .banner-box .sub-title {
     font-size: 2.3rem;
-    color:var(--iterative-color);
+    color: var(--iterative-color);
 }
 
 .banner .banner-box .btn {
@@ -502,8 +528,8 @@ hr {
 }
 
 #top-trips .fa-plane-departure,
-#city-trips .fa-plane-departure{
-    font-size: 2rem!important;
+#city-trips .fa-plane-departure {
+    font-size: 2rem !important;
 }
 
 #top-trips .icons-box,
@@ -529,7 +555,7 @@ hr {
     margin-top: -15px;
 }
 
-#top-trips .icons-box{
+#top-trips .icons-box {
     margin-top: -30px;
 }
 
@@ -547,7 +573,7 @@ hr {
     position: absolute;
     left: 0;
     bottom: 12px;
-    background-color:var(--iterative-color)!important;
+    background-color: var(--iterative-color) !important;
     border-radius: 0px 0px 5px 5px;
 }
 
@@ -564,11 +590,6 @@ hr {
     text-align: center;
     padding: 0 10px;
 }
-
-#city-trips .top-trips-card .price {
-
-}
-
 
 #city-trips .city-box-text h3 {
     color: var(--text-white);
@@ -598,7 +619,7 @@ hr {
 #city-trips .top-trips-card .icons-box ul {
     padding: 5px;
     margin: 0 0 -10px;
-    
+
 }
 
 #city-trips .top-trips-card:hover .img-box .image-desktop {
@@ -656,7 +677,7 @@ hr {
     color: var(--fully-black);
     opacity: 1;
     transition: .3s;
-   
+
 }
 
 .footer p a:hover {
@@ -743,21 +764,23 @@ hr {
 *                              *
 *******************************/
 
-#contact-form{
+#contact-form {
     margin: 50px;
     padding: 25px 5px;
 }
 
 #contact-form form {
-    
+
     background: var(--text-white);
     padding: 35px 50px;
-    border-radius: 15px ;
+    border-radius: 15px;
     box-shadow: var(--overlay-black) 1px 10px 10px -1px;
 }
 
 
-#contact-form form input, select, textarea {
+#contact-form form input,
+select,
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid var(--light-grey);
@@ -768,29 +791,29 @@ hr {
     outline: none;
     cursor: pointer;
     transition: .3s;
-  
-  }
 
-  #contact-form form input:hover,
-  #contact-form form select:hover,
-  #contact-form form textarea:hover{
+}
+
+#contact-form form input:hover,
+#contact-form form select:hover,
+#contact-form form textarea:hover {
     background-color: var(--light-grey);
-  }
+}
 
-  #contact-form form input[type=submit] {
-    width: 250px!important;
-    background: var(--iterative-color)!important;
+#contact-form form input[type=submit] {
+    width: 250px !important;
+    background: var(--iterative-color) !important;
     margin: 0 auto;
     display: block;
 }
 
 #contact-form form input[type=submit]:hover {
-    width: 250px!important;
-    background: var(--text-white)!important;
-    border: 1px solid var(--iterative-color)!important;
+    width: 250px !important;
+    background: var(--text-white) !important;
+    border: 1px solid var(--iterative-color) !important;
 }
 
-#contact-form .map-box{
+#contact-form .map-box {
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -813,8 +836,8 @@ hr {
 }
 
 #contact-form img {
-  border-radius: 15px!important;
-  box-shadow: var(--overlay-black) 1px 10px 10px -1px;
+    border-radius: 15px !important;
+    box-shadow: var(--overlay-black) 1px 10px 10px -1px;
 }
 
 /* MEDIA QUERIES */
@@ -842,18 +865,19 @@ hr {
     .row-banner {
         flex-direction: row !important;
     }
-    
+
     .col-md-4-card {
         /* width: 33,333333%; */
         margin: 15px 0 !important;
     }
-    
+
     /* HOME PAGE */
-    
+
     .banner .btn,
     .fa-arrow-right {
         font-size: 0.8rem;
     }
+
     .footer p {
         width: 250px;
     }
@@ -863,13 +887,13 @@ hr {
     }
 
     .trust-row {
-    float: right;
-     margin-top: -250px;
+        float: right;
+        margin-top: -250px;
     }
 
     /* CONTACT FORM */
 
-    #contact-form .map-box{
+    #contact-form .map-box {
         margin-top: 25px;
     }
 
@@ -935,11 +959,11 @@ hr {
 
     .trust-section .trust-row {
         float: initial;
-         margin-top: initial;
+        margin-top: initial;
     }
 
-    .trust-section .container{
-      max-width: 385px;
+    .trust-section .container {
+        max-width: 385px;
     }
 
     /* THANKS PAGE */
@@ -958,9 +982,6 @@ hr {
         margin: -30px auto;
         padding: 0;
     }
-
-
-
 }
 
 @media screen and (max-width:600px) {
@@ -971,9 +992,9 @@ hr {
     }
 
     #intro-section video {
-     
+
         object-position: initial;
-    
+
     }
 
     #intro-section .logo {
@@ -1038,7 +1059,6 @@ hr {
         top: 20px;
         right: 20px;
         cursor: pointer;
-
     }
 
     #header-section nav {
@@ -1070,7 +1090,7 @@ hr {
     .image-mobile {
         display: block;
     }
-    
+
     .image-desktop {
         display: none;
     }
@@ -1080,8 +1100,9 @@ hr {
         transition: 0.3s;
         display: block;
     }
+
     #city-trips .top-trips-card:hover .img-box .image-desktop {
-        
+
         display: none;
     }
 
@@ -1106,8 +1127,6 @@ hr {
         padding: 50px 15px;
     }
 
-  
-
     /* THANKS PAGE */
 
     .header-section .thanks-box h2 {
@@ -1125,7 +1144,7 @@ hr {
 
     /* CONTACT FORM */
 
-    #contact-form{
+    #contact-form {
         padding: 0;
         margin: 0;
     }
@@ -1133,20 +1152,22 @@ hr {
 }
 
 @media screen and (max-width:415px) {
-    
+
     .title {
         font-size: 2rem;
     }
 
     .logo {
-        font-size: 1.2rem!important;
+        font-size: 1.2rem !important;
     }
+
     /* INTRO PAGE */
-  
+
     #intro-section .logo {
-        font-size: 1rem!important;
-        top:100px!important;
+        font-size: 1rem !important;
+        top: 100px !important;
     }
+
     #intro-section .text-box h1 {
         font-size: 1.8rem;
     }
@@ -1187,21 +1208,22 @@ hr {
 
     input[type=submit] {
 
-        width: 160px!important;
+        width: 160px !important;
     }
-    
+
 }
 
 @media screen and (max-width:325px) {
 
-    
+
     .title {
         font-size: 1.8rem;
     }
-    
+
     .btn {
         font-size: 0.5rem;
     }
+
     /* INTRO PAGE */
 
     #intro-section .text-box h1 {
@@ -1242,8 +1264,9 @@ hr {
 
 /* commun browser sizes */
 @media screen and (max-width:320px) and (max-height:768px) {
-     /* THANKS PAGE */
-     .header-section .thanks-box h2 {
+
+    /* THANKS PAGE */
+    .header-section .thanks-box h2 {
 
         font-size: 2rem;
     }
@@ -1263,15 +1286,16 @@ hr {
 }
 
 @media screen and (max-width:375px) and (max-height:768px) {
+
     /* THANKS PAGE */
     .header-section .thanks-box h2 {
 
-       font-size: 2rem;
-   }
+        font-size: 2rem;
+    }
 
-   .header-section .thanks-box p {
-       font-size: 1.4rem;
-   }
+    .header-section .thanks-box p {
+        font-size: 1.4rem;
+    }
 
 }
 
@@ -1282,9 +1306,9 @@ hr {
 
     /* INTRO SECTION */
 
-    #intro-section  .logo {
-        margin-top: 90px!important;
-   
+    #intro-section .logo {
+        margin-top: 90px !important;
+
     }
 
     #intro-section .text-box h1 {
@@ -1328,9 +1352,9 @@ hr {
 
     /* INTRO PAGE */
 
-    #intro-section  .logo {
+    #intro-section .logo {
         /* margin-top: 50px!important; */
-        font-size: 0.8rem!important;
+        font-size: 0.8rem !important;
     }
 
 
@@ -1347,23 +1371,22 @@ hr {
     }
 
     /* HOME PAGE */
-    
+
     .header-section .thanks-box p {
         font-size: 1.4rem;
     }
-    
+
     .header-section img {
         width: 25%;
     }
-    
-    .header-section .btn {
-        
-    }
+
+    .header-section .btn {}
+
     /* THANKS PAGE */
     .header-section .thanks-box h2 {
-     margin-top: 25px;
-     font-size: 2rem;
- }
+        margin-top: 25px;
+        font-size: 2rem;
+    }
 }
 
 /* blackberry z30 */
@@ -1371,10 +1394,10 @@ hr {
 
     /* INTRO SECTION */
 
-    
-   #intro-section  .logo {
-        margin-top: 100px!important;
-        font-size: 1rem!important;
+
+    #intro-section .logo {
+        margin-top: 100px !important;
+        font-size: 1rem !important;
     }
 
     #intro-section .text-box h1 {
@@ -1461,7 +1484,7 @@ hr {
 
     /* INTRO SECTION */
 
-    #intro-section  .logo {
+    #intro-section .logo {
         /* margin-top: 25px; */
     }
 
@@ -1479,33 +1502,31 @@ hr {
 
     #intro-section .text-box p {
         font-size: 0.7rem;
-       
+
     }
 
     #intro-section .btn {
         font-size: 0.8rem;
-        
+
     }
 }
-
-
 
 /* blackberry playbook */
 @media screen and (max-width:1024px) and (max-height:600px) {
 
- /* INTRO SECTION */
+    /* INTRO SECTION */
 }
 
 /* iphone 5S */
-@media screen and (max-height:320px) and (max-width:568px){
+@media screen and (max-height:320px) and (max-width:568px) {
 
     /* INTRO PAGE */
     #intro-section .logo {
-        margin-top:-5px!important;
+        margin-top: -5px !important;
     }
 
     #intro-section .text-box h1 {
-        font-size: 1.1rem!important;
+        font-size: 1.1rem !important;
     }
 
     #intro-section .text-box h3 {
@@ -1529,6 +1550,6 @@ hr {
     }
 
     /* THANKS PAGE */
- 
+
 
 }
