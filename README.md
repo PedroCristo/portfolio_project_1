@@ -35,13 +35,14 @@ This project is to create a Front End website for a Travel Company. A businessâ€
          -   The El Messiri, sans-serif is used to display the hotels name on the cards.
     -   #### Imagery
 
-          - 3 background images one in the Header and another two in the Banner Section. They are webp files.
+          - 3 background images one in the Header and another two in the Banner Section.
           - 6 Images for the icones in the Tust Section wit the size of 48px by 48px. They are PNG files.
-          - 2 images in the about section with the size of 680px by 410px. They are webp files.
-          - 12 images for the Top Trips Section and City Breack Section with the size of 1440px by 1920px displayed on desktop and tablet. They are webp files.
-          - 12 images for the Top Trips Section and City Breack Section with the size of 950px by 713px displayed on mobile devices. They are webp files.
-          - 8 Images in the Partners Section with the size of 580px by 280px. All webp files.
+          - 2 images in the about section with the size of 680px by 410px.
+          - 12 images for the Top Trips Section and City Breack Section with the size of 1440px by 1920px displayed on desktop and tablet.
+          - 12 images for the Top Trips Section and City Breack Section with the size of 950px by 713px displayed on mobile devices.
+          - 8 Images in the Partners Section with the size of 580px by 280px.
           - 1 image GiF animation in the Thanks Page.
+          - Please Note (All images were converted to the webp files except the 6 images in the trust section).
 
     -   #### Videos
         - The Landing Page has one video as a background displaying in muted, loop and autoplay.
