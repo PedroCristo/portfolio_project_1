@@ -42,7 +42,7 @@ This project is to create a Front End website for a Travel Company. A businessâ€
           - 12 images for the Top Trips Section and City Breack Section with the size of 950px by 713px displayed on mobile devices.
           - 8 Images in the Partners Section with the size of 580px by 280px.
           - 1 image GiF animation in the Thanks Page.
-          - Please Note (All images were converted to the webp files except the 6 images in the trust section).
+          - Please Note (All images were converted to the webp files except the 6 images in the Trust Section).
 
     -   #### Videos
         - The Landing Page has one video as a background displaying in muted, loop and autoplay.
