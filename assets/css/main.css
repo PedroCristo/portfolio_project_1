@@ -200,11 +200,45 @@ hr {
     }
 }
 
+/* preloader animation */
+
+@keyframes preloader {
+
+    0% {
+
+        opacity: 1;
+        z-index: 100;
+
+    } 50% {
+
+        opacity: 1;
+        z-index: 100;
+
+   } 100% {
+     
+    opacity: 1;
+        z-index: 100;
+
+   }
+}
 /*******************************
 *                              *
 *         INTRO PAGE           *
 *                              *
 *******************************/
+.preloader {
+ background-image: url(../images/gif/preloader.gif);
+ background-size: cover;
+ background-position: center center;
+ width: 100%;
+ height: 100vh;
+ position: absolute;
+ top: 0;
+ right: 0;
+ animation: preloader ease-in-out 3s;
+ opacity: 0;
+}
+
 
 #intro-section {
     position: absolute;
@@ -1006,7 +1040,7 @@ textarea {
     }
 
     #intro-section .logo {
-        left: -20px !important;
+        /* left: -20px !important; */
     }
 
 
@@ -1171,8 +1205,8 @@ textarea {
 
     /* INTRO PAGE */
     #intro-section .logo {
-        font-size: 1rem !important;
-        top: 100px !important;
+        /* font-size: 1rem !important; */
+        /* top: 100px !important; */
     }
 
     #intro-section .text-box h1 {
@@ -1204,7 +1238,7 @@ textarea {
     /* INTRO PAGE */
 
     #intro-section .logo {
-        margin-top: -50px !important;
+      
     }
 
     #intro-section .text-box h1 {
@@ -1238,7 +1272,7 @@ textarea {
     /* INTRO PAGE */
 
     #intro-section .logo {
-        top: -110px !important;
+        /* top: -110px !important; */
     }
 
     #intro-section .text-box h1 {
@@ -1264,8 +1298,7 @@ textarea {
 
     #intro-section .btn {
         margin-bottom: 10px;
-    }
-}
+    }s
 
     /* THANKS PAGE */
 
@@ -1334,7 +1367,7 @@ textarea {
     /* INTRO SECTION */
 
     #intro-section .logo {
-        margin-top: 90px !important;
+        /* margin-top: 90px !important; */
 
     }
 
@@ -1381,7 +1414,7 @@ textarea {
 
     #intro-section .logo {
         /* margin-top: 50px!important; */
-        font-size: 0.8rem !important;
+        /* font-size: 0.8rem !important; */
     }
 
 
@@ -1422,8 +1455,8 @@ textarea {
 
     /* INTRO SECTION */
     #intro-section .logo {
-        top: 70px !important;
-        font-size: 1rem !important;
+        /* top: 70px !important; */
+        /* font-size: 1rem !important; */
     }
 
     #intro-section .text-box h1 {
@@ -1449,7 +1482,7 @@ textarea {
 
     /* INTRO PAGE */
     #intro-section .logo {
-        margin-top: 155px !important;
+        /* margin-top: 155px !important; */
     }
 
 }
@@ -1460,7 +1493,7 @@ textarea {
 
     /* INTRO PAGE */
     #intro-section .logo {
-        margin-top: 100px !important;
+        /* margin-top: 100px !important; */
     }
 
     #intro-section .text-box h1 {
@@ -1501,7 +1534,7 @@ textarea {
 
     /* INTRO PAGE */
     #intro-section .logo {
-        top: 48px !important;
+        /* top: 48px !important; */
     }
 
     #intro-section .text-box h1 {
@@ -1530,7 +1563,7 @@ textarea {
     /* INTRO SECTION */
 
     #intro-section .logo {
-        font-size: 1rem;
+        /* font-size: 1rem; */
     }
 
     #intro-section .text-box h1 {
@@ -1563,7 +1596,7 @@ textarea {
     /* INTRO SECTION */
 
     #intro-section .logo {
-        margin-top: 65px!important;
+        /* margin-top: 65px!important; */
     }
 
 }
@@ -1574,7 +1607,7 @@ textarea {
 
     /* INTRO PAGE */
     #intro-section .logo {
-        margin-top: -5px !important;
+        /* margin-top: -5px !important; */
     }
 
     #intro-section .text-box h1 {
