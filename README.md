@@ -3,7 +3,7 @@
 # Introduction
 Project milestone 1 for Code Institute Full-stack development program: HTML/CSS Essentials
 
-This project is to create a Front End website for a Travel Company. A businessâ€™s online presence, regardless of industry, can have a massive impact on its success. The main purpose is to show the users, the company and promote the brand to a new client, displaying tours around the world and interactive with a user throughout a contact form and social media.
+This project is to create a Front End website for a Travel Company. A businessâ€™s online presence, regardless of industry, can have a massive impact on its success. The main purpose is to show the users, the company and promote the brand to a new clients, displaying tours around the world and interactive with a user throughout a contact form and social media.
 
 [Live Project Here](https://pedrocristo.github.io/portfolio_project_1_travel_world/index.html)
 
@@ -32,16 +32,17 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 
     -   #### Typography
          -   The Poppins , sans-serif is used as the main font for the whole website.
-         -   The El Messiri, sans-serif is used for the hotels nameÂ´s on the cards.
+         -   The El Messiri, sans-serif is used to display the hotels name on the cards.
     -   #### Imagery
 
-          - 3 background images one in the Header and another two in the Banner Section. They are webp files.
+          - 3 background images one in the Header and another two in the Banner Section.
           - 6 Images for the icones in the Tust Section wit the size of 48px by 48px. They are PNG files.
-          - 2 images in the about section with the size of 680px by 410px. They are webp files.
-          - 12 images for the Top Trips Section and City Breack Section with the size of 1440px by 1920px displayed on desktop and tablet. They are webp files.
-          - 12 images for the Top Trips Section and City Breack Section with the size of 950px by 713px displayed on mobile devices. They are webp files.
-          - 8 Images in the Partners Section with the size of 580px by 280px. All webp files.
+          - 2 images in the about section with the size of 680px by 410px.
+          - 12 images for the Top Trips Section and City Breack Section with the size of 1440px by 1920px displayed on desktop and tablet.
+          - 12 images for the Top Trips Section and City Breack Section with the size of 950px by 713px displayed on mobile devices.
+          - 8 Images in the Partners Section with the size of 580px by 280px.
           - 1 image GiF animation in the Thanks Page.
+          - Please Note (All images were converted to the webp files except the 6 images in the Trust Section).
 
     -   #### Videos
         - The Landing Page has one video as a background displaying in muted, loop and autoplay.
@@ -59,7 +60,7 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 
 ![Landing Page](./assets/images/readme-images/landing-page-image.jpg)
 
-- The Landing Page is the first contact that users have with the website. This page works as a cover with a video playing in the background and has some text as marketing slogan trying to keep the users in the website. The button drives the viewers to the homepage when is pressed.. <br>
+- The Landing Page is the first contact that users have with the website. This page works as a cover with a video playing in the background and has some text as marketing slogan trying to keep the users in the website. The button drives the viewers to the homepage when is pressed. <br>
 [Live Page Here](https://pedrocristo.github.io/portfolio_project_1_travel_world/index.html)
 
 ### Home Page Header
@@ -129,7 +130,7 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 
 ![Contact Page](./assets/images/readme-images/thanks-page.jpg)
 
-- When users submit a contact form successful they will land in this Thanks Page. There is a button on this page that when is pressed brings the users back to the contact form..<br>
+- When users submit a contact form successful they will land in this Thanks Page. There is a button on this page that when is pressed brings the users back to the contact form.<br>
 [Live Thanks Page](https://5504-ivory-llama-bws03acj.ws-eu18.gitpod.io/thanks-page.html)
 ## Technologies Used
 
