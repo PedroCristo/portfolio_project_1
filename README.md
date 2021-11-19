@@ -129,7 +129,7 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 
 ![Contact Page](./assets/images/readme-images/thanks-page.jpg)
 
-- When users submit a contact form successful they will land in this Thanks Page. There is a button on this page that when is pressed brings the users back to the contact form..<br>
+- When users submit a contact form successful they will land in this Thanks Page. There is a button on this page that when is pressed brings the users back to the contact form.<br>
 [Live Thanks Page](https://5504-ivory-llama-bws03acj.ws-eu18.gitpod.io/thanks-page.html)
 ## Technologies Used
 
