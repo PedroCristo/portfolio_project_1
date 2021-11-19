@@ -59,7 +59,7 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 
 ![Landing Page](./assets/images/readme-images/landing-page-image.jpg)
 
-- The Landing Page is the first contact that users have with the website. This page works as a cover with a video playing in the background and has some text as marketing slogan trying to keep the users in the website. The button drives the viewers to the homepage when is pressed.. <br>
+- The Landing Page is the first contact that users have with the website. This page works as a cover with a video playing in the background and has some text as marketing slogan trying to keep the users in the website. The button drives the viewers to the homepage when is pressed. <br>
 [Live Page Here](https://pedrocristo.github.io/portfolio_project_1_travel_world/index.html)
 
 ### Home Page Header
