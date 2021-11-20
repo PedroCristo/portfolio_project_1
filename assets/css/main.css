@@ -1065,7 +1065,7 @@ textarea {
 
     #intro-section .social {
         left: 0;
-        right: 0;
+        right: 25px;
         bottom: 25px;
         display: inline-block;
     }
