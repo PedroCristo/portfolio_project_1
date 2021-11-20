@@ -1206,7 +1206,7 @@ textarea {
     /* INTRO PAGE */
     #intro-section .logo {
         /* font-size: 1rem !important; */
-        /* top: 100px !important; */
+        top: 100px !important; 
     }
 
     #intro-section .text-box h1 {
@@ -1240,7 +1240,7 @@ textarea {
     #intro-section .logo {
 
 
-   /* margin-top: -50px !important; */
+    margin-top: -50px !important; 
 
     }
 
