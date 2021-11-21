@@ -129,14 +129,6 @@ img {
     height: auto;
 }
 
-.image-mobile {
-    display: none;
-}
-
-.image-desktop {
-    display: block;
-}
-
 figcaption {
     text-align: center;
     margin-top: 10px;
@@ -441,11 +433,11 @@ hr {
 }
 
 #banner-bali {
-    background-image: url(../images/bali.webp);
+    background-image: url(../images/bali-bg.webp);
 }
 
 #banner-maldivas {
-    background-image: url(../images/maldivas-surf-bg.jpg);
+    background-image: url(../images/maldivas-bg.jpg);
 }
 
 .banner .banner-box {
@@ -629,7 +621,7 @@ hr {
     top: 0;
     left: 0;
     background-color: var(--fully-black);
-    opacity: 0.7;
+    opacity: 0.6;
     width: 100%;
     height: 90%;
     border-radius: 5px;
@@ -641,7 +633,7 @@ hr {
 
 }
 
-#city-trips .top-trips-card:hover .img-box .image-desktop {
+#city-trips .top-trips-card:hover .img-box .image-trips {
     transform: scale(1.2);
     transition: 0.3s;
     display: block;
@@ -1100,25 +1092,6 @@ textarea {
     #header-section nav ul li {
         margin: 0;
 
-    }
-
-    .image-mobile {
-        display: block;
-    }
-
-    .image-desktop {
-        display: none;
-    }
-
-    #city-trips .top-trips-card:hover .img-box .image-mobile {
-        transform: scale(1.2);
-        transition: 0.3s;
-        display: block;
-    }
-
-    #city-trips .top-trips-card:hover .img-box .image-desktop {
-
-        display: none;
     }
 
     .title {
