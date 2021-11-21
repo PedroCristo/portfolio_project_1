@@ -1161,18 +1161,18 @@ textarea {
         width: 60%;
     }
 
-    #thanks-box .thanks-box-text
-
     /* CONTACT FORM */
 
     #contact-form {
-        padding: 0;
-        margin: 0;
+        padding: 0 !important;
+        margin: 0 !important;
     }
 
 }
 
 @media screen and (max-width:415px) {
+
+
 
     .title {
         font-size: 2rem;
