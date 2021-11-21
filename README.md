@@ -81,7 +81,7 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 ![Banner Section 1](./assets/images/readme-images/home-page-banner-section-1.jpg)
 
 - This feature is a highlights banner where user can see a travel deal and book the trip pressing the button on the page and ring the Travel World office.<br>
-[Live Feature Here](https://pedrocristo.github.io/portfolio_project/home.html#banner-bali)
+[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#banner-bali)
 
 ### Top Trips Section
 
