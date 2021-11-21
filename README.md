@@ -76,12 +76,12 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 - In this feature users have access to information about the company, like what is the main purpose of the company, year of founded and also the benefits to work for Travel World. <br>
 [Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#about-section)
 
-### Banner Section 1
+### Banner Section 1 Bali
 
 ![Banner Section 1](./assets/images/readme-images/home-page-banner-section-1.jpg)
 
 - This feature is a highlights banner where user can see a travel deal and book the trip pressing the button on the page and ring the Travel World office.<br>
-[Live Feature Here](https://pedrocristo.github.io/portfolio_project/home.html#banner-1)
+[Live Feature Here](https://pedrocristo.github.io/portfolio_project/home.html#banner-bali)
 
 ### Top Trips Section
 
@@ -90,12 +90,12 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 - This feature is a cards section where users can see the top travel deals displayed with information about city, country, price, hotel name, hotel stars, number of days and nights. The card has a button where the user can book and when is hovered by the user the box-shadow changes.<br>
 [Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#top-trips)
 
-### Banner Section 2
+### Banner Section 2 Maldivas
 
 ![Banner Section 2](./assets/images/readme-images/home-page-banner-section-2.jpg)
 
 - This features has the same purpose as the Banner 1 Section with a different travel deal displayed.<br>
-[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#banner-2)
+[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#banner-maldivas)
 
 ### City Breaks Section
 
