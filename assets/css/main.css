@@ -492,8 +492,7 @@ hr {
 }
 
 /* Changes bootstrap class col-md-4 with (33,3333%) for (30%) */
-#top-trips .col-md-4-card,
-#city-trips .col-md-4-card {
+.col-md-4-card {
     width: 30%;
 }
 

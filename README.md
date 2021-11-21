@@ -14,6 +14,10 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 
 -   ### User stories
 
+    -   ### As a website creator, I want to:
+        1. To build the website visually appealing upon first visit so the user is intrigued to explore all the pages.
+        2. To build a website easy to navigate for the users.
+
     -   #### As a new visitor, I want to:
 
         1. To understand the main purpose of the site.
@@ -23,11 +27,12 @@ This project is to create a Front End website for a Travel Company. A businessâ€
     -   #### As a returning, I want to:
 
         1. To find a new available package holidays.
+        2. To find more relevant information about the company
 
 -   ### Design
 
     -   #### Colour Scheme
-        -    There are four main colors used, white (#ffffff), a variation of white (#faebd7) an orange tone (#f84f0d) and a black (#111111). The white is used to fit the                  main website background, the black is used for text while the orange represents a color tone that can be seen in the logo, titles and icons. The variation of                  white (#faebd7) is used for the button background when hovered.
+        -    There are four main colors used, white (#ffffff), a variation of white (#faebd7) an orange tone (#f84f0d) and a black (#111111). The white is used to fit the      main website background, the black is used for text while the orange represents a color tone that can be seen in the logo, titles and icons. The variation of           white (#faebd7) is used for the button background when hovered.
 
 
     -   #### Typography
@@ -117,7 +122,6 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 
 - This feature is the Footer Section and users can see information about company's schedule and contact also Travel World social media links. The copyright message is displayed on the bottom.<br>
 [Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#footer)
-## Technologies Used
 
 ### Contact Page
 
@@ -132,6 +136,15 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 
 - When users submit a contact form successful they will land in this Thanks Page. There is a button on this page that when is pressed brings the users back to the contact form.<br>
 [Live Thanks Page](https://pedrocristo.github.io/portfolio_project_1/thanks-page.html)
+
+## Future Features
+  
+   ## Customer Review Section
+
+   - Add a Customer Review Section in the Home page to improve the website and display customers experience at Travel World and opinion about the company.
+
+ 
+
 ## Technologies Used
 
 ### Languages Used 
@@ -162,6 +175,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Website Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_1_travel_world%2Fhome.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 Google Lighthouse was used to test Performance, Best Practices, Accessibility and SEO on both Desktop and Mobile devices.
+
+The testing was done using the Google Chrome Browser. Chrome Developer Tools was used extensively, particularly to check responsiveness on different screen sizes. Testing was also done using Firefox on desktop, and again on Google Chrome and Opera on the Huawei P20.
 
 - Desktop Results:
 
