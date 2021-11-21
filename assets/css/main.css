@@ -1164,8 +1164,8 @@ textarea {
     /* CONTACT FORM */
 
     #contact-form {
-        padding: 0 !important;
-        margin: 0 !important;
+        padding: 0 ;
+        margin: 0 ;
     }
 
 }
@@ -1216,7 +1216,7 @@ textarea {
     /* INTRO PAGE */
 
     #intro-section .logo {
-        margin-top: -50px !important;
+        /* margin-top: -50px !important;*/
     
     }
 
@@ -1575,6 +1575,27 @@ textarea {
     #intro-section .social {
         font-size: 0.6rem;
         margin-bottom: -25px;
+    }
+
+    /* THANKS PAGE */
+    #thanks-box .thanks-box-text h2 {
+            font-size: 1.7rem;
+            margin-top: 25px;
+    }
+    
+    #thanks-box .thanks-box-text p {
+            font-size: 1.2rem;
+    }
+    
+    #thanks-box .thanks-box-text .btn {
+            font-size: 0.7rem;
+           
+    }
+
+    #thanks-box .thanks-box-text img {
+        width: 35%;
+    
+              
     }
 
 }
