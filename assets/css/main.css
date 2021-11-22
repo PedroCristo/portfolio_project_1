@@ -354,7 +354,7 @@ hr {
     justify-content: space-between;
     align-items: center;
     background-color: var(--overlay-black);
-    padding: 25px 25px 10px;
+    padding: 25px;
     z-index: 100;
 }
 
@@ -958,10 +958,7 @@ textarea {
         font-size: 1.3rem;
     }
 
-    .about-section p {
-        text-align: center !important;
-    }
-
+ 
     .banner-box .sub-title {
         font-size: 2rem;
     }
