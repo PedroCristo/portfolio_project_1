@@ -354,7 +354,7 @@ hr {
     justify-content: space-between;
     align-items: center;
     background-color: var(--overlay-black);
-    padding: 25px;
+    padding: 25px 25px 10px;
     z-index: 100;
 }
 
