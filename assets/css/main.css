@@ -1405,10 +1405,34 @@ textarea {
     }
 
     .btn {
-        font-size: 10px;
+        font-size: 0.8rem;
     }
 
 }
+
+/* galaxy x20 */
+@media screen and (max-width:915px) and (max-height:412px) {
+
+    /* INTRO SECTION */
+
+    #intro-section .text-box h1 {
+        font-size: 1.2rem;
+    }
+
+    #intro-section .text-box h3 {
+        font-size: 1rem;
+    }
+
+    #intro-section .text-box p {
+        font-size: 0.7rem;
+    }
+
+    .btn {
+        font-size: 0.8rem;
+    }
+
+}
+
 
 /* blackberry playbook */
 @media screen and (max-width:1024px) and (max-height:600px) {
