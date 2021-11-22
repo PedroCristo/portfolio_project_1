@@ -1073,6 +1073,10 @@ textarea {
 
     }
 
+    #header-section {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), #111), url(../images/travel-world-bg-1.webp);
+    }
+
     .active {
         border: 1px solid var(--iterative-color);
         padding: 8px 15px;
@@ -1125,6 +1129,15 @@ textarea {
         text-align: center;
     }
 
+    
+    #banner-bali {
+    background-image: url(../images/images-mobile/bali-bg-mobile.webp);
+    }
+
+    #banner-maldivas {
+    background-image: url(../images/images-mobile/maldivas-bg-mobile.webp);
+    }
+
     .banner-box .sub-title {
         font-size: 1.8rem;
     }
@@ -1134,6 +1147,10 @@ textarea {
     }
 
     /* THANKS PAGE */
+
+    #thanks-box {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), #111), url(../images/travel-world-bg-1.webp);
+    }
 
     #thanks-box .thanks-box-text  h2 {
         font-size: 2.2rem;
