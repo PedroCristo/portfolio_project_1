@@ -14,7 +14,7 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 
 -   ### User stories
 
-    -   ### As a website creator, I want to:
+    -   #### As a website creator, I want to:
         1. To build the website visually appealing upon first visit so the user is intrigued to explore all the pages.
         2. To build a website easy to navigate for the users.
 
@@ -139,11 +139,10 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 
 ## Future Features
   
-   ## Customer Review Section
+   ### Customer Review Section
 
    - Add a Customer Review Section in the Home page to improve the website and display customers experience at Travel World and opinion about the company.
 
- 
 
 ## Technologies Used
 
