@@ -55,11 +55,15 @@ This project is to create a Front End website for a Travel Company. A businessâ€
     -   #### Google Maps
         -   The web site has a Google Maps location implemented where the users can find the office in Dublin.
 
+    -   #### Interative Links  
+
+       -    In the bottom of the Landing Page and footer, users can access the company social links (Facebook and Twitter) opened in a new tab when is pressed.
+       -    In the Banner Bali and Banner Maldivas user can ring to the company pressed the book now button.
+
+
 ## Features
 
 -   Responsive on all device sizes between 280px-2600px wide
-
--   Interactive elements (Social links)
 
 ### Landing Page 
 
