@@ -58,7 +58,7 @@ This project is to create a Front End website for a Travel Company. A businessâ€
     -   #### Interative Links  
 
        -    In the bottom of the Landing Page and footer, users can access the company social links (Facebook and Twitter) opened in a new tab when is pressed.
-       -    In the Banner Bali and Banner Maldivas user can ring to the company pressed the book now button.
+       -    In the Banner Bali and Banner Maldivas user can ring to the company pressing the book now button.
 
 
 ## Features
@@ -72,10 +72,14 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 - The Landing Page is the first contact that users have with the website. This page works as a cover with a video playing in the background and has some text as marketing slogan trying to keep the users in the website. The button drives the viewers to the homepage when is pressed. <br>
 [Live Page Here](https://pedrocristo.github.io/portfolio_project_1/index.html)
 
+### Navigation Menu
+- In the top of the website, users can find a fixed navigation menu, fully responsive in all devices. In this navigation menu users can navigate to the difference pages in the website!
+![Navigation Menu](./assets/images/readme-images/navigation-menu.jpg)
+
 ### Home Page Header
 
 ![Home Page Header](./assets/images/readme-images/home-page-header-image.jpg)
-- In this feature the user have access to the navbar fixed on the top of the page to navigate throughout the website. They can see a background travel theme on the page and get some information about how the users can trust the company with some services displayed. <br>
+- In this features users can see travel image as a background follow down by some services provided by the company trying to show the users that is save to book a trip with Travel World. <br>
 [Live Page Here](https://pedrocristo.github.io/portfolio_project_1/home.html)
 
 ### About Section
