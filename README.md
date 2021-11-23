@@ -73,8 +73,10 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 [Live Page Here](https://pedrocristo.github.io/portfolio_project_1/index.html)
 
 ### Navigation Menu
-- In the top of the website, users can find a fixed navigation menu, fully responsive in all devices. In this navigation menu users can navigate to the difference pages in the website!
+
 ![Navigation Menu](./assets/images/readme-images/navigation-menu.jpg)
+- In the top of the website, users can find a fixed navigation menu, fully responsive in all devices. In this navigation menu users can navigate to the difference pages in the website! They can also see the Travel World logo on the left side.
+[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html)
 
 ### Home Page Header
 
