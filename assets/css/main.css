@@ -151,13 +151,13 @@ hr {
 /* FONT AWESOME */
 .fa-arrow-right {
     font-size: 20px;
-    animation: arrow_color ease-in-out 8s infinite;
+    animation: arrow_animation ease-in-out 8s infinite;
 }
 
 /* ANIMATION */
 
 /* Arrow Animation */
-@keyframes arrow_color {
+@keyframes arrow_animation {
     0% {
 
         opacity: 1;
@@ -436,8 +436,8 @@ hr {
     background-image: url(../images/bali-bg.webp);
 }
 
-#banner-maldivas {
-    background-image: url(../images/maldivas-bg.jpg);
+#banner-maldives {
+    background-image: url(../images/maldives-bg.jpg);
 }
 
 .banner .banner-box {
@@ -1130,8 +1130,8 @@ textarea {
     background-image: url(../images/images-mobile/bali-bg-mobile.webp);
     }
 
-    #banner-maldivas {
-    background-image: url(../images/images-mobile/maldivas-bg-mobile.webp);
+    #banner-maldives {
+    background-image: url(../images/images-mobile/maldives-bg-mobile.webp);
     }
 
     .banner-box .sub-title {
