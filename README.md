@@ -30,16 +30,19 @@ This project is to create a Front End website for a Travel Company. A businessâ€
         2. To find more relevant information about the company
 
 -   ### Design
+   
+    -  #### Website Structure
+       -   Travel World website is a 4 pages site: Landing Page, Home Page, Contact Page and Thanks Page. The default loading page is the Landing Page and is linked to the Home Page by a button. The Home Page has 8 sections: Trust, About, Banner Bali, Top Trips, Banner Maldives, City Breaks, Parteners and Footer. This page is linked to all website by the Navigation Menu. The Contact Page has te Menu on the top and 3 sections: Contact Form, Parteners and Footer. The Thanks Page has to sections: Thanks message and Footer.
 
     -   #### Colour Scheme
-        -    There are four main colors used, white (#ffffff), a variation of white (#faebd7) an orange tone (#f84f0d) and a black (#111111). The white is used to fit the      main website background, the black is used for text while the orange represents a color tone that can be seen in the logo, titles and icons. The variation of           white (#faebd7) is used for the button background when hovered.
+        -    There are four main colors used, white (#ffffff), a variation of white (#faebd7) an orange tone (#f84f0d) and a black (#111111). The white is used to fit the      main website background, the black is used for text while the orange represents a color tone that can be seen in the logo, titles and icons. The variation of white (#faebd7) is used for the button background when hovered.
 
 
     -   #### Typography
          -   The Poppins , sans-serif is used as the main font for the whole website.
          -   The El Messiri, sans-serif is used to display the hotels name on the cards.
+         
     -   #### Imagery
-
           - 3 background images one in the Header and another two in the Banner Section.
           - 6 Images for the icones in the Tust Section wit the size of 48px by 48px. They are PNG files.
           - 2 images in the about section with the size of 680px by 410px.
@@ -75,7 +78,7 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 ### Navigation Menu
 
 ![Navigation Menu](./assets/images/readme-images/navigation-menu.jpg)
-- In the top of the website, users can find a fixed navigation menu, fully responsive in all devices. In this navigation menu users can navigate to the difference pages in the website! They can also see the Travel World logo on the left side.
+- In the top of the website, users can find a fixed navigation menu, fully responsive in all devices. In this navigation menu users can navigate to the difference pages in the website! They can also see the Travel World logo on the left side. <br>
 [Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html)
 
 ### Home Page Header
@@ -91,7 +94,7 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 - In this feature users have access to information about the company, like what is the main purpose of the company, year of founded and also the benefits to work for Travel World. <br>
 [Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#about-section)
 
-### Banner Section 1 Bali
+### Banner Section 1 - Bali
 
 ![Banner Section 1](./assets/images/readme-images/home-page-banner-section-1.jpg)
 
@@ -105,7 +108,7 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 - This feature is a cards section where users can see the top travel deals displayed with information about city, country, price, hotel name, hotel stars, number of days and nights. The card has a button where the user can book and when is hovered by the user the box-shadow changes.<br>
 [Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#top-trips)
 
-### Banner Section 2 Maldivas
+### Banner Section 2 - Maldivas
 
 ![Banner Section 2](./assets/images/readme-images/home-page-banner-section-2.jpg)
 
