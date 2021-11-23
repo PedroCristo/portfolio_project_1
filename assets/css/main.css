@@ -160,23 +160,23 @@ hr {
 @keyframes arrow_color {
     0% {
 
-        color: var(--text-white);
+        opacity: 1;
 
     } 25% {
 
-        color: var(--iterative-color);
+        opacity: 0.4;
 
     } 50% {
 
-        color: var(--text-white);
+        opacity: 1;
 
     } 75% {
 
-        color: var(--iterative-color);
+        opacity: 0.4;
 
     } 100% {
 
-        color: var(--text-white);
+        opacity: 1;
 
     }
 }
@@ -495,7 +495,6 @@ hr {
     border-radius: 5px;
     z-index: -1;
     position: relative;
-    height: auto;
 }
 
 #top-trips .top-trips-card .price,
