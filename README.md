@@ -76,7 +76,7 @@ This projectis is a Front End website for a Travel Company. A business’s onlin
         ![Landing Page](./assets/images/readme-images/color-pallete.jpg)
         -   There are four main colors used, white (#ffffff), a variation of white (#faebd7) an orange tone (#f84f0d) and a black (#111111). The white is used to fit the      main website background, the black is used for text while the orange represents a color tone that can be seen in the logo, titles and icons. The variation of white 
         (#faebd7) is used for the button background when hovered.
-        -   In the Footer Section I used a linear gradient background color using four main colors and with orientation of 258 degrees.
+        -   In the Footer Section I used a linear gradient as background using four main colors and orientation of 258 degrees.
 
     -   #### Typography
          -   The Poppins , sans-serif is used as the main font for the whole website.
