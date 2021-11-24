@@ -13,7 +13,7 @@ This projectis is a Front End website for a Travel Company. A business’s onlin
 ## README Table Content
 
 * [INTRODUCTION](#introduction)
-* [User Experience](#user-experience-(UX))
+* [User Experience](#user-experience---UX)
     * [User stories](#user-stories)
 * [Design](#Design)
     * [Website Structure](#website-structure)
@@ -38,30 +38,18 @@ This projectis is a Front End website for a Travel Company. A business’s onlin
     * [Thanks Page](#thanks-page)
 * [Future Features](#future-features)
     * [Customer Review Section](#costumer-review-section)
+* [Technologies Used](#technologies-used)
+    * [Languages Used](#languages-used)
+    * [Frameworks, Libraries & Programs Used](#frameworks,-libraries-&-programs-used)
+* [Testing](#testing)
+      * [Bugs](#bugs)
+      * [Website Development Issues](#website-development-issues)
+      * [Technologies Used](#technologies-used)
+* [Deployment](#deployment)
+* [Credits](#credits)
+* [Content](#content)
 
-    * [Contact Page](#Contact-page)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-## User Experience (UX)
+## User Experience - UX
 
 -   ### User Stories
 
