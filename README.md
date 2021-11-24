@@ -13,7 +13,7 @@ This projectis is a Front End website for a Travel Company. A business’s onlin
 ## README Table Content
 
 * [Introduction](#introduction)
-* [User Experience](#user-experience---UX)
+* [User Experience UX](#user-experience---UX)
     * [User stories](#user-stories)
 * [Design](#Design)
     * [Website Structure](#website-structure)
@@ -65,7 +65,7 @@ This projectis is a Front End website for a Travel Company. A business’s onlin
     -   #### As a returning visitor, I want to:
 
         1. To find a new available package holidays.
-        2. To find more relevant information about the company
+        2. To find more relevant information about the company.
 
 -   ### Design
    
@@ -73,9 +73,10 @@ This projectis is a Front End website for a Travel Company. A business’s onlin
        -   Travel World website is a 4 pages site: Landing Page, Home Page, Contact Page and Thanks Page. The default loading page is the Landing Page and is linked to the Home Page by a button. The Home Page has 8 sections: Trust, About, Banner Bali, Top Trips, Banner Maldives, City Breaks, Parteners and Footer. This page is linked to all website by the Navigation Menu. The Contact Page has te Menu on the top and 3 sections: Contact Form, Parteners and Footer. The Thanks Page has to sections: Thanks message and Footer.
 
     -   #### Colour Scheme
-        ![Landing Page](./assets/images/readme-images/color-palete.jpg)
-        -    There are four main colors used, white (#ffffff), a variation of white (#faebd7) an orange tone (#f84f0d) and a black (#111111). The white is used to fit the      main website background, the black is used for text while the orange represents a color tone that can be seen in the logo, titles and icons. The variation of white (#faebd7) is used for the button background when hovered.
-
+        ![Landing Page](./assets/images/readme-images/color-pallete.jpg)
+        -   There are four main colors used, white (#ffffff), a variation of white (#faebd7) an orange tone (#f84f0d) and a black (#111111). The white is used to fit the      main website background, the black is used for text while the orange represents a color tone that can be seen in the logo, titles and icons. The variation of white 
+        (#faebd7) is used for the button background when hovered.
+        -   In the Footer Section I used a linear gradient background color using four main colors and with orientation of 258 degrees.
 
     -   #### Typography
          -   The Poppins , sans-serif is used as the main font for the whole website.
