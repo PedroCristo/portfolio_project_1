@@ -37,14 +37,13 @@ This projectis is a Front End website for a Travel Company. A business’s onlin
     * [Contact Page](#Contact-page)
     * [Thanks Page](#thanks-page)
 * [Future Features](#future-features)
-    * [Customer Review Section](#costumer-review-section)
+    * [Costutomer Review Section](#costumer-review-section)
 * [Technologies Used](#technologies-used)
     * [Languages Used](#languages-used)
-    * [Frameworks, Libraries & Programs Used](#frameworks,-libraries-&-programs-used)
+    * [Frameworks - Libraries & Programs Used](#frameworks---libraries-&-programs-used)
 * [Testing](#testing)
-      * [Bugs](#bugs)
-      * [Website Development Issues](#website-development-issues)
-      * [Technologies Used](#technologies-used)
+    * [Bugs](#bugs)
+    * [Website Development Issues](#website-development-issues)
 * [Deployment](#deployment)
 * [Credits](#credits)
 * [Content](#content)
@@ -204,7 +203,7 @@ This projectis is a Front End website for a Travel Company. A business’s onlin
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 -   [Bootstrap](https://getbootstrap.com/)
 
-### Frameworks, Libraries & Programs Used
+### Frameworks - Libraries & Programs Used
 
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Poppins' and 'El Messiri' fonts throughout the style.css.
@@ -243,7 +242,7 @@ The testing was done using the Google Chrome Browser. Chrome Developer Tools was
 
    ## Website Development Issues
 
- - Because of misunderstanding how to do Git Commit I was doing them wrong. After I had my first call with my mentor he clarify to me how to do it and I have been following his explanation.
+ - Because of a misunderstanding how to do Git Commit I was doing them wrong. After I had my first call with my mentor he clarify to me how to do it and I have been following his explanation.
 ## Deployment
 
 The website development has been done in the "main" branch. This branch has been deployed using GitHub Pages.
