@@ -40,7 +40,7 @@ This project is a Front End website for a Travel Company.  Regardless of their i
     * [Costutomer Review Section](#costumer-review-section)
 * [Technologies Used](#technologies-used)
     * [Languages Used](#languages-used)
-    * [Frameworks - Libraries & Programs Used](#frameworks---libraries-&-programs-used)
+    * [Frameworks - Libraries - Programs Used](#frameworks---libraries---programs-used)
 * [Testing](#testing)
     * [Bugs](#bugs)
     * [Website Development Issues](#website-development-issues)
@@ -204,7 +204,7 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 -   [Bootstrap](https://getbootstrap.com/)
 
-### Frameworks - Libraries & Programs Used
+### Frameworks - Libraries - Programs Used
 
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Poppins' and 'El Messiri' fonts throughout the style.css.
