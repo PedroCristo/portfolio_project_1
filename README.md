@@ -13,11 +13,8 @@ This projectis is a Front End website for a Travel Company. A business’s onlin
 ## README Table Content
 
 * [INTRODUCTION](#introduction)
-* [User Experience](#user-experience)
-    * [As a website creator](#as-a-website-creator,-i-want-to:)
-    * [As a new visitor](as-a-new-visitor,-i-want-to:)
-    * [As a returning visitor](#as-a-returning-visitor,-i-want-to:)
-    * [Design Choices](<#design-choices>)
+* [User Experience](#user-experience-(UX))
+    * [User stories](#user-stories)
 * [Design](#Design)
     * [Website Structure](#website-structure)
     * [Colour Scheme](#colour-scheme)
@@ -33,6 +30,22 @@ This projectis is a Front End website for a Travel Company. A business’s onlin
     * [About Section](#about-section)
     * [Banner Section 1 - Bali](#banner-section-1---bali)
     * [Top Trips Section](#top-trips-section)
+    * [Banner Section 2 - Maldives](#banner-section-2---maldives)
+    * [City Breaks Section](#city-breaks-section)
+    * [Partners Section](#partners-section)
+    * [Footer Section](#footer-section)
+    * [Contact Page](#Contact-page)
+    * [Thanks Page](#thanks-page)
+* [Future Features](#future-features)
+    * [Customer Review Section](#costumer-review-section)
+
+    * [Contact Page](#Contact-page)
+
+
+
+
+
+
 
 
 
@@ -50,7 +63,7 @@ This projectis is a Front End website for a Travel Company. A business’s onlin
 
 ## User Experience (UX)
 
--   ### User stories
+-   ### User Stories
 
     -   #### As a website creator, I want to:
         1. To build the website visually appealing upon first visit so the user is intrigued to explore all the pages.
@@ -190,9 +203,9 @@ This projectis is a Front End website for a Travel Company. A business’s onlin
 
 ## Future Features
   
-   ### Customer Review Section
+   ### Costumer Review Section
 
-   - Add a Customer Review Section in the Home page to improve the website and display customers experience at Travel World and opinion about the company.
+   - Add a Costumer Review Section in the Home page to improve the website and display customers experience at Travel World and opinion about the company.
 
 
 ## Technologies Used
