@@ -3,7 +3,7 @@
 # Introduction
 Project milestone 1 for Code Institute Full-stack development program: HTML/CSS Essentials
 
-This project is to create a Front End website for a Travel Company. A businessâ€™s online presence, regardless of industry, can have a massive impact on its success. The main purpose is to show the users, the company and promote the brand to a new clients, displaying tours around the world and interactive with a user throughout a contact form and social media.
+This projectis is a Front End website for a Travel Company. A businessâ€™s online presence, regardless of industry, can have a massive impact on its success. The main purpose is to show the users the company and promote the brand to a new clients, displaying  package holidays and interactive with a user throughout a contact form and social media.
 
 [Live Project Here](https://pedrocristo.github.io/portfolio_project_1/index.html)
 
@@ -36,6 +36,7 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 
     -   #### Colour Scheme
         -    There are four main colors used, white (#ffffff), a variation of white (#faebd7) an orange tone (#f84f0d) and a black (#111111). The white is used to fit the      main website background, the black is used for text while the orange represents a color tone that can be seen in the logo, titles and icons. The variation of white (#faebd7) is used for the button background when hovered.
+        ![Landing Page](./assets/images/readme-images/color-palete.jpg)
 
 
     -   #### Typography
@@ -65,7 +66,6 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 
 
 ## Features
-
 -   Responsive on all device sizes between 280px-2600px wide
 
 ### Landing Page 
@@ -112,7 +112,7 @@ This project is to create a Front End website for a Travel Company. A businessâ€
 
 ![Banner Section 2](./assets/images/readme-images/home-page-banner-section-2.jpg)
 
-- This features has the same purpose as the Banner 1 Section with a different travel deal displayed.<br>
+- This features has the same purpose as the Banner 1 - Bali with a different travel deal displayed.<br>
 [Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#banner-maldivas)
 
 ### City Breaks Section
