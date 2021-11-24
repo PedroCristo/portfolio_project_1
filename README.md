@@ -10,6 +10,17 @@ This projectis is a Front End website for a Travel Company. A business’s onlin
 
 <p align="center"><img src="./assets/images/readme-images/travel-world-responsiveness.jpg" alt="Travel World Webpage on multiple devices"></p>
 
+## README Table Map
+
+* [INTRODUCTION](#introduction)
+* [User Experience](#user-experience)
+    * [As a website creator](#as-a-website-creator)
+    * [As a new visitor](as-a-new-visitor)
+    * [As a returning visitor](#as-a-returning-visitor)
+    * [Design Choices](<#design-choices>)
+* [Design](#Design)
+    *  [ Website Structure](# website-structure)
+
 ## User Experience (UX)
 
 -   ### User stories
@@ -24,7 +35,7 @@ This projectis is a Front End website for a Travel Company. A business’s onlin
         2. To be able to easily navigate throughout the site and find a relevant content about package holidays.
         3. To be able to contact the company for more information in an easy way.
 
-    -   #### As a returning, I want to:
+    -   #### As a returning visitor, I want to:
 
         1. To find a new available package holidays.
         2. To find more relevant information about the company
