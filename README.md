@@ -70,7 +70,7 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 -   ### Design
    
     -  #### Website Structure
-       -   Travel World website is a 4 page site:  Page 1 Landing Page Page 2  Home Page Page 3 Contact Page and Page 4: 'Thanks' Page. The default loading page is the Landing Page and it is linked to the Home Page by a button. The Home Page has 8 sections:  (1) Trust (2) About (3) Banner Bali (4) Top Trips (5) Banner Maldives (6) City Breaks, (7)Partners and (8) Footer. This page is linked to all of the website by the Navigation Menu. The Contact Page has the Menu at the top and 3 sections:  Section 1 : Contact Form Section 2 Partners and Section 3 Footer. The 'Thanks' Page has two sections:  Section 1 : 'Thanks' message and  Section 2: Footer.
+       -   Travel World website is a 4 page site: Landing Page, Home Page, Contact Page and Thanks Page. The default loading page is the Landing Page and it is linked to the Home Page by a button. The Home Page has 8 sections:  (1) Trust, (2) About, (3) Banner Bali, (4) Top Trips, (5) Banner Maldives, (6) City Breaks, (7) Partners and (8) Footer. This page is linked to all of the website by the Navigation Menu. The Contact Page has the Menu at the top and 3 sections:  Section 1 : Contact Form Section 2 Partners and Section 3 Footer. The 'Thanks' Page has two sections:  Section 1 : 'Thanks' message and  Section 2: Footer.
 
     -   #### Colour Scheme
         ![Landing Page](./assets/images/readme-images/color-pallete.jpg)
