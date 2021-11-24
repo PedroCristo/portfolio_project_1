@@ -202,6 +202,9 @@ The testing was done using the Google Chrome Browser. Chrome Developer Tools was
 
 - No bugs were found while the website has been testing.
 
+   ## Website Development Issues
+
+ - Because of misunderstanding how to do Git Commit I was doing them wrong. After I had my first call with my mentor he clarify to me how to do it and I have been following his explanation.
 ## Deployment
 
 The website development has been done in the "main" branch. This branch has been deployed using GitHub Pages.
