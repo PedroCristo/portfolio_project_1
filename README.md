@@ -12,7 +12,7 @@ This projectis is a Front End website for a Travel Company. A business’s onlin
 
 ## README Table Content
 
-* [INTRODUCTION](#introduction)
+* [Introduction](#introduction)
 * [User Experience](#user-experience---UX)
     * [User stories](#user-stories)
 * [Design](#Design)
