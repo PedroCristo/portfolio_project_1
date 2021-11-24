@@ -10,16 +10,43 @@ This projectis is a Front End website for a Travel Company. A business’s onlin
 
 <p align="center"><img src="./assets/images/readme-images/travel-world-responsiveness.jpg" alt="Travel World Webpage on multiple devices"></p>
 
-## README Table Map
+## README Table Content
 
 * [INTRODUCTION](#introduction)
 * [User Experience](#user-experience)
-    * [As a website creator](#as-a-website-creator)
-    * [As a new visitor](as-a-new-visitor)
-    * [As a returning visitor](#as-a-returning-visitor)
+    * [As a website creator](#as-a-website-creator,-i-want-to:)
+    * [As a new visitor](as-a-new-visitor,-i-want-to:)
+    * [As a returning visitor](#as-a-returning-visitor,-i-want-to:)
     * [Design Choices](<#design-choices>)
 * [Design](#Design)
-    *  [ Website Structure](# website-structure)
+    * [Website Structure](#website-structure)
+    * [Colour Scheme](#colour-scheme)
+    * [Typography](#typography)
+    * [Imagery](#imagery)
+    * [Videos](#videos)
+    * [Google Maps](#google-maps)
+    * [Interative Links](#interative-links)
+* [Features](#features)
+    * [Landing Page](#landing-page)
+    * [Navigation Menu](#navigation-menu)
+    * [Home Page Header](#home-age-eader)
+    * [About Section](#about-section)
+    * [Banner Section 1 - Bali](#banner-section-1---bali)
+    * [Top Trips Section](#top-trips-section)
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
 
 ## User Experience (UX)
 
