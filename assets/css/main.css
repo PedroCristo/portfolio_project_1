@@ -15,8 +15,8 @@
 }
 
 @font-face {
-    font-family: el_messiri;
-    src: url(/assets/fonts/ElMessiri-Medium.ttf);
+    font-family: el-messiri;
+    src: url(/assets/fonts/el_messiri/ComforterBrush-Regular.ttf);
     font-display: swap;
 }
 
@@ -137,7 +137,7 @@ a {
 }
 
 .el-messeri-f {
-    font-family: 'el_messiri', sans-serif;
+    font-family: 'el-messiri', sans-serif;
 }
 
 .text-white {
