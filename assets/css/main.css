@@ -15,7 +15,7 @@
 }
 
 @font-face {
-    font-family: el-messiri;
+    font-family: el_messiri;
     src: url(/assets/fonts/el_messiri/ElMessiri-Medium.ttf);
     font-display: swap;
 }
@@ -137,7 +137,7 @@ a {
 }
 
 .el-messeri-f {
-    font-family: 'el-messiri', sans-serif;
+    font-family: 'el_messiri', sans-serif;
 }
 
 .text-white {
