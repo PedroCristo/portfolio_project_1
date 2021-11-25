@@ -6,6 +6,11 @@
 /* @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap'); */
 
 @font-face {
+    font-family: el-messiri;
+    src: url(/assets/fonts/el_messiri/ElMessiri-Medium.ttf);
+    font-display: swap;
+}
+@font-face {
     font-family: poppins;
     src: url(/assets/fonts/poppins/Poppins-Regular.ttf);
     src: url(/assets/fonts/poppins/Poppins-Bold.ttf);
@@ -14,11 +19,6 @@
     font-display: swap;
 }
 
-@font-face {
-    font-family: el-messiri;
-    src: url(/assets/fonts/el_messiri/ElMessiri-Medium.ttf);
-    font-display: swap;
-}
 
 /* GENERAL STYLES */
 :root {
