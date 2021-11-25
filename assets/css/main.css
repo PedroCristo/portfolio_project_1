@@ -15,10 +15,9 @@
 }
 
 @font-face {
-    font-family: el-messiri;
+    font-family: el messiri;
     src: url(/assets/fonts/el_messiri/ElMessiri-Regular.ttf);
     font-display: swap;
-    font-display: fallback;
 }
 
 /* GENERAL STYLES */
@@ -138,7 +137,7 @@ a {
 }
 
 .el-messeri-f {
-    font-family: 'el-messiri', sans-serif;
+    font-family: 'ElMessiri-Regular', sans-serif;
 }
 
 .text-white {
