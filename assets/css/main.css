@@ -1,9 +1,22 @@
 /* GOOGLE FONTS */
 /* poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap'); */
 
 /* el messiri */
-@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap'); */
+
+@font-face {
+    font-family: poppins;
+    src: url(/assets/fonts/poppins/Poppins-Regular.ttf);
+    src: url(/assets/fonts/poppins/Poppins-Bold.ttf);
+    src: url(/assets/fonts/poppins/Poppins-SemiBold.ttf);
+    src: url(/assets/fonts/poppins/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: el-messiri;
+    src: url(/assets/fonts/el_messiri/ElMessiri-Regular.ttf);
+}
 
 /* GENERAL STYLES */
 :root {
@@ -18,7 +31,7 @@
     /* font Color */
 
     --text-white: rgb(250, 235, 215);
-    --text-grey: rgb(229, 228, 226);
+    --text-grey: rgb(153, 150, 145);
     --text-black: rgba(17, 17, 17);
 }
 
@@ -29,7 +42,8 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins-Regular', sans-serif;
+    font-weight: 500;
 }
 
 a {
@@ -44,7 +58,7 @@ a {
     width: 250px;
     color: var(--iterative-color);
     font-size: 1.5rem;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     z-index: 100;
     margin-top: -15px;
 }
@@ -53,7 +67,6 @@ a {
     margin-top: 25px;
     display: inline-block;
     font-size: 1.1rem;
-    font-weight: bold;
     text-transform: uppercase;
     color: var(--text-white);
     border: 2px solid var(--text-white);
@@ -84,7 +97,6 @@ a {
 
 .title {
     font-size: 2.8rem;
-    font-weight: 700;
     text-transform: uppercase;
     color: var(--iterative-color);
     letter-spacing: 5px;
@@ -95,9 +107,16 @@ a {
 .sub-title {
     font-size: 2.5rem;
     color: var(--text-black);
-    font-weight: 700;
     margin: 25px;
 }
+
+.title,
+.sub-title,
+.btn {
+    font-family: 'Poppins-Bold', sans-serif;
+    font-weight: 900;
+}
+
 
 .text-p {
     font-size: 1.1rem;
@@ -106,6 +125,8 @@ a {
 }
 
 .small-title {
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-weight: 600;
     font-size: 1.8rem;
 }
 
@@ -114,7 +135,7 @@ a {
 }
 
 .el-messeri-f {
-    font-family: 'El Messiri', sans-serif;
+    font-family: 'el-messiri', sans-serif;
 }
 
 .text-white {
@@ -277,13 +298,14 @@ hr {
 
 #intro-section .text-box h1 {
     font-size: 3.2rem;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 
 #intro-section .text-box h3 {
     font-size: 2.5rem;
     margin-bottom: 15px;
+    font-weight: 600;
 }
 
 #intro-section .text-box p {
@@ -400,6 +422,7 @@ hr {
 
 .trust-section h3 {
     font-size: 1.2rem;
+    
 }
 
 .trust-section p {
@@ -414,6 +437,13 @@ hr {
     padding: 10px;
     border-radius: 50%;
     margin-right: 20px;
+}
+
+/* ABOUT SECTION */
+
+#about-section .container-box span {
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
 /* BANNER SECTION */
@@ -656,6 +686,7 @@ hr {
     background: linear-gradient(258deg, #802000 0%, #8a4b23 16%, #8f6f44 33%, #8d9267 50%, #83b68c 66%, #68dab2 83%, #00ffd9 100%);
     width: 100%;
     padding: 50px 0;
+    font-weight: 500;
 }
 
 .footer .footer-logo {
@@ -712,6 +743,7 @@ hr {
 .footer-author p {
     color: #fff;
     margin-bottom: -5px;
+    font-weight: 600;
 }
 
 /* FOOTER AUTHOR */
@@ -1186,7 +1218,7 @@ textarea {
     }
 
     #intro-section .text-box h1 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     #intro-section .text-box h3 {
