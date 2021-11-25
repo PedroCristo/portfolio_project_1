@@ -18,6 +18,7 @@
     font-family: el-messiri;
     src: url(/assets/fonts/el_messiri/ElMessiri-Regular.ttf);
     font-display: swap;
+    font-display: fallback;
 }
 
 /* GENERAL STYLES */
