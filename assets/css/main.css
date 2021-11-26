@@ -101,7 +101,6 @@ a {
     font-weight: 900;
 }
 
-
 .text-p {
     font-size: 1.1rem;
     margin-bottom: 50px;
@@ -211,6 +210,7 @@ hr {
     left: 0;
     padding: 50px;
     z-index: 10;
+    width: 350px;
 }
 
 #intro-section video {
@@ -241,18 +241,18 @@ hr {
 #intro-section .text-box h1,
 #intro-section .text-box h3 {
     text-transform: uppercase;
-    letter-spacing: 2px;
+    font-weight: 600;
 }
 
 #intro-section .text-box h1 {
     font-size: 3.2rem;
     font-weight: 800;
+
 }
 
 #intro-section .text-box h3 {
     font-size: 2.5rem;
     margin-bottom: 15px;
-    font-weight: 600;
 }
 
 #intro-section .text-box h1,
@@ -1187,7 +1187,7 @@ textarea {
     /* INTRO PAGE */
 
     #intro-section .text-box h1 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     #intro-section .text-box h3 {
@@ -1544,7 +1544,7 @@ textarea {
     }
 
     /* THANKS PAGE */
-    
+
     #thanks-box .thanks-box-text h2 {
             font-size: 1.7rem;
             margin-top: 25px;
