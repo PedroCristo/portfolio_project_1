@@ -239,7 +239,7 @@ The testing was done using the Google Chrome Browser. Chrome Developer Tools was
 
    ## Bugs
 
-- No bugs were found while the website has been testing.
+- No bugs were found during website testing. 
 
    ## Website Development Issues
 
