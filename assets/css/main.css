@@ -44,7 +44,6 @@ a {
     font-size: 1.5rem;
     letter-spacing: 2px;
     z-index: 100;
-    margin-top: -15px;
     font-weight: 500;
 }
 
@@ -223,6 +222,13 @@ hr {
     object-position: 0px 80%;
 }
 
+#intro-section .logo-intro {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+}
+
 #intro-section .overlay {
     position: absolute;
     left: 0;
@@ -329,6 +335,10 @@ hr {
     background-color: var(--overlay-black);
     padding: 25px;
     z-index: 100;
+}
+
+#header-section .logo {
+    margin-top: -15px;
 }
 
 #header-section nav ul {
@@ -907,7 +917,7 @@ textarea {
     }
 
     #intro-section .text-box h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     #intro-section .text-box h3 {
@@ -924,7 +934,7 @@ textarea {
 
     /* HOME PAGE */
 
-    .logo {
+    #header-section .logo {
         position: absolute;
         left: 25px !important;
         font-size: 1.3rem;
@@ -981,16 +991,15 @@ textarea {
 
     /* GENERAL STYLES */
 
-    .logo {
-        left: 15px !important;
-    }
-
     .btn {
         font-size: 15px;
     }
     
     /* INTRO PAGE */
-
+    #intro-section .logo-intro {
+     left: 10px;
+     top: 100px;
+    }
     #intro-section {
         padding: 50px;
         text-align: center;
@@ -999,11 +1008,6 @@ textarea {
     #intro-section video {
         object-position: initial;
     }
-
-    #intro-section .logo {
-        left: -20px !important;
-    }
-
 
     #intro-section .text-box {
         margin-top: 20px;
@@ -1152,7 +1156,7 @@ textarea {
 
     /* INTRO PAGE */
 
-    #intro-section .logo {
+    #intro-section .intro-logo {
         top: 100px !important;
     }
 
@@ -1185,6 +1189,11 @@ textarea {
 @media screen and (max-width:385px) {
 
     /* INTRO PAGE */
+    
+    #intro-section .logo-intro {
+        left: -15px;
+        top: 50px;
+       }
 
     #intro-section .text-box h1 {
         font-size: 1.2rem;
@@ -1216,12 +1225,18 @@ textarea {
 
     /* INTRO PAGE */
 
+    #intro-section .logo-intro {
+        left: -15px;
+        top: 50px;
+       }
+
     #intro-section .text-box h1 {
-        font-size: 1.1rem;
+        font-size: 1em;
     }
 
     #intro-section .text-box h3 {
-        font-size: 1rem;
+        font-size: 0.8rem;
+        margin-bottom: 25px;
     }
 
     #intro-section .text-box p {
@@ -1293,6 +1308,10 @@ textarea {
 @media screen and (max-width:736px) and (max-height:414px) {
 
     /* INTRO SECTION */
+       /* INTRO SECTION */
+       #intro-section .logo-intro {
+        top: 25px
+    }
 
     #intro-section .text-box h1 {
         font-size: 1.8rem;
@@ -1369,6 +1388,10 @@ textarea {
 @media screen and (max-width:640px) and (max-height:360px) {
 
     /* INTRO SECTION */
+    #intro-section .logo-intro {
+        font-size: 1rem;
+        top: 35px
+    }
 
     #intro-section .text-box h1 {
         font-size: 1.2rem;
@@ -1387,6 +1410,7 @@ textarea {
     }
 
 }
+
 
 /* galaxy x20 */
 @media screen and (max-width:915px) and (max-height:412px) {
@@ -1410,6 +1434,21 @@ textarea {
     }
 }
 
+
+/* galaxy s8 */
+@media screen and (max-width:915px) and (max-height:412px) {
+
+    /* INTRO SECTION */
+
+    #intro-section .logo-intro {
+        font-size: 1rem;
+        top: 35px
+    }
+
+
+}
+
+
 /* LG L70 / Nexus 4*/
 @media screen and (max-width:640px) and (max-height:384px) {
 
@@ -1428,6 +1467,8 @@ textarea {
     }
 
 }
+
+
 
 /* nokia N9 L70 */
 @media screen and (max-width:854px) and (max-height:480px) {
@@ -1452,7 +1493,7 @@ textarea {
 
     /* INTRO PAGE */
 
-    #intro-section .logo {
+    #intro-section .intro-logo {
        font-size: 1rem;
        padding: 5px 0;
     }
@@ -1514,6 +1555,36 @@ textarea {
     }
 }
 
+/* iphone 4 */
+@media screen and (max-height:480px) and (max-width:320px) {
+   /* INTRO PAGE */
+
+   
+#intro-section .logo-intro{
+    font-size: 1rem!important;
+    top:25px;
+}
+
+#intro-section .text-box h1 {
+    font-size: 1rem;
+}
+
+#intro-section .text-box h3 {
+    font-size: 1rem;
+  
+}
+
+#intro-section .text-box p {
+    font-size: 0.7rem;
+  
+}
+
+#intro-section .btn {
+    font-size: 0.5rem;
+
+}
+}
+
 /* iphone 5S */
 @media screen and (max-height:320px) and (max-width:568px) {
 
@@ -1542,6 +1613,7 @@ textarea {
         font-size: 0.6rem;
         margin-bottom: -25px;
     }
+    
 
     /* THANKS PAGE */
 
