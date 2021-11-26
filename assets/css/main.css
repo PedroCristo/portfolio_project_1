@@ -10,13 +10,13 @@
     src: url(/assets/fonts/Poppins-Regular.ttf);
     src: url(/assets/fonts/Poppins-Bold.ttf);
     src: url(/assets/fonts/Poppins-SemiBold.ttf);
-    src: url(/assets/fonts/Poppins-ExtraBold.ttf);
+    src: url(/assets/fonts/ElMessiri-Medium.ttf);
     font-display: swap;
 }
 
 @font-face {
     font-family: el-messiri;
-    src: url(/assets/fonts/ElMessiri-Medium.ttf);
+    src: url(/portfolio_project_1/assets/fonts/ElMessiri-Medium.ttf);
     font-display: swap;
 }
 
