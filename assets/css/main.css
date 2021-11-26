@@ -1,36 +1,19 @@
 /* GOOGLE FONTS */
 /* poppins */
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
 
 /* el messiri */
-/* @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap');
 
-@font-face {
-    font-family: poppins;
-    src: url(/assets/fonts/Poppins-Regular.ttf);
-    src: url(/assets/fonts/Poppins-Bold.ttf);
-    src: url(/assets/fonts/Poppins-SemiBold.ttf);
-    font-display: swap;
-}
-
-@font-face {
-    font-family: el-messiri;
-    src: url(./assets/fonts/ElMessiri-Medium.ttf);
-    font-display: swap;
-}
 
 /* GENERAL STYLES */
 :root {
     --iterative-color: rgb(248, 79, 13);
-    /* --iterative-color: rgba(0, 255, 85, 0.788); */
-
     --overlay-black: rgba(0, 0, 0, 0.7);
     --fully-black: rgb(17, 17, 17);
     --light-grey: rgb(224, 218, 218);
 
-
     /* font Color */
-
     --text-white: rgb(250, 235, 215);
     --text-grey: rgb(153, 150, 145);
     --text-black: rgba(17, 17, 17);
@@ -43,8 +26,8 @@
 }
 
 body {
-    font-family: 'Poppins-Regular', sans-serif;
-    font-weight: 500;
+    font-family: 'poppins', sans-serif;
+   
 }
 
 a {
@@ -59,9 +42,10 @@ a {
     width: 250px;
     color: var(--iterative-color);
     font-size: 1.5rem;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     z-index: 100;
     margin-top: -15px;
+    font-weight: 500;
 }
 
 .btn {
@@ -114,7 +98,6 @@ a {
 .title,
 .sub-title,
 .btn {
-    font-family: 'Poppins-Bold', sans-serif;
     font-weight: 900;
 }
 
@@ -126,7 +109,6 @@ a {
 }
 
 .small-title {
-    font-family: 'Poppins-SemiBold', sans-serif;
     font-weight: 600;
     font-size: 1.8rem;
 }
@@ -136,7 +118,7 @@ a {
 }
 
 .el-messeri-f {
-    font-family: 'el-messiri', sans-serif;
+    font-family: 'El Messiri', sans-serif;
 }
 
 .text-white {
@@ -202,45 +184,11 @@ hr {
     }
 }
 
-/* preloader animation */
-
-@keyframes preloader {
-
-    0% {
-
-        opacity: 1;
-        z-index: 100;
-
-    } 50% {
-
-        opacity: 1;
-        z-index: 100;
-
-   } 100% {
-     
-    opacity: 1;
-        z-index: 100;
-
-   }
-}
 /*******************************
 *                              *
 *         INTRO PAGE           *
 *                              *
 *******************************/
-.preloader {
- background-image: url(../images/gif/preloader.gif);
- background-size: cover;
- background-position: center center;
- width: 100%;
- height: 100vh;
- position: absolute;
- top: 0;
- right: 0;
- animation: preloader ease-in-out 3s;
- opacity: 0;
-}
-
 
 #intro-section {
     position: absolute;
@@ -264,7 +212,6 @@ hr {
     padding: 50px;
     z-index: 10;
 }
-
 
 #intro-section video {
     position: absolute;
@@ -302,11 +249,15 @@ hr {
     font-weight: 800;
 }
 
-
 #intro-section .text-box h3 {
     font-size: 2.5rem;
     margin-bottom: 15px;
     font-weight: 600;
+}
+
+#intro-section .text-box h1,
+#intro-section .text-box h3 {
+    letter-spacing: 4px;
 }
 
 #intro-section .text-box p {
@@ -430,7 +381,6 @@ hr {
     font-size: 0.9rem;
 }
 
-
 .trust-section img {
     width: 60px;
     height: 60px;
@@ -553,7 +503,6 @@ hr {
     list-style: none;
     margin-top: 25px;
     text-align: center;
-
 }
 
 #top-trips .top-trips-card ul li,
@@ -577,7 +526,6 @@ hr {
 #city-trips .icons-box {
     text-align: center;
 }
-
 
 #top-trips .icons-box .btn-trips,
 #city-trips .icons-box .btn-trips {
@@ -668,7 +616,6 @@ hr {
     display: block;
 }
 
-
 /* PARTNERS SECTION */
 
 .partners-section {
@@ -742,12 +689,10 @@ hr {
 }
 
 .footer-author p {
-    color: #fff;
+    color: var(--text-white);
     margin-bottom: -5px;
-    font-weight: 600;
 }
 
-/* FOOTER AUTHOR */
 
 /*******************************
 *                              *
@@ -797,7 +742,6 @@ hr {
     padding: 0;
 }
 
-
 /*******************************
 *                              *
 *         CONTACT PAGE         *
@@ -817,7 +761,6 @@ hr {
     border-radius: 15px;
     box-shadow: var(--overlay-black) 1px 10px 10px -1px;
 }
-
 
 #contact-form form input,
 select,
@@ -886,6 +829,8 @@ textarea {
 
 @media screen and (min-width:1399px) {
 
+     /* CONTACT FORM */
+
     #contact-form .map-box {
         padding-top: 70%;
     }
@@ -922,9 +867,6 @@ textarea {
         margin: 15px 0 !important;
     }
 
-    /* INTRO PAGE */
-
-
     /* HOME PAGE */
 
     .banner .btn,
@@ -954,13 +896,12 @@ textarea {
     #contact-form img {
         margin-top: 0;
     }
-
 }
-
 
 @media screen and (max-width:769px) {
 
     /* INTRO PAGE */
+
     #intro-section {
         padding: 50px;
     }
@@ -989,7 +930,6 @@ textarea {
         font-size: 1.3rem;
     }
 
- 
     .banner-box .sub-title {
         font-size: 2rem;
     }
@@ -1039,15 +979,25 @@ textarea {
 
 @media screen and (max-width:600px) {
 
+    /* GENERAL STYLES */
+
+    .logo {
+        left: 15px !important;
+    }
+
+    .btn {
+        font-size: 15px;
+    }
+    
+    /* INTRO PAGE */
+
     #intro-section {
         padding: 50px;
         text-align: center;
     }
 
     #intro-section video {
-
         object-position: initial;
-
     }
 
     #intro-section .logo {
@@ -1067,7 +1017,6 @@ textarea {
         font-size: 1.5rem;
     }
 
-
     #intro-section .text-box p {
         width: 100%;
         font-size: 0.8rem;
@@ -1084,22 +1033,11 @@ textarea {
     #intro-section .social ul li i {
         border: none;
     }
-
     #intro-section .social ul li i:hover {
-
         border: none;
     }
 
-    .btn {
-        font-size: 15px;
-    }
-
     /* HOME PAGE */
-
-    .logo {
-        left: 15px !important;
-
-    }
 
     #header-section {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), #111), url(../images/mobile-images/travel-world-bg--mobile-1.webp);
@@ -1157,7 +1095,6 @@ textarea {
         text-align: center;
     }
 
-    
     #banner-bali {
     background-image: url(../images/mobile-images/bali-bg-mobile.webp);
     }
@@ -1203,7 +1140,7 @@ textarea {
 
 @media screen and (max-width:415px) {
 
-
+     /* GENERAL STYLES */
 
     .title {
         font-size: 2rem;
@@ -1214,6 +1151,7 @@ textarea {
     }
 
     /* INTRO PAGE */
+
     #intro-section .logo {
         top: 100px !important;
     }
@@ -1238,14 +1176,15 @@ textarea {
     }
 
     /* CONTACT PAGE */
+
     #contact-form form {
         padding: 25px;
     }
 }
 
 @media screen and (max-width:385px) {
-    /* INTRO PAGE */
 
+    /* INTRO PAGE */
 
     #intro-section .text-box h1 {
         font-size: 1.4rem;
@@ -1258,7 +1197,6 @@ textarea {
     /* CONTACT PAGE */
 
     input[type=submit] {
-
         width: 160px !important;
     }
 
@@ -1266,6 +1204,7 @@ textarea {
 
 @media screen and (max-width:325px) {
 
+  /* GENERAL STYLES */
 
     .title {
         font-size: 1.8rem;
@@ -1276,7 +1215,6 @@ textarea {
     }
 
     /* INTRO PAGE */
-
 
     #intro-section .text-box h1 {
         font-size: 1.1rem;
@@ -1336,12 +1274,12 @@ textarea {
     .header-section .btn {
         margin-bottom: 100px;
     }
-
 }
 
 @media screen and (max-width:375px) and (max-height:768px) {
 
     /* THANKS PAGE */
+
     #thanks-box .thanks-box-text h2 {
         font-size: 2rem;
     }
@@ -1349,12 +1287,6 @@ textarea {
     #thanks-box .thanks-box-text p {
         font-size: 1.4rem;
     }
-
-}
-
-/* iphone 4S */
-@media screen and (max-width:480px) and (max-height:320px) {
-
 }
 
 /* iphone 6 / 7 / 8 */
@@ -1379,6 +1311,7 @@ textarea {
     }
 
     /* THANKS PAGE */
+
     #thanks-box .thanks-box-text h2 {
         font-size: 2rem;
         margin-top: 25px;
@@ -1416,8 +1349,8 @@ textarea {
         width: 25%;
     }
 
-
     /* THANKS PAGE */
+
     #thanks-box .thanks-box-text h2 {
         font-size: 2rem;
     }
@@ -1475,20 +1408,10 @@ textarea {
     .btn {
         font-size: 0.8rem;
     }
-
-}
-
-
-/* blackberry playbook */
-@media screen and (max-width:1024px) and (max-height:600px) {
-
-    /* INTRO PAGE */
-  
 }
 
 /* LG L70 / Nexus 4*/
 @media screen and (max-width:640px) and (max-height:384px) {
-
 
     /* INTRO PAGE */
 
@@ -1527,12 +1450,11 @@ textarea {
 /* nokia lumia 520*/
 @media screen and (max-width:533px) and (max-height:320px) {
 
-
     /* INTRO PAGE */
+
     #intro-section .logo {
        font-size: 1rem;
        padding: 5px 0;
-       
     }
 
     #intro-section .text-box h1 {
@@ -1560,10 +1482,8 @@ textarea {
 
     /* INTRO SECTION */
 
-
     #intro-section .text-box h1 {
         font-size: 1.1rem;
-        
     }
 
     #intro-section .text-box span {
@@ -1576,12 +1496,10 @@ textarea {
 
     #intro-section .text-box p {
         font-size: 0.7rem;
-
     }
 
     #intro-section .btn {
         font-size: 0.8rem;
-
     }
 }
 
@@ -1589,18 +1507,18 @@ textarea {
 @media screen and (max-width:731px) and (max-height:411px) {
 
     /* THANKS PAGE */
+
     #thanks-box .thanks-box-text h2 {
         font-size: 1.8rem;
         margin-top: 25px;
     }
-
 }
-
 
 /* iphone 5S */
 @media screen and (max-height:320px) and (max-width:568px) {
 
     /* INTRO PAGE */
+
     #intro-section .text-box h1 {
         font-size: 1.1rem !important;
     }
@@ -1626,6 +1544,7 @@ textarea {
     }
 
     /* THANKS PAGE */
+    
     #thanks-box .thanks-box-text h2 {
             font-size: 1.7rem;
             margin-top: 25px;
@@ -1636,14 +1555,11 @@ textarea {
     }
     
     #thanks-box .thanks-box-text .btn {
-            font-size: 0.7rem;
-           
+            font-size: 0.7rem;  
     }
 
     #thanks-box .thanks-box-text img {
-        width: 35%;
-    
-              
+        width: 35%;    
     }
 
 }
