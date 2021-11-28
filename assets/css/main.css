@@ -1141,6 +1141,22 @@ textarea {
         padding: 0 ;
         margin: 0 ;
     }
+}
+
+@media screen and (max-width:500px) {
+
+      /* INTRO PAGE */
+
+      #intro-section .logo-mobile {
+        display: block!important;
+        margin-bottom: 50px!important;
+        font-size: 1.5rem!important;
+        letter-spacing: 5px;
+    }
+
+    #intro-section .logo{
+        display: none!important;
+    }
 
 }
 
@@ -1158,17 +1174,6 @@ textarea {
 
     /* INTRO PAGE */
 
-    #intro-section .logo-mobile {
-        display: block!important;
-        margin-bottom: 50px!important;
-        font-size: 1.5rem!important;
-        letter-spacing: 5px;
-    }
-
-    #intro-section .logo{
-        display: none!important;
-    }
-    
     #intro-section .text-box h1 {
         font-size: 1.5rem;
     }
