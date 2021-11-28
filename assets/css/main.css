@@ -911,8 +911,8 @@ textarea {
    /* GENERAL STYLES */
     .logo {
         position: absolute;
-        left: 55px !important;
-        top:35px;
+        left:25px !important;
+        top:40px;
         font-size: 1.3rem;
     }
 
@@ -990,8 +990,8 @@ textarea {
 @media screen and (max-width:600px) {
 
     /* GENERAL STYLES */
-       .logo {
-        font-size: 1rem;
+    .logo {
+        font-size: 1.2rem;
     }
 
     .btn {
@@ -1000,7 +1000,7 @@ textarea {
     
     /* INTRO PAGE */
     #intro-section .logo {
-     left: -20px!important;
+     left: -10px!important;
     }
 
     #intro-section {
@@ -1148,15 +1148,15 @@ textarea {
 
       /* INTRO PAGE */
 
-      #intro-section .logo-mobile {
+    #intro-section .logo-mobile {
         display: block!important;
-        padding-bottom: 50px;
+        padding-bottom: 25px;
         font-size: 1.5rem!important;
         letter-spacing: 5px;
         color: var(--iterative-color);
     }
 
-      #intro-section .logo{
+    #intro-section .logo{
         display: none!important;
     }
 
@@ -1176,12 +1176,17 @@ textarea {
 
     /* INTRO PAGE */
 
+    
+    #intro-section .logo-mobile {
+        font-size: 1.2rem!important;
+    }
+
     #intro-section .text-box h1 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     #intro-section .text-box h3 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     /* HOME PAGE */
@@ -1206,11 +1211,6 @@ textarea {
 
     /* INTRO PAGE */
     
-    #intro-section .logo-intro {
-        left: -15px;
-        top: 80px;
-       }
-
     #intro-section .text-box h1 {
         font-size: 1.2rem;
     }
@@ -1241,10 +1241,12 @@ textarea {
 
     /* INTRO PAGE */
 
-    #intro-section .logo-intro {
-        left: -15px;
-        top: 50px;
-       }
+    #intro-section .logo-mobile {
+        padding-bottom:0;
+        font-size: 1rem!important;
+        letter-spacing: 5px;
+    }
+
 
     #intro-section .text-box h1 {
         font-size: 1em;
@@ -1324,9 +1326,10 @@ textarea {
 @media screen and (max-width:736px) and (max-height:414px) {
 
     /* INTRO SECTION */
-       /* INTRO SECTION */
-       #intro-section .logo-intro {
-        top: 25px
+
+     #intro-section .logo {
+        top: 25px;
+        left: 44px !important;;
     }
 
     #intro-section .text-box h1 {
@@ -1404,7 +1407,7 @@ textarea {
 @media screen and (max-width:640px) and (max-height:360px) {
 
     /* INTRO SECTION */
-    #intro-section .logo-intro {
+    #intro-section .logo {
         font-size: 1rem;
         top: 35px
     }
@@ -1456,9 +1459,10 @@ textarea {
 
     /* INTRO SECTION */
 
-    #intro-section .logo-intro {
+    #intro-section .logo{
         font-size: 1rem;
-        top: 35px
+        top: 35px;
+        left: 45px !important;
     }
 }
 
@@ -1487,6 +1491,10 @@ textarea {
 
     /* INTRO SECTION */
 
+    #intro-section .logo{
+        font-size: 1rem;
+    }
+
     #intro-section .text-box h1 {
         font-size: 1.2rem;
     }
@@ -1505,9 +1513,10 @@ textarea {
 
     /* INTRO PAGE */
 
-    #intro-section .intro-logo {
-       font-size: 1rem;
-       padding: 5px 0;
+    #intro-section .logo {
+       font-size: 0.9rem;
+       padding: 10px 0;
+       left: -10px!important;
     }
 
     #intro-section .text-box h1 {
@@ -1569,13 +1578,8 @@ textarea {
 
 /* iphone 4 */
 @media screen and (max-height:480px) and (max-width:320px) {
-   /* INTRO PAGE */
 
-   
-#intro-section .logo-intro{
-    font-size: 1rem!important;
-    top:25px;
-}
+   /* INTRO PAGE */
 
 #intro-section .text-box h1 {
     font-size: 1rem;
