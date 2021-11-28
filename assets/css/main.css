@@ -993,7 +993,7 @@ textarea {
 
     /* GENERAL STYLES */
        .logo {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .btn {
@@ -1156,13 +1156,13 @@ textarea {
     }
 
     .logo {
-        font-size: 1.2rem !important;
+        font-size: 1rem !important;
     }
 
     /* INTRO PAGE */
 
-    #intro-section .intro-logo {
-        top: 100px !important;
+    #intro-section .logo {
+        top: 50px !important;
     }
 
     #intro-section .text-box h1 {
