@@ -222,11 +222,8 @@ hr {
     object-position: 0px 80%;
 }
 
-#intro-section .logo-intro {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-
+#intro-section .logo-mobile {
+    display: none;
 }
 
 #intro-section .overlay {
@@ -1161,10 +1158,17 @@ textarea {
 
     /* INTRO PAGE */
 
-    #intro-section .logo {
-        top: 50px !important;
+    #intro-section .logo-mobile {
+        display: block!important;
+        margin-bottom: 50px!important;
+        font-size: 1.5rem!important;
+        letter-spacing: 5px;
     }
 
+    #intro-section .logo{
+        display: none!important;
+    }
+    
     #intro-section .text-box h1 {
         font-size: 1.5rem;
     }
