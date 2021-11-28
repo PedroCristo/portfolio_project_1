@@ -934,7 +934,8 @@ textarea {
 
     /* HOME PAGE */
 
-    #header-section .logo {
+    #header-section .logo,
+    #intro-section .logo {
         position: absolute;
         left: 25px !important;
         font-size: 1.3rem;
