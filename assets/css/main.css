@@ -223,7 +223,11 @@ hr {
 }
 
 #intro-section .logo-mobile {
-    display: none;
+    opacity: 0;
+    display: block;
+    margin-bottom: 50px;
+    font-size: 1.5rem!important;
+    letter-spacing: 5px;
 }
 
 #intro-section .overlay {
@@ -1148,10 +1152,7 @@ textarea {
       /* INTRO PAGE */
 
       #intro-section .logo-mobile {
-        display: block!important;
-        margin-bottom: 50px!important;
-        font-size: 1.5rem!important;
-        letter-spacing: 5px;
+        opacity: 1;
     }
 
       #intro-section .logo{
