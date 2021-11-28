@@ -271,7 +271,6 @@ hr {
 
 #intro-section .text-box span {
     font-size: 2.5rem;
-    color: var(--iterative-color);
 }
 
 #intro-section .social {
@@ -1153,13 +1152,11 @@ textarea {
         padding-bottom: 25px;
         font-size: 1.4rem!important;
         letter-spacing: 5px;
-        color: var(--iterative-color);
     }
 
     #intro-section .logo{
         display: none!important;
     }
-
 }
 
 @media screen and (max-width:415px) {
@@ -1242,9 +1239,8 @@ textarea {
     /* INTRO PAGE */
 
     #intro-section .logo-mobile {
-        padding-bottom:0;
+        padding-bottom: 10px!important;
         font-size: 1rem!important;
-        letter-spacing: 5px;
     }
 
 
@@ -1253,7 +1249,7 @@ textarea {
     }
 
     #intro-section .text-box h3 {
-        font-size: 0.8rem;
+        font-size: 0.8rem!important;
         margin-bottom: 25px;
     }
 
