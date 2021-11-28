@@ -1147,7 +1147,7 @@ textarea {
 
       /* INTRO PAGE */
 
-      #intro-section .logo-mobile {
+      .logo-mobile {
         display: block!important;
         margin-bottom: 50px!important;
         font-size: 1.5rem!important;
