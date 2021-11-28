@@ -910,6 +910,14 @@ textarea {
 
 @media screen and (max-width:769px) {
 
+   /* GENERAL STYLES */
+    .logo {
+        position: absolute;
+        left: 55px !important;
+        top:35px;
+        font-size: 1.3rem;
+    }
+
     /* INTRO PAGE */
 
     #intro-section {
@@ -933,13 +941,6 @@ textarea {
     }
 
     /* HOME PAGE */
-
-    #header-section .logo,
-    #intro-section .logo {
-        position: absolute;
-        left: 25px !important;
-        font-size: 1.3rem;
-    }
 
     .banner-box .sub-title {
         font-size: 2rem;
@@ -991,16 +992,19 @@ textarea {
 @media screen and (max-width:600px) {
 
     /* GENERAL STYLES */
+       .logo {
+        font-size: 1.1rem;
+    }
 
     .btn {
         font-size: 15px;
     }
     
     /* INTRO PAGE */
-    #intro-section .logo-intro {
-     left: 10px;
-     top: 100px;
+    #intro-section .logo {
+     left: -20px!important;
     }
+
     #intro-section {
         padding: 50px;
         text-align: center;
