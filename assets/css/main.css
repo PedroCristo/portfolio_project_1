@@ -1152,7 +1152,7 @@ textarea {
       /* INTRO PAGE */
 
       #intro-section .logo-mobile {
-        opacity: 1;
+        opacity: 1!important;
     }
 
       #intro-section .logo{
