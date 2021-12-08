@@ -42,6 +42,7 @@ This project is a Front End website for a Travel Company.  Regardless of their i
     * [Languages Used](#languages-used)
     * [Frameworks - Libraries - Programs Used](#frameworks---libraries---programs-used)
 * [Testing](#testing)
+* [Functionality](#Functionality)
     * [Bugs](#bugs)
     * [Website Development Issues](#website-development-issues)
 * [Deployment](#deployment)
@@ -250,7 +251,7 @@ The testing was done using the Google Chrome Browser. Chrome Developer Tools was
    - The cards in the Homepage "top trips", change the box shadow when hovered by the user, working correctly.
    - The cards in the Homepage "city breaks", has a image zoom in effect when hovered by the users, working correctly.
 
-   ## Unsolved Bug
+   ## Bugs
 
 - I can not figure out how to add padding to the arrow default in the form select.
 
