@@ -244,7 +244,7 @@ The testing was done using the Google Chrome Browser. Chrome Developer Tools was
    ## Website Development Issues
 
  - Because of a misunderstanding how to do Git Commit I was doing them wrong. After I had my first call with my mentor he clarify to me how to do it and I have been following his explanation.
-## Deployment
+## Deployment On Git Pages
 
 The website development has been done in the "main" branch. This branch has been deployed using GitHub Pages.
 
@@ -259,6 +259,28 @@ This site was deployed by completing the following steps:
 7. The link to the live website was ready on the top.
 
 [Live Project Here](https://pedrocristo.github.io/portfolio_project_1/index.html)
+
+## Forking This Project
+
+Fork this project following the steps:
+
+1. Opened [GitHub](https://github.com/).
+2. Click on the project to be forked.
+3. Find the 'Fork' button to the top right of the page.
+4. Once you click the button the fork will be in your repositorie.
+
+## Cloning This Project
+
+Clone this project following the steps:
+
+1. Opened [GitHub](https://github.com/).
+2. Click on the project to be cloned.
+3. You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order to copy the URL..
+4. Once you click the button the fork will be in your repositorie.
+5. Open a new terminal.
+6. Change the current working directory to the location that you want the cloned directory.
+7. Type 'git clone' and paste the URL copied in step 3.
+8. Press 'Enter' and the project is cloned.
 
 ## Credits
 
