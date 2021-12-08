@@ -45,8 +45,8 @@ This project is a Front End website for a Travel Company.  Regardless of their i
     * [Bugs](#bugs)
     * [Website Development Issues](#website-development-issues)
 * [Deployment](#deployment)
-    * [Forking][#Forking-This-Project]
-    * [Cloning][#Cloning-This-Project]
+    * [Forking](#Forking-This-Project)
+    * [Cloning](#Cloning-This-Project)
 * [Credits](#credits)
 * [Content](#content)
 
