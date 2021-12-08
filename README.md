@@ -188,7 +188,7 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 
 ![Contact Page](./assets/images/readme-images/thanks-page.jpg)
 
-- Once the user successfully submits a contact form, they will land on the 'Thanks' Page.  When the button on this page is clicked it brings the users back to the contact form <br>
+- Once the user successfully submits a contact form, they will land on the 'Thanks' Page.  When the button on this page is clicked it brings the users back to the contact form.<br>
 [Live Thanks Page](https://pedrocristo.github.io/portfolio_project_1/thanks-page.html)
 
 ## Future Features
@@ -202,9 +202,9 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 
 ### Languages Used 
 
--   [HTML5](https://en.wikipedia.org/wiki/HTML5)
--   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
--   [Bootstrap](https://getbootstrap.com/)
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5).
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets).
+-   [Bootstrap](https://getbootstrap.com/).
 
 ### Frameworks - Libraries - Programs Used
 
@@ -219,13 +219,13 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 1. [PIXLR:](https://pixlr.com/pt/)
     - PIXLR was used to create, modify and resize all images on this website.
 1. [Canva](https://www)
-    - Canva was used to creat the image logo, favicon and also the office image
+    - Canva was used to creat the image logo, favicon and also the office image.
     ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Website Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_1%2Findex.html)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Website Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Website Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
 Google Lighthouse was used to test Performance, Best Practices, Accessibility and SEO on both Desktop and Mobile devices.
 
@@ -233,15 +233,26 @@ The testing was done using the Google Chrome Browser. Chrome Developer Tools was
 
 - Desktop Results:
 
-  ![Lighthouse Destop Result](./assets/images/readme-images/travel-world-lighthouse-desktop-results.jpg)
+  ![Lighthouse Destop Result](./assets/images/readme-images/travel-world-lighthouse-desktop-results.jpg).
 
 - Mobile Results:
 
-  ![Lighthouse Mobile Result](./assets/images/readme-images/travel-world-lighthouse-mobile-results.jpg)
+  ![Lighthouse Mobile Result](./assets/images/readme-images/travel-world-lighthouse-mobile-results.jpg).
 
-   ## Bugs
+   ## Functionality
+   - All links have been hovered over and clicked on to ensure accessibility.
+   - Pages all load correctly on all device screen sizes.
+   - All Social media links work correctly and open on a new tab.
+   - All images load on each page as intended.
+   - All the buttons are working correctly and brings the users to the function that they were built for.
+   - The buttons in Landing Page, in Thanks Page and in the Homepage both banners has an opacity animation that is working correctly.
+   - The buttons in Homepage cards and the one in the Contact Page change the background and text color when hovered by the user. They are working without issues.
+   - The cards in the Homepage "top trips", change the box shadow when hovered by the user, working correctly.
+   - The cards in the Homepage "city breaks", has a image zoom in effect when hovered by the users, working correctly.
 
-- No bugs were found during website testing. 
+   ## Unsolved Bug
+
+- I can not figure out how to add padding to the arrow default in the form select.
 
    ## Website Development Issues
 
@@ -286,23 +297,23 @@ Clone this project following the steps:
 
 ### Information Sources/Resources
 
-* [W3Schools](https://www.w3schools.com/)
+* [W3Schools](https://www.w3schools.com/).
 
-* [Stack Overflow](https://stackoverflow.com/)
+* [Stack Overflow](https://stackoverflow.com/).
   
 
 ## Content
-All the text content is original. The quote in the footer is from [Andre Gide](https://www.brainyquote.com/quotes/andre_gide_120088)
+All the text content is original. The quote in the footer is from [Andre Gide](https://www.brainyquote.com/quotes/andre_gide_120088).
 
 ### Images
 
-All images were provided and used under the Unsplash licence [Unsplash.com](https://unsplash.com/license)
+All images were provided and used under the Unsplash licence [Unsplash.com](https://unsplash.com/license).
 
 ### Video
 
-The video was provided and used under the Pexels licence [Unsplash.com](https://www.pexels.com/video/aerial-view-of-an-infinity-pool-in-maldives-beach-resorts-4069480/)
+The video was provided and used under the Pexels licence [Unsplash.com](https://www.pexels.com/video/aerial-view-of-an-infinity-pool-in-maldives-beach-resorts-4069480/).
 
 ### Trust Section Icons
 
-All the icons were provided and used under the Icons8 licence [Icons8.com](https://icons8.com/icons/set/best-price)
+All the icons were provided and used under the Icons8 licence [Icons8.com](https://icons8.com/icons/set/best-price).
 
