@@ -1,4 +1,5 @@
 /* GOOGLE FONTS */
+
 /* poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
 
@@ -61,9 +62,7 @@ a {
     -moz-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
-
 }
-
 
 .btn:hover {
     background: var(--text-white);
@@ -680,8 +679,12 @@ hr {
 
 .footer p {
     font-size: 0.9rem;
+}
+
+.footer .copyright p {
     margin-bottom: 40px;
 }
+
 
 .footer h2 {
     font-size: 1.2rem;
