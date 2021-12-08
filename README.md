@@ -45,6 +45,8 @@ This project is a Front End website for a Travel Company.  Regardless of their i
     * [Bugs](#bugs)
     * [Website Development Issues](#website-development-issues)
 * [Deployment](#deployment)
+    * [Forking][#Forking-This-Project]
+    * [Cloning][#Cloning-This-Project]
 * [Credits](#credits)
 * [Content](#content)
 
@@ -244,7 +246,7 @@ The testing was done using the Google Chrome Browser. Chrome Developer Tools was
    ## Website Development Issues
 
  - Because of a misunderstanding how to do Git Commit I was doing them wrong. After I had my first call with my mentor he clarify to me how to do it and I have been following his explanation.
-## Deployment On Git Pages
+## Deployment
 
 The website development has been done in the "main" branch. This branch has been deployed using GitHub Pages.
 
@@ -257,8 +259,6 @@ This site was deployed by completing the following steps:
 5. Click on "Check it out here!".
 6. Select the "main" branch and select "Save".
 7. The link to the live website was ready on the top.
-
-[Live Project Here](https://pedrocristo.github.io/portfolio_project_1/index.html)
 
 ## Forking This Project
 
@@ -292,6 +292,7 @@ Clone this project following the steps:
   
 
 ## Content
+All the text content is original. The quote in the footer is from [Andre Gide](https://www.brainyquote.com/quotes/andre_gide_120088)
 
 ### Images
 
