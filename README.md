@@ -343,6 +343,4 @@ The website development has been done in the "main" branch. This branch has been
 
 * All the icons were provided and used under the Icons8 licence [Icons8.com](https://icons8.com/icons/set/best-price).
   
-### Special Thanks
 
- * Special thanks to Mairéad Gilli, my colleagues in Code institute, kasia Bogucka and my mentor Sandeep Aggarwal for help me through this project.
