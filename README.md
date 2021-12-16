@@ -329,7 +329,8 @@ The website development has been done in the "main" branch. This branch has been
 
 ## Content
 
-* All the text content is original. The quote in the footer is from [Andre Gide](https://www.brainyquote.com/quotes/andre_gide_120088).
+* All the text content is original. The quote in the footer is from [Andre Gide](https://www.brainyquote.com/quotes/andre_gide_120088).<br>
+  Text Review (Mairead Gillic)
 
 ### Images
 
@@ -343,6 +344,6 @@ The website development has been done in the "main" branch. This branch has been
 
 * All the icons were provided and used under the Icons8 licence [Icons8.com](https://icons8.com/icons/set/best-price).
   
-### Special Thanks
+## Special Thanks
 
  * Special thanks to Mairéad Gilli, my colleagues in Code institute, kasia Bogucka and my mentor Sandeep Aggarwal for help me through this project.
