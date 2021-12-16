@@ -233,6 +233,23 @@ The testing was done using the Google Chrome Browser. Chrome Developer Tools was
 * Devices tested using the Google Developer Tools emulator
 
     * BlackBerry Z30 (360px x 640px)  
+    * BlackBerry PlayBook (600px x 1024px)  
+    * SamSung Galaxy Note 3 (360px x 640px) 
+    * SamSung Galaxy S3 (360px x 640px)   
+    * SamSung Galax S9+(320px x 658px) 
+    * LG Optimus L70 (384px x 640px)
+    * Microsoft Lumia 550 (640px x 360px) 
+    * Microsoft Lumia 950 (360px x 640px) 
+    * Nexus 4 (384px x 640px) 
+    * Nokia Lumia 520 (320px x 533px) 
+    * Nokia N9 (480px x 854px) 
+    * Pixel 3 (393px x 786px)
+    * Apple iPade Mini (468px x 4024)
+    * Apple iPhone 4 (320px x 480px)
+    * Apple iPhone 5/S (320px 568px)
+    * Apple iPhone 6/7/8 (375px x 667px)
+    * Apple iPhone 6/7/8 Plus (414px x 736px)
+    * Apple iPhone X (375px x 812px)
 
 * Desktop Results:
 
