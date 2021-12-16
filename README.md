@@ -3,7 +3,7 @@
 # Introduction
 Project milestone 1 for Code Institute Full-stack development program: HTML/CSS Essentials
 
-This project is a Front End website for a Travel Company.  Regardless of their industry,  a business’ online presence can have a massive impact on its success. The main purpose of this website is to show the users the company, promote their brand to new clients and to display package holidays. The website is interactive and user friendly allowing the user to interact with the company through a contact form and social media channels. 
+This project is a Front End website for a Travel Company.  Regardless of their industry,  a business’ online presence can have a massive impact on its success. The main purpose of this website is to show the users the company, promote their brand to new clients and to display package holidays. The website is interactive and user-friendly allowing the user to interact with the company through a contact form and social media channels. 
 
 [Live Project Here](https://pedrocristo.github.io/portfolio_project_1/index.html)
 
@@ -23,7 +23,7 @@ This project is a Front End website for a Travel Company.  Regardless of their i
     * [Imagery](#imagery)
     * [Videos](#videos)
     * [Google Maps](#google-maps)
-    * [Interative Links](#interative-links)
+    * [interactive Links](#interactive -links)
 * [Features](#features)  
     * [Landing Page](#landing-page)
     * [Navigation Menu](#navigation-menu)
@@ -38,7 +38,7 @@ This project is a Front End website for a Travel Company.  Regardless of their i
     * [Contact Page](#Contact-page)
     * [Thanks Page](#thanks-page)
 * [Future Features](#future-features)
-    * [Costutomer Review Section](#costumer-review-section)
+    * [costumerReview Section](#costumer-review-section)
 * [Technologies Used](#technologies-used)
     * [Languages Used](#languages-used)
     * [Frameworks - Libraries - Programs Used](#frameworks---libraries---programs-used)
@@ -75,7 +75,7 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 ## Design
 
 ### Website Structure
- Travel World website is a 4 page site: Landing Page, Home Page, Contact Page and Thanks Page. The default loading page is the Landing Page and it is linked to the H Page by a button. The Home Page has 8 sections:  (1) Trust, (2) About, (3) Banner Bali, (4) Top Trips, (5) Banner Maldives, (6) City Breaks, (7) Partners and  Footer. This page is linked to all of the website by the Navigation Menu. The Contact Page has the Menu at the top and 3 sections: (1) Contact Form, (2) Partners  (3) Footer. The Thanks Page has two sections: (1) 'Thanks' message and (2) Footer.
+Travel World website is a 4 page site: Landing Page, Home Page, Contact Page and Thanks Page. The default loading page is the Landing Page and it is linked to the Home Page by a button. The Home Page has 8 sections: (1) Trust, (2) About, (3) Banner Bali, (4) Top Trips, (5) Banner Maldives, (6) City Breaks, (7) Partners and Footer. This page, is linked to all the pages in the website by the Navigation Menu on the top. The Contact Page has the Menu at the top and 3 sections: (1) Contact Form, (2) Partners (3) Footer. The Thanks Page has two sections: (1) 'Thanks' message and (2) Footer.
 
 #### Colour Scheme
  ![Landing Page](./assets/images/readme-images/color-pallete.jpg)
@@ -101,7 +101,7 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 ### Google Maps
 * The web site has a Google Maps location section where the users can locate the office in Dublin.
 
-### Interative Links  
+### interactive Links  
 
 * In the bottom of the Landing Page and footer, users can access the company social links (Facebook and Twitter). Once these icons are clicked on 
   they are opened in a new tab. 
@@ -109,7 +109,7 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 
 
 ## Features
-* Responsive on all device sizes between 280px-2600px wide
+* Responsive on all device sizes between 280px - 2600px wide
 
 ### Landing Page 
 
@@ -134,7 +134,7 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 
 ![About Section](./assets/images/readme-images/home-page-about-section.jpg)
 
-* In this feature users have access to information about the company for example the company's main purpose , its history , mission statement , and also the benefits of working for Travel World. <br>
+* In this feature users have access to information about the company, for example the company's main purpose , its history , mission statement , and also the benefits of working for Travel World. <br>
 [Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#about-section)
 
 ### Banner Section 1 - Bali
@@ -149,7 +149,7 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 
 ![Top Trips Section](./assets/images/readme-images/home-page-top-trips-section.jpg)
 
-* This feature is a cards section where users can see the top travel deals displayed with information about the city, country, price, hotel name, hotel stars and length of stay ( number of days and nights). The card has a button where the user can book. When the user hovers over this, the box-shadow changes.<br>
+* This feature is a cards section where users can see the top travel deals displayed with information about the city, country, price, hotel name, hotel stars and length of stay (number of days and nights). The card has a button where the user can book. When the user hovers over this, the box-shadow changes.<br>
 [Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#top-trips)
 
 ### Banner Section 2 - Maldives 
@@ -163,7 +163,7 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 
 ![City Breaks Section](./assets/images/readme-images/home-page-city-trips-section.jpg)
 
-* This features has the same purpose as the Top Trip Section with a difference that when the card is hovered by the user the image zoom in.<br>
+* This feature has the same purpose as the Top Trip Section. The difference  is when the card is hovered by the user the image zoom in.<br>
 [Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#city-trips)
 
 ### Partners Section
@@ -196,7 +196,7 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 
 ## Future Features
   
-### Costumer Review Section
+### costumer Review Section
 
 * Add a Customer Review Section in the Home page. This would offer suggestions on how to improve the website and display customers' experiences and opinions of Travel World.
 
@@ -205,7 +205,7 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 
 ### Languages Used 
 
-*  [HTML5](https://en.wikipedia.org/wiki/HTML5).
+* [HTML5](https://en.wikipedia.org/wiki/HTML5).
 * [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets).
 * [Bootstrap](https://getbootstrap.com/).
 
@@ -239,9 +239,9 @@ The testing was done using the Google Chrome Browser. Chrome Developer Tools was
 
     * BlackBerry Z30 (360px x 640px)  
     * BlackBerry PlayBook (600px x 1024px)  
-    * SamSung Galaxy Note 3 (360px x 640px) 
-    * SamSung Galaxy S3 (360px x 640px)   
-    * SamSung Galax S9+(320px x 658px) 
+    * Samsung Galaxy Note 3 (360px x 640px) 
+    * Samsung Galaxy S3 (360px x 640px)   
+    * Samsung Galax S9+(320px x 658px) 
     * LG Optimus L70 (384px x 640px)
     * Microsoft Lumia 550 (640px x 360px) 
     * Microsoft Lumia 950 (360px x 640px) 
@@ -265,7 +265,7 @@ The testing was done using the Google Chrome Browser. Chrome Developer Tools was
   ![Lighthouse Mobile Result](./assets/images/readme-images/travel-world-lighthouse-mobile-results.jpg).
 
    ## Functionality
-* All links have been hovered over and clicked on to ensure accessibility.
+* All links have been hovered and clicked to ensure accessibility.
 * Pages all load correctly on all device screen sizes.
 * All Social media links work correctly and open on a new tab.
 * All images load on each page as intended.
@@ -281,12 +281,12 @@ The testing was done using the Google Chrome Browser. Chrome Developer Tools was
 
    ## Website Development Issues
 
-* Because of a misunderstanding how to do Git Commit I was doing them wrong. After I had my first call with my mentor he clarify to me how to do it and I have been following his explanation.
+* Because of a misunderstanding how to do Git Commit I was doing them wrong. After I had my first call with my mentor he clarify to me how to do it and I have followed his explanation.
 ## Deployment This Project
 
-The website development has been done in the "main" branch. This branch has been deployed using GitHub Pages.
+The website development was done in the "main" branch. This branch was deployed using GitHub Pages.
 
-* This site was deployed by completing the following steps:
+* This site was deploy by completing the following steps:
 
 1. Opened [GitHub](https://github.com/).
 2. Click on the project to be deployed.
@@ -303,7 +303,7 @@ The website development has been done in the "main" branch. This branch has been
 1. Opened [GitHub](https://github.com/).
 2. Click on the project to be forked.
 3. Find the 'Fork' button to the top right of the page.
-4. Once you click the button the fork will be in your repositorie.
+4. Once you click the button the fork will be in your repository..
 
 ## Cloning This Project
 
@@ -312,7 +312,7 @@ The website development has been done in the "main" branch. This branch has been
 1. Opened [GitHub](https://github.com/).
 2. Click on the project to be cloned.
 3. You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order to copy the URL..
-4. Once you click the button the fork will be in your repositorie.
+4. Once you click the button the fork will be in your repository.
 5. Open a new terminal.
 6. Change the current working directory to the location that you want the cloned directory.
 7. Type 'git clone' and paste the URL copied in step 3.
@@ -346,4 +346,4 @@ The website development has been done in the "main" branch. This branch has been
   
 ## Special Thanks
 
- * Special thanks to Mairéad Gilli, my colleagues in Code institute, kasia Bogucka and my mentor Sandeep Aggarwal for help me through this project.
+ * Special thanks to Mairéad Gilli, my colleagues in Code Institute, kasia Bogucka and my mentor Sandeep Aggarwal for help me through this project.
