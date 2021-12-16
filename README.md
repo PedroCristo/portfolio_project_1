@@ -16,6 +16,7 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 * [User Experience UX](#user-experience---UX)
     * [User stories](#user-stories)
 * [Design](#Design)
+
     * [Website Structure](#website-structure)
     * [Colour Scheme](#colour-scheme)
     * [Typography](#typography)
@@ -29,7 +30,6 @@ This project is a Front End website for a Travel Company.  Regardless of their i
     * [Home Page Header](#home-age-eader)
     * [About Section](#about-section)
     * [Banner Section 1 - Bali](#banner-section-1---bali) 
-
     * [Top Trips Section](#top-trips-section)
     * [Banner Section 2 - Maldives](#banner-section-2---maldives)
     * [City Breaks Section](#city-breaks-section)
