@@ -28,7 +28,7 @@ This project is a Front End website for a Travel Company.  Regardless of their i
     * [Navigation Menu](#navigation-menu)
     * [Home Page Header](#home-age-eader)
     * [About Section](#about-section)
-    * [Banner Section 1 - Bali](#banner-section-1---bali)
+    * [Banner Section 1 - Bali](#banner-section-1---bali) 
 
     * [Top Trips Section](#top-trips-section)
     * [Banner Section 2 - Maldives](#banner-section-2---maldives)
@@ -45,7 +45,7 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 * [Testing](#testing)
     * [Bugs](#bugs)
     * [Website Development Issues](#website-development-issues)
-* [Deployment](#deployment)
+* [Deployment](#deployment-this-project)
 * [Credits](#credits)
 * [Content](#content)
 
@@ -277,7 +277,7 @@ The testing was done using the Google Chrome Browser. Chrome Developer Tools was
    ## Website Development Issues
 
 * Because of a misunderstanding how to do Git Commit I was doing them wrong. After I had my first call with my mentor he clarify to me how to do it and I have been following his explanation.
-## Deployment
+## Deployment This Project
 
 The website development has been done in the "main" branch. This branch has been deployed using GitHub Pages.
 
