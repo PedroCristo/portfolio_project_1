@@ -54,29 +54,35 @@ This project is a Front End website for a Travel Company.  Regardless of their i
  ### User Stories
 
 * As a website creator, I want to:
-    1. To build a website that is visually appealing upon first visit so the user is intrigued to explore all the pages.
-    2. To build an easy to navigate website  for the users.
-* As a new visitor, I want to:
-    1. To understand the main purpose of the site.
-    2. To be able to easily navigate throughout the site and find relevant content about package holidays.
-    3. To be able to contact the company for more information in an easy way.
-* As a returning visitor, I want to:
-    1. Be able to find newly available package holidays.
-    2. Be able to find more relevant information about the company.
-    3. 
-  ### Design
   
-      #### Website Structure
-        Travel World website is a 4 page site: Landing Page, Home Page, Contact Page and Thanks Page. The default loading page is the Landing Page and it is linked to the Home Page by a button. The Home Page has 8 sections:  (1) Trust, (2) About, (3) Banner Bali, (4) Top Trips, (5) Banner Maldives, (6) City Breaks, (7) Partners and (8) Footer. This page is linked to all of the website by the Navigation Menu. The Contact Page has the Menu at the top and 3 sections: (1) Contact Form, (2) Partners and (3) Footer. The Thanks Page has two sections: (1) 'Thanks' message and (2) Footer.
+        1. To build a website that is visually appealing upon first visit so the user is intrigued to explore all the pages.
+        2. To build an easy to navigate website  for the users.
+   
+* As a new visitor, I want to:
+* 
+        1. To understand the main purpose of the site.
+        2. To be able to easily navigate throughout the site and find relevant content about package holidays.
+        3. To be able to contact the company for more information in an easy way.
+   
+* As a returning visitor, I want to:
+* 
+        1. Be able to find newly available package holidays.
+        2. Be able to find more relevant information about the company.
+   
 
-      #### Colour Scheme
-        ![Landing Page](./assets/images/readme-images/color-pallete.jpg)
-      * There are four main colours used (1 ) white (#ffffff) (2) a variation of white (#faebd7)  (3) an orange tone (#f84f0d) and (4) a black (#111111). The white is used to fit the main website background, the black is used for text while the orange represents a colour tone that can be seen in the logo, titles and icons. The variation of white (#faebd7) is used for the button background when hovered.
-      * In the Footer Section I used a linear gradient as background using four main colours and orientation of 258 degrees.
+  ## Design
 
-      #### Typography
-      * The Poppins , sans-serif is used as the main font for the whole website.
-      * The El Messiri, sans-serif is used to display the hotel's name on the cards.
+### Website Structure
+ Travel World website is a 4 page site: Landing Page, Home Page, Contact Page and Thanks Page. The default loading page is the Landing Page and it is linked to the H Page by a button. The Home Page has 8 sections:  (1) Trust, (2) About, (3) Banner Bali, (4) Top Trips, (5) Banner Maldives, (6) City Breaks, (7) Partners and  Footer. This page is linked to all of the website by the Navigation Menu. The Contact Page has the Menu at the top and 3 sections: (1) Contact Form, (2) Partners  (3) Footer. The Thanks Page has two sections: (1) 'Thanks' message and (2) Footer.
+
+#### Colour Scheme
+ ![Landing Page](./assets/images/readme-images/color-pallete.jpg)
+ There are four main colours used (1 ) white (#ffffff) (2) a variation of white (#faebd7)  (3) an orange tone (#f84f0d) and (4) a black (#111111). The white is used fit the main website background, the black is used for text while the orange represents a colour tone that can be seen in the logo, titles and icons. The variation white (#faebd7) is used for the button background when hovered.
+ In the Footer Section I used a linear gradient as background using four main colours and orientation of 258 degrees.
+
+#### Typography
+* The Poppins , sans-serif is used as the main font for the whole website.
+* The El Messiri, sans-serif is used to display the hotel's name on the cards.
          
 #### Imagery
 * 3 background images one in the Header and another two in the Banner Section.
