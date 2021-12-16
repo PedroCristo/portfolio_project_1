@@ -152,7 +152,7 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 * This feature is a cards section where users can see the top travel deals displayed with information about the city, country, price, hotel name, hotel stars and length of stay ( number of days and nights). The card has a button where the user can book. When the user hovers over this, the box-shadow changes.<br>
 [Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#top-trips)
 
-### Banner Section 2 - Maldivas
+### Banner Section 2 - Maldives 
 
 ![Banner Section 2](./assets/images/readme-images/home-page-banner-section-2.jpg)
 
