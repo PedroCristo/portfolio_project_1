@@ -12,44 +12,40 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 
 ## README Table Content
 
-* [Introduction](#introduction)
-* [User Experience UX](#user-experience---UX)
-    * [User stories](#user-stories)
-* [Design](#Design)
-    * [Website Structure](#website-structure)
-    * [Colour Scheme](#colour-scheme)
-    * [Typography](#typography)
-    * [Imagery](#imagery)
-    * [Videos](#videos)
-    * [Google Maps](#google-maps)
-    * [Interative Links](#interative-links)
-* [Features](#features)
-    * [Landing Page](#landing-page)
-    * [Navigation Menu](#navigation-menu)
-    * [Home Page Header](#home-age-eader)
-    * [About Section](#about-section)
-    * [Banner Section 1 - Bali](#banner-section-1---bali)
-    * [Top Trips Section](#top-trips-section)
-    * [Banner Section 2 - Maldives](#banner-section-2---maldives)
-    * [City Breaks Section](#city-breaks-section)
-    * [Partners Section](#partners-section)
-    * [Footer Section](#footer-section)
-    * [Contact Page](#Contact-page)
-    * [Thanks Page](#thanks-page)
-* [Future Features](#future-features)
-    * [Costutomer Review Section](#costumer-review-section)
-* [Technologies Used](#technologies-used)
-    * [Languages Used](#languages-used)
-    * [Frameworks - Libraries - Programs Used](#frameworks---libraries---programs-used)
-* [Testing](#testing)
-* [Functionality](#Functionality)
-    * [Bugs](#bugs)
-    * [Website Development Issues](#website-development-issues)
-* [Deployment](#deployment)
-    * [Forking](#Forking-This-Project)
-    * [Cloning](#Cloning-This-Project)
-* [Credits](#credits)
-* [Content](#content)
+- [Travel World - Website](#travel-world---website)
+- [Introduction](#introduction)
+  - [README Table Content](#readme-table-content)
+  - [User Experience - UX](#user-experience---ux)
+  - [Features](#features)
+    - [Landing Page](#landing-page)
+    - [Navigation Menu](#navigation-menu)
+    - [Home Page Header](#home-page-header)
+    - [About Section](#about-section)
+    - [Banner Section 1 - Bali](#banner-section-1---bali)
+    - [Top Trips Section](#top-trips-section)
+    - [Banner Section 2 - Maldivas](#banner-section-2---maldivas)
+    - [City Breaks Section](#city-breaks-section)
+    - [Partners Section](#partners-section)
+    - [Footer Section](#footer-section)
+    - [Contact Page](#contact-page)
+    - [Thanks Page](#thanks-page)
+  - [Future Features](#future-features)
+    - [Costumer Review Section](#costumer-review-section)
+  - [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
+    - [Frameworks - Libraries - Programs Used](#frameworks---libraries---programs-used)
+  - [Functionality](#functionality)
+  - [Bugs](#bugs)
+  - [Website Development Issues](#website-development-issues)
+  - [Deployment](#deployment)
+  - [Forking This Project](#forking-this-project)
+  - [Cloning This Project](#cloning-this-project)
+  - [Credits](#credits)
+    - [Information Sources/Resources](#information-sourcesresources)
+  - [Content](#content)
+    - [Images](#images)
+    - [Video](#video)
+    - [Trust Section Icons](#trust-section-icons)
 
 ## User Experience - UX
 
@@ -73,16 +69,16 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 -   ### Design
    
     -  #### Website Structure
-       -   Travel World website is a 4 page site: Landing Page, Home Page, Contact Page and Thanks Page. The default loading page is the Landing Page and it is linked to the Home Page by a button. The Home Page has 8 sections:  (1) Trust, (2) About, (3) Banner Bali, (4) Top Trips, (5) Banner Maldives, (6) City Breaks, (7) Partners and (8) Footer. This page is linked to all of the website by the Navigation Menu. The Contact Page has the Menu at the top and 3 sections: (1) Contact Form, (2) Partners and (3) Footer. The Thanks Page has two sections: (1) 'Thanks' message and (2) Footer.
+       Travel World website is a 4 page site: Landing Page, Home Page, Contact Page and Thanks Page. The default loading page is the Landing Page and it is linked to the Home Page by a button. The Home Page has 8 sections:  (1) Trust, (2) About, (3) Banner Bali, (4) Top Trips, (5) Banner Maldives, (6) City Breaks, (7) Partners and (8) Footer. This page is linked to all of the website by the Navigation Menu. The Contact Page has the Menu at the top and 3 sections: (1) Contact Form, (2) Partners and (3) Footer. The Thanks Page has two sections: (1) 'Thanks' message and (2) Footer.
 
     -   #### Colour Scheme
         ![Landing Page](./assets/images/readme-images/color-pallete.jpg)
-        -   There are four main colours used (1 ) white (#ffffff) (2) a variation of white (#faebd7)  (3) an orange tone (#f84f0d) and (4) a black (#111111). The white is used to fit the main website background, the black is used for text while the orange represents a colour tone that can be seen in the logo, titles and icons. The variation of white (#faebd7) is used for the button background when hovered.
+        - There are four main colours used (1 ) white (#ffffff) (2) a variation of white (#faebd7)  (3) an orange tone (#f84f0d) and (4) a black (#111111). The white is used to fit the main website background, the black is used for text while the orange represents a colour tone that can be seen in the logo, titles and icons. The variation of white (#faebd7) is used for the button background when hovered.
         -   In the Footer Section I used a linear gradient as background using four main colours and orientation of 258 degrees.
 
     -   #### Typography
-         -   The Poppins , sans-serif is used as the main font for the whole website.
-         -   The El Messiri, sans-serif is used to display the hotel's name on the cards.
+         - The Poppins , sans-serif is used as the main font for the whole website.
+         - The El Messiri, sans-serif is used to display the hotel's name on the cards.
          
     -   #### Imagery
           - 3 background images one in the Header and another two in the Banner Section.
@@ -241,15 +237,15 @@ The testing was done using the Google Chrome Browser. Chrome Developer Tools was
   ![Lighthouse Mobile Result](./assets/images/readme-images/travel-world-lighthouse-mobile-results.jpg).
 
    ## Functionality
-   - All links have been hovered over and clicked on to ensure accessibility.
-   - Pages all load correctly on all device screen sizes.
-   - All Social media links work correctly and open on a new tab.
-   - All images load on each page as intended.
-   - All the buttons are working correctly and brings the users to the function that they were built for.
-   - The buttons in Landing Page, in Thanks Page and in the Homepage both banners has an opacity animation that is working correctly.
-   - The buttons in Homepage cards and the one in the Contact Page change the background and text color when hovered by the user. They are working without issues.
-   - The cards in the Homepage "top trips", change the box shadow when hovered by the user, working correctly.
-   - The cards in the Homepage "city breaks", has a image zoom in effect when hovered by the users, working correctly.
+- All links have been hovered over and clicked on to ensure accessibility.
+- Pages all load correctly on all device screen sizes.
+- All Social media links work correctly and open on a new tab.
+- All images load on each page as intended.
+- All the buttons are working correctly and brings the users to the function that they were built for.
+- The buttons in Landing Page, in Thanks Page and in the Homepage both banners has an opacity animation that is working correctly.
+- The buttons in Homepage cards and the one in the Contact Page change the background and text color when hovered by the user. They are working without issues.
+- The cards in the Homepage "top trips", change the box shadow when hovered by the user, working correctly.
+- The cards in the Homepage "city breaks", has a image zoom in effect when hovered by the users, working correctly.
 
    ## Bugs
 
