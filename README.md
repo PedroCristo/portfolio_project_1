@@ -55,22 +55,21 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 
 * As a website creator, I want to:
   
-        1. To build a website that is visually appealing upon first visit so the user is intrigued to explore all the pages.
-        2. To build an easy to navigate website  for the users.
+1 - To build a website that is visually appealing upon first visit so the user is intrigued to explore all the pages.
+2 - To build an easy to navigate website  for the users.
    
 * As a new visitor, I want to:
-* 
-        1. To understand the main purpose of the site.
-        2. To be able to easily navigate throughout the site and find relevant content about package holidays.
-        3. To be able to contact the company for more information in an easy way.
+
+1 -  To understand the main purpose of the site.
+2 - To be able to easily navigate throughout the site and find relevant content about package holidays.
+3 - To be able to contact the company for more information in an easy way.
    
 * As a returning visitor, I want to:
-* 
-        1. Be able to find newly available package holidays.
-        2. Be able to find more relevant information about the company.
-   
 
-  ## Design
+1 -  Be able to find newly available package holidays.
+2 -  Be able to find more relevant information about the company.
+   
+## Design
 
 ### Website Structure
  Travel World website is a 4 page site: Landing Page, Home Page, Contact Page and Thanks Page. The default loading page is the Landing Page and it is linked to the H Page by a button. The Home Page has 8 sections:  (1) Trust, (2) About, (3) Banner Bali, (4) Top Trips, (5) Banner Maldives, (6) City Breaks, (7) Partners and  Footer. This page is linked to all of the website by the Navigation Menu. The Contact Page has the Menu at the top and 3 sections: (1) Contact Form, (2) Partners  (3) Footer. The Thanks Page has two sections: (1) 'Thanks' message and (2) Footer.
