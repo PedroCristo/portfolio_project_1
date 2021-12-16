@@ -55,19 +55,19 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 
 * As a website creator, I want to:
   
-1 - To build a website that is visually appealing upon first visit so the user is intrigued to explore all the pages.
-2 - To build an easy to navigate website  for the users.
+1. To build a website that is visually appealing upon first visit so the user is intrigued to explore all the pages.
+2. To build an easy to navigate website  for the users.
    
 * As a new visitor, I want to:
 
-1 -  To understand the main purpose of the site.
-2 - To be able to easily navigate throughout the site and find relevant content about package holidays.
-3 - To be able to contact the company for more information in an easy way.
+1. To understand the main purpose of the site.
+2. To be able to easily navigate throughout the site and find relevant content about package holidays.
+3. To be able to contact the company for more information in an easy way.
    
 * As a returning visitor, I want to:
 
-1 -  Be able to find newly available package holidays.
-2 -  Be able to find more relevant information about the company.
+1. Be able to find newly available package holidays.
+2. Be able to find more relevant information about the company.
    
 ## Design
 
