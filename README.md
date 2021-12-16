@@ -51,57 +51,53 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 
 ## User Experience - UX
 
--   ### User Stories
+ ### User Stories
 
-    -   #### As a website creator, I want to:
-        1. To build a website that is visually appealing upon first visit so the user is intrigued to explore all the pages.
-        2. To build an easy to navigate website  for the users.
-
-    -   #### As a new visitor, I want to:
-
-        1. To understand the main purpose of the site.
-        2. To be able to easily navigate throughout the site and find relevant content about package holidays.
-        3. To be able to contact the company for more information in an easy way.
-
-    -   #### As a returning visitor, I want to:
-
-        1. Be able to find newly available package holidays.
-        2. Be able to find more relevant information about the company.
-
--   ### Design
-   
-    -  #### Website Structure
+* As a website creator, I want to:
+    1. To build a website that is visually appealing upon first visit so the user is intrigued to explore all the pages.
+    2. To build an easy to navigate website  for the users.
+* As a new visitor, I want to:
+    1. To understand the main purpose of the site.
+    2. To be able to easily navigate throughout the site and find relevant content about package holidays.
+    3. To be able to contact the company for more information in an easy way.
+* As a returning visitor, I want to:
+    1. Be able to find newly available package holidays.
+    2. Be able to find more relevant information about the company.
+    3. 
+  ### Design
+  
+      #### Website Structure
         Travel World website is a 4 page site: Landing Page, Home Page, Contact Page and Thanks Page. The default loading page is the Landing Page and it is linked to the Home Page by a button. The Home Page has 8 sections:  (1) Trust, (2) About, (3) Banner Bali, (4) Top Trips, (5) Banner Maldives, (6) City Breaks, (7) Partners and (8) Footer. This page is linked to all of the website by the Navigation Menu. The Contact Page has the Menu at the top and 3 sections: (1) Contact Form, (2) Partners and (3) Footer. The Thanks Page has two sections: (1) 'Thanks' message and (2) Footer.
 
-    -   #### Colour Scheme
+      #### Colour Scheme
         ![Landing Page](./assets/images/readme-images/color-pallete.jpg)
-         * There are four main colours used (1 ) white (#ffffff) (2) a variation of white (#faebd7)  (3) an orange tone (#f84f0d) and (4) a black (#111111). The white is used to fit the main website background, the black is used for text while the orange represents a colour tone that can be seen in the logo, titles and icons. The variation of white (#faebd7) is used for the button background when hovered.
-         * In the Footer Section I used a linear gradient as background using four main colours and orientation of 258 degrees.
+      * There are four main colours used (1 ) white (#ffffff) (2) a variation of white (#faebd7)  (3) an orange tone (#f84f0d) and (4) a black (#111111). The white is used to fit the main website background, the black is used for text while the orange represents a colour tone that can be seen in the logo, titles and icons. The variation of white (#faebd7) is used for the button background when hovered.
+      * In the Footer Section I used a linear gradient as background using four main colours and orientation of 258 degrees.
 
-    -   #### Typography
-         * The Poppins , sans-serif is used as the main font for the whole website.
-         * The El Messiri, sans-serif is used to display the hotel's name on the cards.
+      #### Typography
+      * The Poppins , sans-serif is used as the main font for the whole website.
+      * The El Messiri, sans-serif is used to display the hotel's name on the cards.
          
-    -   #### Imagery
-          * 3 background images one in the Header and another two in the Banner Section.
-          * 6 Images for the icons in the Trust Section with the size of 48px by 48px. They are PNG files.
-          * 2 images in the about section with the size of 680px by 410px.
-          * 12 images for the Top Trips Section and City Break Section with the size of 950px by 713px.
-          * 8 Images in the Partners Section with the size of 580px by 280px.
-          * 1 image GiF animation in the Thanks Page.
-          * Please Note (All images were converted to the webp files except the 6 images in the Trust Section).
+#### Imagery
+* 3 background images one in the Header and another two in the Banner Section.
+* 6 Images for the icons in the Trust Section with the size of 48px by 48px. They are PNG files.
+* 2 images in the about section with the size of 680px by 410px.
+* 12 images for the Top Trips Section and City Break Section with the size of 950px by 713px.
+* 8 Images in the Partners Section with the size of 580px by 280px.
+* 1 image GiF animation in the Thanks Page.
+* Please Note (All images were converted to the webp files except the 6 images in the Trust Section).
 
-    -   #### Videos
-        - The Landing Page has one video as a background displaying muted, loop and autoplay.
+###  Videos
+* The Landing Page has one video as a background displaying muted, loop and autoplay.
 
-    -   #### Google Maps
-        - The web site has a Google Maps location section where the users can locate the office in Dublin.
+### Google Maps
+* The web site has a Google Maps location section where the users can locate the office in Dublin.
 
-    -   #### Interative Links  
+### Interative Links  
 
-        * In the bottom of the Landing Page and footer, users can access the company social links (Facebook and Twitter). Once these icons are clicked on 
-          they are opened in a new tab. 
-        * In the Banner Bali and Banner Maldives the user can directly telephone the company by clicking on the 'book now' button.
+* In the bottom of the Landing Page and footer, users can access the company social links (Facebook and Twitter). Once these icons are clicked on 
+  they are opened in a new tab. 
+* In the Banner Bali and Banner Maldives the user can directly telephone the company by clicking on the 'book now' button.
 
 
 ## Features
@@ -192,9 +188,9 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 
 ## Future Features
   
-   ### Costumer Review Section
+### Costumer Review Section
 
-  * Add a Customer Review Section in the Home page. This would offer suggestions on how to improve the website and display customers' experiences and opinions of Travel World.
+* Add a Customer Review Section in the Home page. This would offer suggestions on how to improve the website and display customers' experiences and opinions of Travel World.
 
 
 ## Technologies Used
