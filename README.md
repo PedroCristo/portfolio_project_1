@@ -49,8 +49,6 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 * [Credits](#credits)
 * [Content](#content)
 
-    
- 
 ## User Experience - UX
 
 -   ### User Stories
@@ -232,6 +230,10 @@ Google Lighthouse was used to test Performance, Best Practices, Accessibility an
 
 The testing was done using the Google Chrome Browser. Chrome Developer Tools was used extensively, particularly to check responsiveness on different screen sizes. Testing was also done using Firefox on desktop, and again on Google Chrome and Opera on the Huawei P20.
 
+* Devices tested using the Google Developer Tools emulator
+
+    * BlackBerry Z30 (360px x 640px)  
+
 * Desktop Results:
 
   ![Lighthouse Destop Result](./assets/images/readme-images/travel-world-lighthouse-desktop-results.jpg).
@@ -246,7 +248,7 @@ The testing was done using the Google Chrome Browser. Chrome Developer Tools was
 * All Social media links work correctly and open on a new tab.
 * All images load on each page as intended.
 * All the buttons are working correctly and brings the users to the function that they were built for.
-* The buttons in Landing Page, in Thanks Page and in the Homepage both banners has an opacity animation that is working correctly.
+* The arrows inside the buttons in Landing Page, Thanks Page and Homepage banners, has an opacity animation that is working correctly.
 * The buttons in Homepage cards and the one in the Contact Page change the background and text color when hovered by the user. They are working without issues.
 * The cards in the Homepage "top trips", change the box shadow when hovered by the user, working correctly.
 * The cards in the Homepage "city breaks", has a image zoom in effect when hovered by the users, working correctly.
