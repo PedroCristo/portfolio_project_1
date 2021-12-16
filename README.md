@@ -46,6 +46,9 @@ This project is a Front End website for a Travel Company.  Regardless of their i
     * [Bugs](#bugs)
     * [Website Development Issues](#website-development-issues)
 * [Deployment](#deployment-this-project)
+    * [Deployment This Project](#deployment-this-project)
+    * [Forking This Project](#forking-this-project)
+    * [Cloning This Project](#cloning-this-project)
 * [Credits](#credits)
 * [Content](#content)
 
@@ -208,19 +211,20 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 
 ### Frameworks - Libraries - Programs Used
 
-1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Poppins' and 'El Messiri' fonts throughout the style.css.
-1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome are used as a icons for user UX purposes.
-1. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-1. [GitHub:](https://github.com/)
-    - GitHub is used to store the project's code after being pushed from Git.
-1. [PIXLR:](https://pixlr.com/pt/)
-    - PIXLR was used to create, modify and resize all images on this website.
-1. [Canva](https://www)
-    - Canva was used to creat the image logo, favicon and also the office image.
-    ## Testing
+* [Google Fonts:](https://fonts.google.com/)
+   * Google fonts were used to import the 'Poppins' and 'El Messiri' fonts throughout the style.css.
+* [Font Awesome:](https://fontawesome.com/)
+    * Font Awesome are used as a icons for user UX purposes.
+* [Git](https://git-scm.com/)
+    * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+* [GitHub:](https://github.com/)
+    * GitHub is used to store the project's code after being pushed from Git.
+* [PIXLR:](https://pixlr.com/pt/)
+    * PIXLR was used to create, modify and resize all images on this website.
+* [Canva](https://www)
+    * Canva was used to creat the image logo, favicon and also the office image.
+  
+## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
@@ -338,4 +342,7 @@ The website development has been done in the "main" branch. This branch has been
 ### Trust Section Icons
 
 * All the icons were provided and used under the Icons8 licence [Icons8.com](https://icons8.com/icons/set/best-price).
+  
+### Special Thanks
 
+ * Special thanks to Mairéad Gilli, my colleagues in Code institute, kasia Bogucka and my mentor Sandeep Aggarwal for help me through this project.
