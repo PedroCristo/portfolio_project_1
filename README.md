@@ -38,7 +38,7 @@ This project is a Front End website for a Travel Company.  Regardless of their i
     * [Contact Page](#Contact-page)
     * [Thanks Page](#thanks-page)
 * [Future Features](#future-features)
-    * [costumerReview Section](#costumer-review-section)
+    * [Costumer Review Section](#costumer-review-section)
 * [Technologies Used](#technologies-used)
     * [Languages Used](#languages-used)
     * [Frameworks - Libraries - Programs Used](#frameworks---libraries---programs-used)
