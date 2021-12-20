@@ -16,17 +16,16 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 * [User Experience UX](#user-experience---UX)
     * [User stories](#user-stories)
 * [Design](#Design)
-
+        
     * [Website Structure](#website-structure)
     * [Colour Scheme](#colour-scheme)
     * [Typography](#typography)
     * [Imagery](#imagery)
     * [Videos](#videos)
     * [Google Maps](#google-maps)
-    * [interactive Links](#interactive -links)
+    * [interactive Links](#interactive-links) 
 * [Features](#features)  
-    * [Landing Page](#landing-page)
-    * [Navigation Menu](#navigation-menu)
+    * [Landing Page](#landing-page) 
     * [Home Page Header](#home-age-eader)
     * [About Section](#about-section)
     * [Banner Section 1 - Bali](#banner-section-1---bali) 
@@ -58,14 +57,14 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 
 * As a website creator, I want to:
   
-1. To build a website that is visually appealing upon first visit so the user is intrigued to explore all the pages.
-2. To build an easy to navigate website  for the users.
+1. Build a website that is visually appealing from the user’s first visit so they are intrigued to explore all the pages.
+2. Build an easy to navigate website for its users.
    
 * As a new visitor, I want to:
 
-1. To understand the main purpose of the site.
-2. To be able to easily navigate throughout the site and find relevant content about package holidays.
-3. To be able to contact the company for more information in an easy way.
+1. Understand the main purpose of the site.
+2. Be able to easily navigate throughout the site and find relevant content about package holidays.
+3. Be able to easily contact the company for more information.
    
 * As a returning visitor, I want to:
 
@@ -75,11 +74,11 @@ This project is a Front End website for a Travel Company.  Regardless of their i
 ## Design
 
 ### Website Structure
-Travel World website is a 4 page site: Landing Page, Home Page, Contact Page and Thanks Page. The default loading page is the Landing Page and it is linked to the Home Page by a button. The Home Page has 8 sections: (1) Trust, (2) About, (3) Banner Bali, (4) Top Trips, (5) Banner Maldives, (6) City Breaks, (7) Partners and Footer. This page, is linked to all the pages in the website by the Navigation Menu on the top. The Contact Page has the Menu at the top and 3 sections: (1) Contact Form, (2) Partners (3) Footer. The Thanks Page has two sections: (1) 'Thanks' message and (2) Footer.
+Travel World website is a four pages site: Landing Page, Home Page, Contact Page and Thanks Page. The default loading page is the Landing Page and it is linked to the Home Page by a button. The Home Page has 8 sections: (1) Trust, (2) About, (3) Banner Bali, (4) Top Trips, (5) Banner Maldives, (6) City Breaks, (7) Partners and Footer. This page, is linked to all the pages in the website by the Navigation Menu on the top. The Contact Page has the Menu at the top and 3 sections: (1) Contact Form, (2) Partners (3) Footer. The Thanks Page has two sections: (1) 'Thanks' message and (2) Footer.
 
 #### Colour Scheme
  ![Landing Page](./assets/images/readme-images/color-pallete.jpg)
- There are four main colours used (1 ) white (#ffffff) (2) a variation of white (#faebd7)  (3) an orange tone (#f84f0d) and (4) a black (#111111). The white is used fit the main website background, the black is used for text while the orange represents a colour tone that can be seen in the logo, titles and icons. The variation white (#faebd7) is used for the button background when hovered.
+ There are four main colours used (1 ) white (#ffffff) (2) a variation of white (#faebd7) (3) an orange tone (#f84f0d) and (4) a black (#111111). The white is used for the main website background, the black is used for text while the orange represents a colour tone that can be seen in the logo, titles and icons. When the user hovers, the white variation (#faebd7) is used for the button background.
  In the Footer Section I used a linear gradient as background using four main colours and orientation of 258 degrees.
 
 #### Typography
@@ -87,9 +86,9 @@ Travel World website is a 4 page site: Landing Page, Home Page, Contact Page and
 * The El Messiri, sans-serif is used to display the hotel's name on the cards.
          
 #### Imagery
-* 3 background images one in the Header and another two in the Banner Section.
+* 3 background images one in the Header and another 2 in the Banner Section.
 * 6 Images for the icons in the Trust Section with the size of 48px by 48px. They are PNG files.
-* 2 images in the about section with the size of 680px by 410px.
+* 2 images in the About Section with the size of 680px by 410px.
 * 12 images for the Top Trips Section and City Break Section with the size of 950px by 713px.
 * 8 Images in the Partners Section with the size of 580px by 280px.
 * 1 image GiF animation in the Thanks Page.
@@ -101,11 +100,11 @@ Travel World website is a 4 page site: Landing Page, Home Page, Contact Page and
 ### Google Maps
 * The web site has a Google Maps location section where the users can locate the office in Dublin.
 
-### interactive Links  
+### Interactive Links  
 
-* In the bottom of the Landing Page and footer, users can access the company social links (Facebook and Twitter). Once these icons are clicked on 
+* At the bottom of the Landing Page and footer, users can access the company social media links (Facebook and Twitter). Once these icons are clicked on 
   they are opened in a new tab. 
-* In the Banner Bali and Banner Maldives the user can directly telephone the company by clicking on the 'book now' button.
+* In the Banner Bali and Banner Maldives the user can directly telephone the company by clicking the 'book now' button.
 
 
 ## Features
@@ -134,7 +133,7 @@ Travel World website is a 4 page site: Landing Page, Home Page, Contact Page and
 
 ![About Section](./assets/images/readme-images/home-page-about-section.jpg)
 
-* In this feature users have access to information about the company, for example the company's main purpose , its history , mission statement , and also the benefits of working for Travel World. <br>
+* In this feature users have access to information about the company, for example the company's main purpose, its history, mission statement, and also the benefits of working for Travel World. <br>
 [Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#about-section)
 
 ### Banner Section 1 - Bali
@@ -149,14 +148,14 @@ Travel World website is a 4 page site: Landing Page, Home Page, Contact Page and
 
 ![Top Trips Section](./assets/images/readme-images/home-page-top-trips-section.jpg)
 
-* This feature is a cards section where users can see the top travel deals displayed with information about the city, country, price, hotel name, hotel stars and length of stay (number of days and nights). The card has a button where the user can book. When the user hovers over this, the box-shadow changes.<br>
+* This feature is a cards section where the top travel deals are displayed with information about the city, country, price, hotel name, hotel stars and duration of stay (number of days and nights). The card has a button where the user can book. When the user hovers over this, the box-shadow changes.<br>
 [Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#top-trips)
 
 ### Banner Section 2 - Maldives 
 
 ![Banner Section 2](./assets/images/readme-images/home-page-banner-section-2.jpg)
 
-* This feature has the same purpose as the Top Trip Section. The difference with this section is when the user hovers over the card the user can zoom in on the image.<br>
+* This feature has the same purpose as the Top Trip Section. A modification to this section is when the user hovers over the card the user can zoom in on the image.<br>
 [Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#banner-maldivas)
 
 ### City Breaks Section
@@ -191,14 +190,14 @@ Travel World website is a 4 page site: Landing Page, Home Page, Contact Page and
 
 ![Contact Page](./assets/images/readme-images/thanks-page.jpg)
 
-* Once the user successfully submits a contact form, they will land on the 'Thanks' Page.  When the button on this page is clicked it brings the users back to the contact form.<br>
+* Once the user successfully submits a contact form, they will land on the 'Thanks' Page. When the button is clicked it brings the users back to the contact form.<br>
 [Live Thanks Page](https://pedrocristo.github.io/portfolio_project_1/thanks-page.html)
 
 ## Future Features
   
-### costumer Review Section
+### Customer Review Section
 
-* Add a Customer Review Section in the Home page. This would offer suggestions on how to improve the website and display customers' experiences and opinions of Travel World.
+* Add a Customer Review Section in the Home page. This would allow users to offer suggestions on how to improve the website and display customers' experiences and their opinions of Travel World.
 
 
 ## Technologies Used
@@ -214,7 +213,7 @@ Travel World website is a 4 page site: Landing Page, Home Page, Contact Page and
 * [Google Fonts:](https://fonts.google.com/)
    * Google fonts were used to import the 'Poppins' and 'El Messiri' fonts throughout the style.css.
 * [Font Awesome:](https://fontawesome.com/)
-    * Font Awesome are used as a icons for user UX purposes.
+    * Font Awesome are used as an icons for user UX purposes.
 * [Git](https://git-scm.com/)
     * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 * [GitHub:](https://github.com/)
@@ -241,7 +240,7 @@ The testing was done using the Google Chrome Browser. Chrome Developer Tools was
     * BlackBerry PlayBook (600px x 1024px)  
     * Samsung Galaxy Note 3 (360px x 640px) 
     * Samsung Galaxy S3 (360px x 640px)   
-    * Samsung Galax S9+(320px x 658px) 
+    * Samsung Galaxy S9+(320px x 658px) 
     * LG Optimus L70 (384px x 640px)
     * Microsoft Lumia 550 (640px x 360px) 
     * Microsoft Lumia 950 (360px x 640px) 
@@ -249,7 +248,7 @@ The testing was done using the Google Chrome Browser. Chrome Developer Tools was
     * Nokia Lumia 520 (320px x 533px) 
     * Nokia N9 (480px x 854px) 
     * Pixel 3 (393px x 786px)
-    * Apple iPade Mini (468px x 4024)
+    * Apple iPad Mini (468px x 4024)
     * Apple iPhone 4 (320px x 480px)
     * Apple iPhone 5/S (320px 568px)
     * Apple iPhone 6/7/8 (375px x 667px)
@@ -267,31 +266,31 @@ The testing was done using the Google Chrome Browser. Chrome Developer Tools was
    ## Functionality
 * All links have been hovered and clicked to ensure accessibility.
 * Pages all load correctly on all device screen sizes.
-* All Social media links work correctly and open on a new tab.
+* All social media links work correctly and open on a new tab.
 * All images load on each page as intended.
-* All the buttons are working correctly and brings the users to the function that they were built for.
-* The arrows inside the buttons in Landing Page, Thanks Page and Homepage banners, has an opacity animation that is working correctly.
-* The buttons in Homepage cards and the one in the Contact Page change the background and text color when hovered by the user. They are working without issues.
+* All the buttons are working correctly and bring the users to the function that they were built for.
+* The arrows inside the buttons in Landing Page, Thanks Page and Homepage banners, has a fully functional opacity animation.
+* Both the buttons in Homepage cards and in the Contact Page change the background and text color when hovered by the user. They are working without issues.
 * The cards in the Homepage "top trips", change the box shadow when hovered by the user, working correctly.
-* The cards in the Homepage "city breaks", has a image zoom in effect when hovered by the users, working correctly.
+* The cards in the Homepage "city breaks", has an image zoom in effect when hovered by the users, working correctly.
 
    ## Bugs
 
-* I can not figure out how to add padding to the arrow default in the form select.
+* I was unable to add padding to the arrow default in the form select.
 
    ## Website Development Issues
 
-* Because of a misunderstanding how to do Git Commit I was doing them wrong. After I had my first call with my mentor he clarify to me how to do it and I have followed his explanation.
+* At the initial stages of my project, I made an error when using Git Commit. Following my first call with my mentor he clarified how to do it and I have followed his recommended approach.
 ## Deployment This Project
 
-The website development was done in the "main" branch. This branch was deployed using GitHub Pages.
+The website development was created in the "main" branch. This branch was deployed using GitHub Pages.
 
-* This site was deploy by completing the following steps:
+* This site was deployed by completing the following steps:
 
-1. Opened [GitHub](https://github.com/).
+1. Open [GitHub](https://github.com/).
 2. Click on the project to be deployed.
-3. Navigated to the "Settings".
-4. Navigated down to the "GitHub Pages".
+3. Navigate to the "Settings".
+4. Navigate down to the "GitHub Pages".
 5. Click on "Check it out here!".
 6. Select the "main" branch and select "Save".
 7. The link to the live website was ready on the top.
@@ -300,7 +299,7 @@ The website development was done in the "main" branch. This branch was deployed 
 
 * Fork this project following the steps:
 
-1. Opened [GitHub](https://github.com/).
+1. Open [GitHub](https://github.com/).
 2. Click on the project to be forked.
 3. Find the 'Fork' button to the top right of the page.
 4. Once you click the button the fork will be in your repository..
@@ -309,7 +308,7 @@ The website development was done in the "main" branch. This branch was deployed 
 
 * Clone this project following the steps:
 
-1. Opened [GitHub](https://github.com/).
+1. Open [GitHub](https://github.com/).
 2. Click on the project to be cloned.
 3. You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order to copy the URL..
 4. Once you click the button the fork will be in your repository.
@@ -329,8 +328,7 @@ The website development was done in the "main" branch. This branch was deployed 
 
 ## Content
 
-* All the text content is original. The quote in the footer is from [Andre Gide](https://www.brainyquote.com/quotes/andre_gide_120088).<br>
-  Text Review (Mairead Gillic)
+* All the text content is original. The quote in the footer is from [Andre Gide](https://www.brainyquote.com/quotes/andre_gide_120088).
 
 ### Images
 
@@ -346,4 +344,4 @@ The website development was done in the "main" branch. This branch was deployed 
   
 ## Special Thanks
 
- * Special thanks to Mairéad Gilli, my colleagues in Code Institute, kasia Bogucka and my mentor Sandeep Aggarwal for help me through this project.
+ * Special thanks to my mentor Sandeep Aggarwal, my colleagues at Code Institute, Kasia Bogucka and Mairéad Gillic for their assistance throughout this project.
