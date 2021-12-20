@@ -28,7 +28,6 @@
 
 body {
     font-family: 'poppins', sans-serif;
-
 }
 
 a {
@@ -902,13 +901,11 @@ select {
 
     .row {
         flex-direction: column !important;
-
     }
 
     .col-md-6,
     .col-md-4 {
         width: 100%;
-
     }
 
     .row-reverse {
@@ -1139,7 +1136,6 @@ select {
 
     #header-section nav ul li {
         margin: 0;
-
     }
 
     .title {
@@ -1343,7 +1339,6 @@ select {
 
     /* THANKS PAGE */
     .header-section .thanks-box h2 {
-
         font-size: 2rem;
     }
 
@@ -1381,7 +1376,6 @@ select {
     #intro-section .logo {
         top: 25px;
         left: 44px !important;
-        ;
     }
 
     #intro-section .text-box h1 {
@@ -1639,17 +1633,14 @@ select {
 
     #intro-section .text-box h3 {
         font-size: 1rem;
-
     }
 
     #intro-section .text-box p {
         font-size: 0.7rem;
-
     }
 
     #intro-section .btn {
         font-size: 0.5rem;
-
     }
 }
 
