@@ -106,7 +106,6 @@ Travel World website is a four pages site: Landing Page, Home Page, Contact Page
 * In the Banner Bali and Banner Maldives the user can directly telephone the company by clicking the 'book now' button.
 
 ## Features
-* Responsive on all device sizes between 280px - 2600px wide
 
 ### Landing Page 
 
@@ -231,6 +230,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 Google Lighthouse was used to test Performance, Best Practices, Accessibility and SEO on both Desktop and Mobile devices.
 
 The testing was done using the Google Chrome Browser. Chrome Developer Tools was used extensively, particularly to check responsiveness on different screen sizes. Testing was also done using Firefox on desktop, and again on Google Chrome and Opera on the Huawei P20.
+
+* Responsive on all device sizes between 280px - 2600px wide
 
 * Devices tested using the Google Developer Tools emulator
 
