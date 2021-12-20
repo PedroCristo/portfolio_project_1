@@ -78,7 +78,7 @@ Travel World website is a four pages site: Landing Page, Home Page, Contact Page
 
 #### Colour Scheme
  ![Landing Page](./assets/images/readme-images/color-pallete.jpg)
- There are four main colours used (1 ) white (#ffffff) (2) a variation of white (#faebd7) (3) an orange tone (#f84f0d) and (4) a black (#111111). The white is used for the main website background, the black is used for text while the orange represents a colour tone that can be seen in the logo, titles and icons. When the user hovers, the white variation (#faebd7) is used for the button background.
+ There are four main colours used: (1 ) white (#ffffff), (2) a variation of white (#faebd7), (3) an orange tone (#f84f0d) and (4) a black (#111111). The white is used for the main website background, the black is used for text while the orange represents a colour tone that can be seen in the logo, titles and icons. When the user hovers, the white variation (#faebd7) is used for the button background.
  In the Footer Section I used a linear gradient as background using four main colours and orientation of 258 degrees.
 
 #### Typography
