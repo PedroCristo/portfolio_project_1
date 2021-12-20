@@ -102,10 +102,8 @@ Travel World website is a four pages site: Landing Page, Home Page, Contact Page
 
 ### Interactive Links  
 
-* At the bottom of the Landing Page and footer, users can access the company social media links (Facebook and Twitter). Once these icons are clicked on 
-  they are opened in a new tab. 
+* At the bottom of the Landing Page and footer, users can access the company social media links (Facebook and Twitter). Once these icons are clicked they are opened in a new tab. 
 * In the Banner Bali and Banner Maldives the user can directly telephone the company by clicking the 'book now' button.
-
 
 ## Features
 * Responsive on all device sizes between 280px - 2600px wide
@@ -120,7 +118,7 @@ Travel World website is a four pages site: Landing Page, Home Page, Contact Page
 ### Navigation Menu
 
 ![Navigation Menu](./assets/images/readme-images/navigation-menu.jpg)
-* At the top of the website, users can find a fixed navigation menu that is fully responsive in all devices. In this navigation menu users can navigate to the different pages in the website! They can also see the Travel World logo on the left side. <br>
+* At the top of the website, users can find a fixed navigation menu that is fully responsive in all devices. In this navigation menu users can navigate to the different pages in the website. They can also see the Travel World logo on the left side. <br>
 [Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html)
 
 ### Home Page Header
@@ -184,14 +182,14 @@ Travel World website is a four pages site: Landing Page, Home Page, Contact Page
 ![Contact Page](./assets/images/readme-images/contact-page.jpg)
 
 * In this page users can contact the Travel World via a contact form. The contact form requires the user's first name, last name, email and message. The user can also see the location of the Travel World office on Google Maps.<br>
-[Live Contact Page](https://pedrocristo.github.io/portfolio_project_1/contact.html)
+[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/contact.html)
 
 ### Thanks Page
 
 ![Contact Page](./assets/images/readme-images/thanks-page.jpg)
 
 * Once the user successfully submits a contact form, they will land on the 'Thanks' Page. When the button is clicked it brings the users back to the contact form.<br>
-[Live Thanks Page](https://pedrocristo.github.io/portfolio_project_1/thanks-page.html)
+[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/thanks-page.html)
 
 ## Future Features
   
@@ -281,7 +279,8 @@ The testing was done using the Google Chrome Browser. Chrome Developer Tools was
    ## Website Development Issues
 
 * At the initial stages of my project, I made an error when using Git Commit. Following my first call with my mentor he clarified how to do it and I have followed his recommended approach.
-## Deployment This Project
+
+## Deployment of This Project
 
 The website development was created in the "main" branch. This branch was deployed using GitHub Pages.
 
